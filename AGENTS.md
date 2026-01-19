@@ -85,6 +85,7 @@ explicit instruction.
 - **Do not change behaviour without updating tests**
 - **Do not change tests unless behaviour is intentionally changing**
 - If behaviour changes, tests must change *first* or *alongside* the code
+- Use Vitest for testing javascript and pytest for any python code
 
 ### Adding new functionality
 - Any new function or non-trivial logic **must have tests**
