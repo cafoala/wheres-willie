@@ -96,27 +96,28 @@ export const collectSightings = async ({ includeIreland, includeRestOfWorld, reg
   const regionsPayload = await fetchJson(REGIONS_URL);
   const allRegions = Array.isArray(regionsPayload?.regions) ? regionsPayload.regions : [];
 
-  const regionIds = [];
+  const regionRequests = [];
   if (regions.length > 0) {
     for (const region of regions) {
-      regionIds.push(...expandRegionNo(region));
+      const value = String(region ?? '').trim();
+      if (value && !regionRequests.includes(value)) {
+        regionRequests.push(value);
+      }
     }
   } else {
     for (const region of allRegions) {
       if (!isUkRegion(region, includeIreland, includeRestOfWorld)) {
         continue;
       }
-      const regionNo = String(region?.region_no ?? '');
-      for (const expanded of expandRegionNo(regionNo)) {
-        if (expanded && !regionIds.includes(expanded)) {
-          regionIds.push(expanded);
-        }
+      const regionNo = String(region?.region_no ?? '').trim();
+      if (regionNo && !regionRequests.includes(regionNo)) {
+        regionRequests.push(regionNo);
       }
     }
   }
 
   const sightings = [];
-  for (const regionNo of regionIds) {
+  for (const regionNo of regionRequests) {
     const url = `${SIGHTINGS_URL}?regionNo=${encodeURIComponent(regionNo)}`;
     const payload = await fetchJson(url);
     if (Array.isArray(payload)) {
@@ -131,7 +132,7 @@ export const collectSightings = async ({ includeIreland, includeRestOfWorld, reg
   }
 
   return {
-    region_ids: regionIds,
+    region_ids: regionRequests,
     regions: allRegions,
     sightings,
   };
