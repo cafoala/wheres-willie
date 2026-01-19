@@ -10,6 +10,7 @@ import Footer from './components/Footer.jsx';
 
 // rarity map + mock data
 import { SPECIES_RARITY, MOCK_SIGHTINGS } from './data/mockSightings.js';
+import { SPECIES_META } from './data/speciesMeta.js';
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
   const [center, setCenter] = useState([54.5, -3]);
   const [selected, setSelected] = useState(new Set(Object.keys(SPECIES_RARITY)));
   const [rareOnly, setRareOnly] = useState(false);
+  const [activeSighting, setActiveSighting] = useState(null);
 
   //const rarityThreshold = useMemo(() => rareOnly ? 2 : (zoom <= 4 ? 2 : zoom <= 5 ? 3 : zoom <= 6 ? 4 : 5), [zoom, rareOnly]);
   const rarityThreshold = 5
@@ -53,9 +55,13 @@ export default function App() {
           sightings={filtered}
           onZoomChange={setZoom}
           onCenterChange={setCenter}
+          onSelect={setActiveSighting}
         />
       </main>
-      {/* <InfoBar zoom={zoom} center={center} /> */}
+      <InfoBar
+        selected={activeSighting}
+        meta={activeSighting ? SPECIES_META[activeSighting.species] : null}
+      />
       <Footer zoom={zoom} center={center} />
     </div>
   );

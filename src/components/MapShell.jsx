@@ -12,7 +12,7 @@ const pickEmoji = (species) => ({
   'Common/Harbour seal':'🦭'
 }[species] || '🐳');
 
-export default function MapShell({ zoom, center, sightings, onZoomChange, onCenterChange }) {
+export default function MapShell({ zoom, center, sightings, onZoomChange, onCenterChange, onSelect }) {
   const [map, setMap] = useState(null);
 
   useEffect(() => {
@@ -44,7 +44,12 @@ export default function MapShell({ zoom, center, sightings, onZoomChange, onCent
                  attribution="&copy; OpenStreetMap contributors" />
       <ZoomControl position="topright" />
       {sightings.map(s => (
-        <Marker key={s.id} position={[s.lat, s.lng]} icon={iconFor(s.species)}>
+        <Marker
+          key={s.id}
+          position={[s.lat, s.lng]}
+          icon={iconFor(s.species)}
+          eventHandlers={onSelect ? { click: () => onSelect(s) } : undefined}
+        >
           <Tooltip direction="top" offset={[0,-5]} opacity={1}>
             <div style={{fontSize:12}}>
               <div style={{fontWeight:600}}>{s.species}</div>
