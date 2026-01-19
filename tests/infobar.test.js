@@ -21,7 +21,14 @@ assert(emptyMarkup.includes('Click a marker'),
 
 const infoBarMarkup = normalize(renderToStaticMarkup(
   createElement(InfoBar, {
-    selected: { species: 'Grey seal', when: '2025-10-06', where: 'Farne Islands', count: 150 },
+    selected: {
+      species: 'Grey seal',
+      when: '2025-10-06',
+      where: 'Farne Islands',
+      count: 150,
+      observer: 'A. Diver',
+      org: 'SOCS',
+    },
     meta: {
       commonName: 'Grey seal',
       latin: 'Halichoerus grypus',
@@ -44,5 +51,7 @@ assert(infoBarMarkup.includes('Latin name:'),
   'InfoBar should include the Latin name label.');
 assert(infoBarMarkup.includes('Halichoerus grypus'),
   'InfoBar should render metadata values.');
+assert(infoBarMarkup.includes('Reported by A. Diver (SOCS)'),
+  'InfoBar should include observer credit.');
 
 console.log('InfoBar tests passed.');

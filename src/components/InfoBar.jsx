@@ -15,8 +15,14 @@ export default function InfoBar({ selected, meta }) {
     <aside className="info">
       <h2 style={{ marginTop: 0 }}>{selected.species}</h2>
       <p style={{ marginTop: 0, opacity: 0.8 }}>
-        {selected.when} • {selected.where} • count: {selected.count}
+        {selected.when} • {selected.where} • count: {selected.count ?? 'n/a'}
       </p>
+      {selected.observer ? (
+        <p style={{ marginTop: 0, fontSize: 12, opacity: 0.7 }}>
+          Reported by {selected.observer}
+          {selected.org ? ` (${selected.org})` : ''}
+        </p>
+      ) : null}
       {meta?.image ? (
         <img
           src={meta.image}

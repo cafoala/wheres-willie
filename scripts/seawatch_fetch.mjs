@@ -6,7 +6,7 @@ import { pathToFileURL } from 'node:url';
 const REGIONS_URL = 'https://api-seawatchadmin.imardis.org/web-regions';
 const SIGHTINGS_URL = 'https://seawatcher.imardis.org/api/v1/recent-sightings';
 
-const DEFAULT_OUTPUT = 'data/seawatch_combined.json';
+const DEFAULT_OUTPUT = 'public/seawatch_combined.json';
 
 const SIGHTING_RE = /^(?<species>.+?)\s*\(x(?<count>\d+)\)\s*:\s*(?<where>.+?)\s+at\s+(?<time>\d{2}:\d{2})\s+on\s+(?<date>\d{4}-\d{2}-\d{2})\s+by\s+(?<observer>.+?)(?:\s*-\s*(?<org>.+))?$/;
 
@@ -149,7 +149,7 @@ const usage = () => {
     'Usage: node scripts/seawatch_fetch.mjs [options]',
     '',
     'Options:',
-    '  --output <path>             Output path (default: data/seawatch_combined.json)',
+    '  --output <path>             Output path (default: public/seawatch_combined.json)',
     '  --include-ireland           Include Ireland regions',
     '  --include-rest-of-world     Include Rest of the World region',
     '  --region <regionNo>         Limit to specific region number (repeatable)',

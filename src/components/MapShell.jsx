@@ -56,7 +56,10 @@ export default function MapShell({ zoom, center, sightings, onZoomChange, onCent
             <div style={{fontSize:12}}>
               <div style={{fontWeight:600}}>{s.species}</div>
               <div>{s.where}</div>
-              <div style={{opacity:.7}}>{s.when} • count: {s.count}</div>
+              <div style={{opacity:.7}}>{s.when} • count: {s.count ?? 'n/a'}</div>
+              {s.observer ? (
+                <div style={{opacity:.7}}>by {s.observer}{s.org ? ` (${s.org})` : ''}</div>
+              ) : null}
             </div>
           </Tooltip>
         </Marker>
