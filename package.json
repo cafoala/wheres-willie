@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "test": "node --loader ./tests/jsxLoader.mjs tests/infobar.test.js",
+    "test": "node --loader ./tests/jsxLoader.mjs tests/infobar.test.js && node tests/seawatch_fetch.test.js",
     "preview": "vite preview"
   },
   "dependencies": {
