@@ -55,7 +55,7 @@ export default function App() {
           onCenterChange={setCenter}
         />
       </main>
-      // <InfoBar zoom={zoom} center={center} />
+      {/* <InfoBar zoom={zoom} center={center} /> */}
       <Footer zoom={zoom} center={center} />
     </div>
   );
