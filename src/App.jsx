@@ -14,8 +14,8 @@ import { SPECIES_META } from './data/speciesMeta.js';
 
 
 export default function App() {
-  const [zoom, setZoom] = useState(5);
-  const [center, setCenter] = useState([54.5, -3]);
+  const [zoom, setZoom] = useState(6);
+  const [center, setCenter] = useState([54.8, -3.2]);
   const [selected, setSelected] = useState(new Set(Object.keys(SPECIES_RARITY)));
   const [rareOnly, setRareOnly] = useState(false);
   const [activeSighting, setActiveSighting] = useState(null);

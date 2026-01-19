@@ -40,8 +40,10 @@ export default function MapShell({ zoom, center, sightings, onZoomChange, onCent
       zoomControl={false}
       style={{height:'100%', width:'100%'}}
     >
-      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                 attribution="&copy; OpenStreetMap contributors" />
+      <TileLayer
+        url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
+        attribution="&copy; OpenStreetMap contributors, Humanitarian OpenStreetMap Team"
+      />
       <ZoomControl position="topright" />
       {sightings.map(s => (
         <Marker
