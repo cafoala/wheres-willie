@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "test": "node tests/dataIntegrity.test.js && node --loader ./tests/jsxLoader.mjs tests/header.test.js && node --loader ./tests/jsxLoader.mjs tests/sidebar.test.js && node --loader ./tests/jsxLoader.mjs tests/footer.test.js && node --loader ./tests/jsxLoader.mjs tests/infobar.test.js",
     "preview": "vite preview"
   },
   "dependencies": {
