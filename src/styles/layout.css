@@ -14,7 +14,7 @@ body { background: var(--bg); color: var(--text); font-family: system-ui, sans-s
   /* padding: 20px; */   /* optional: padding here reduces map area */
   display: grid;
   grid-template-rows: auto 1fr auto;
-  grid-template-columns: 320px 1fr 600px;
+  grid-template-columns: 320px 1fr 420px;
   grid-template-areas:
     "header header header"
     "sidebar main info"
