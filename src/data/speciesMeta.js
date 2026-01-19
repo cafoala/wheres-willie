@@ -3,7 +3,7 @@
 
 import humpbackImg from '../assets/species/humpback.jpg';
 import greyselImg  from '../assets/species/grey-seal.jpg';
-import comdolImg   from '../assets/species/common-dolphin.jpeg';
+import comdolImg   from '../assets/species/common-dolphin.jpg';
 
 // If you don’t have real images yet, drop any placeholder jpgs into
 // src/assets/species/ with these filenames. You can replace later.

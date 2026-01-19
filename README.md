@@ -1,65 +1,16 @@
-# Where’s Willie 🐋
+# React + Vite
 
-**Where’s Willie** is a web application that visualises marine mammal sightings
-(whales, dolphins, seals) around the UK on an interactive map.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Users can explore sightings geographically, filter by species, and view
-accessible, family-friendly information about each animal — including images,
-names, locations, and interesting facts.
+Currently, two official plugins are available:
 
-The project currently uses mock data, with the intention to integrate
-real-world sighting data at a later stage.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## React Compiler
 
-## What this project is
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-At its core, *Where’s Willie* is:
+## Expanding the ESLint configuration
 
-- A **React + Leaflet** web app
-- Focused on **clarity, maintainability, and incremental development**
-- Currently built around **static data ingestion** (JSON) rather than a live backend
-- Designed to be **educational and approachable** for non-expert users
-
-Key features include:
-- Interactive map with species markers
-- Species-based filtering
-- Zoom-dependent visibility logic
-- Right-hand information panel with animal details
-- Clear separation between data, layout, and presentation
-
----
-
-## Agentic software development experiment
-
-This repository is also an **experiment in agentic software development**.
-
-Rather than using AI tools purely for code generation, this project explores:
-- How AI agents can collaborate within clear architectural constraints
-- How explicit guidance (`AGENTS.md`) affects code quality and consistency
-- How agent-assisted development can coexist with human decision-making
-- How guardrails around testing, structure, and behaviour reduce churn
-
-The goal is not automation for its own sake, but to understand:
-- when agents are helpful,
-- where they introduce risk,
-- and how they can be directed to behave like a thoughtful collaborator
-  rather than an unchecked code generator.
-
-All agents interacting with this repository are expected to follow the
-rules and expectations defined in `AGENTS.md`.
-
----
-
-## Tech stack
-
-- **Frontend:** React (Vite)
-- **Mapping:** Leaflet via `react-leaflet`
-- **Styling:** CSS Grid (no CSS framework)
-- **Data:** Static JSON (mock data first)
-- **Planned ingestion:** Python utilities for scraping / normalisation
-
----
-
-## Project structure
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
