@@ -8,7 +8,7 @@ An interactive React web application for visualising recent marine mammal sighti
 - Real-time sighting data from Seawatch Foundation
 - Species-based filtering
 - Detailed information panels for each species
-- Fallback to mock data when live data is unavailable
+- Displays only validated sightings with GPS coordinates from the last 31 days
 
 ## Data Source
 

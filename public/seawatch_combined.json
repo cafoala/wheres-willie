@@ -126,6 +126,330 @@
   ],
   "sightings": [
     {
+      "sightingData": "Harbour porpoise (x20) : South Nesting Bay, Shetland at 12:26 on 2026-01-04 by Bruce Meldrum SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 20,
+        "where": "South Nesting Bay, Shetland",
+        "time": "12:26",
+        "date": "2026-01-04",
+        "observer": "Bruce Meldrum SOCS"
+      }
+    },
+    {
+      "sightingData": "Bottlenose dolphin (x1) : Sumburgh Head, Shetland at 13:18 on 2025-12-20 by Yolanda Bruce SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 1,
+        "where": "Sumburgh Head, Shetland",
+        "time": "13:18",
+        "date": "2025-12-20",
+        "observer": "Yolanda Bruce SOCS"
+      }
+    },
+    {
+      "sightingData": "Killer whale  (x6) : Burra Bridge, Shetland at 14:00 on 2025-12-18 by Aimee Reid SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Killer whale",
+        "count": 6,
+        "where": "Burra Bridge, Shetland",
+        "time": "14:00",
+        "date": "2025-12-18",
+        "observer": "Aimee Reid SOCS"
+      }
+    },
+    {
+      "sightingData": "Killer whale  (x3) : Scalloway Harbour, Shetland at 09:50 on 2025-12-18 by Sylvia Taylor SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Killer whale",
+        "count": 3,
+        "where": "Scalloway Harbour, Shetland",
+        "time": "09:50",
+        "date": "2025-12-18",
+        "observer": "Sylvia Taylor SOCS"
+      }
+    },
+    {
+      "sightingData": "Killer whale  (x5) : Burra Bridge, Shetland at 00:00 on 2025-12-18 by Anne Ellison - SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Killer whale",
+        "count": 5,
+        "where": "Burra Bridge, Shetland",
+        "time": "00:00",
+        "date": "2025-12-18",
+        "observer": "Anne Ellison",
+        "org": "SOCS"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x6) : Nesting, Shetland at 00:00 on 2025-12-11 by Bruce Meldrum - SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 6,
+        "where": "Nesting, Shetland",
+        "time": "00:00",
+        "date": "2025-12-11",
+        "observer": "Bruce Meldrum",
+        "org": "SOCS"
+      }
+    },
+    {
+      "sightingData": "Humpback whale (x1) : Rerwick Head, Shetland at 09:45 on 2025-12-10 by Keith Cruickshank SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Humpback whale",
+        "count": 1,
+        "where": "Rerwick Head, Shetland",
+        "time": "09:45",
+        "date": "2025-12-10",
+        "observer": "Keith Cruickshank SOCS"
+      }
+    },
+    {
+      "sightingData": "Killer whale  (x5) : Stromness Voe/Whiteness, Shetland at 12:23 on 2025-12-09 by Bruce Meldrum SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Killer whale",
+        "count": 5,
+        "where": "Stromness Voe/Whiteness, Shetland",
+        "time": "12:23",
+        "date": "2025-12-09",
+        "observer": "Bruce Meldrum SOCS"
+      }
+    },
+    {
+      "sightingData": "Killer whale  (x5) : Stromness Voe/ Whiteness, Shetland at 00:00 on 2025-12-09 by Bruce Meldrum - SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Killer whale",
+        "count": 5,
+        "where": "Stromness Voe/ Whiteness, Shetland",
+        "time": "00:00",
+        "date": "2025-12-09",
+        "observer": "Bruce Meldrum",
+        "org": "SOCS"
+      }
+    },
+    {
+      "sightingData": "Killer whale  (x3) : St Ninian's Bay, Shetland at 09:45 on 2025-12-08 by Cathryn Odgers SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Killer whale",
+        "count": 3,
+        "where": "St Ninian's Bay, Shetland",
+        "time": "09:45",
+        "date": "2025-12-08",
+        "observer": "Cathryn Odgers SOCS"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x20) : South Nesting Bay, Shetland at 11:50 on 2025-12-07 by Bruce Meldrum SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 20,
+        "where": "South Nesting Bay, Shetland",
+        "time": "11:50",
+        "date": "2025-12-07",
+        "observer": "Bruce Meldrum SOCS"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x10) : South Nesting, Shetland at 00:00 on 2025-12-07 by Bruce Meldrum - SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 10,
+        "where": "South Nesting, Shetland",
+        "time": "00:00",
+        "date": "2025-12-07",
+        "observer": "Bruce Meldrum",
+        "org": "SOCS"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x7) : South Nesting Bay, Shetland at 10:07 on 2025-12-06 by Bruce Meldrum SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 7,
+        "where": "South Nesting Bay, Shetland",
+        "time": "10:07",
+        "date": "2025-12-06",
+        "observer": "Bruce Meldrum SOCS"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x8) : Nesting, Shetland at 00:00 on 2025-12-06 by Bruce Meldrum - SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 8,
+        "where": "Nesting, Shetland",
+        "time": "00:00",
+        "date": "2025-12-06",
+        "observer": "Bruce Meldrum",
+        "org": "SOCS"
+      }
+    },
+    {
+      "sightingData": "Killer whale  (x6) : Score Holm, Lunnasting, Shetland at 12:40 on 2025-12-05 by Hugh Harrop SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Killer whale",
+        "count": 6,
+        "where": "Score Holm, Lunnasting, Shetland",
+        "time": "12:40",
+        "date": "2025-12-05",
+        "observer": "Hugh Harrop SOCS"
+      }
+    },
+    {
+      "sightingData": "Killer whale  (x6) : Vidlin, Shetland at 00:00 on 2025-12-05 by Bruce Meldrum - SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Killer whale",
+        "count": 6,
+        "where": "Vidlin, Shetland",
+        "time": "00:00",
+        "date": "2025-12-05",
+        "observer": "Bruce Meldrum",
+        "org": "SOCS"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x20) : Nesting, Shetland at 00:00 on 2025-12-04 by Bruce Meldrum - SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 20,
+        "where": "Nesting, Shetland",
+        "time": "00:00",
+        "date": "2025-12-04",
+        "observer": "Bruce Meldrum",
+        "org": "SOCS"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x20) : South Nesting, Shetland at 00:00 on 2025-12-03 by Bruce Meldrum - SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 20,
+        "where": "South Nesting, Shetland",
+        "time": "00:00",
+        "date": "2025-12-03",
+        "observer": "Bruce Meldrum",
+        "org": "SOCS"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x20) : South Nesting Bay, Shetland at 12:07 on 2025-12-02 by Bruce Meldrum SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 20,
+        "where": "South Nesting Bay, Shetland",
+        "time": "12:07",
+        "date": "2025-12-02",
+        "observer": "Bruce Meldrum SOCS"
+      }
+    },
+    {
+      "sightingData": "Humpback whale (x1) : Compass Head, Shetland at 13:30 on 2025-12-01 by Hugh Harrop SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Humpback whale",
+        "count": 1,
+        "where": "Compass Head, Shetland",
+        "time": "13:30",
+        "date": "2025-12-01",
+        "observer": "Hugh Harrop SOCS"
+      }
+    },
+    {
+      "sightingData": "Humpback whale (x9) : From Moussa to Sumburgh, Shetland at 00:00 on 2025-12-01 by Bruce Meldrum - SOCS",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "Humpback whale",
+        "count": 9,
+        "where": "From Moussa to Sumburgh, Shetland",
+        "time": "00:00",
+        "date": "2025-12-01",
+        "observer": "Bruce Meldrum",
+        "org": "SOCS"
+      }
+    },
+    {
       "sightingData": "Humpback whale (x10) : Mousa, Shetland at 00:00 on 2025-11-30 by Bruce Meldrum - SOCS",
       "regionNo": "1",
       "region": "Shetland Isles (1)",
@@ -352,8 +676,8 @@
         "where": "Troswick, Shetland",
         "time": "09:08",
         "date": "2025-10-13",
-        "observer": "tanya",
-        "org": "gray - HWDT"
+        "observer": "tanya-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -383,8 +707,8 @@
         "where": "Scarfataing, Shetland",
         "time": "12:15",
         "date": "2025-09-23",
-        "observer": "tanya",
-        "org": "gray - HWDT"
+        "observer": "tanya-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -399,8 +723,8 @@
         "where": "Scalloway, Shetland",
         "time": "07:38",
         "date": "2025-09-23",
-        "observer": "tanya",
-        "org": "gray - HWDT"
+        "observer": "tanya-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -415,8 +739,8 @@
         "where": "Scalloway, Orkney",
         "time": "17:37",
         "date": "2025-09-22",
-        "observer": "tanya",
-        "org": "gray - HWDT"
+        "observer": "tanya-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -431,8 +755,8 @@
         "where": "Foula, Shetland",
         "time": "16:05",
         "date": "2025-09-22",
-        "observer": "kevin",
-        "org": "rae - HWDT"
+        "observer": "kevin-rae",
+        "org": "HWDT"
       }
     },
     {
@@ -447,8 +771,8 @@
         "where": "Scalloway, Orkney",
         "time": "14:01",
         "date": "2025-09-22",
-        "observer": "tanya",
-        "org": "gray - HWDT"
+        "observer": "tanya-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -494,8 +818,8 @@
         "where": "Sandwick, Shetland Islands",
         "time": "10:16",
         "date": "2025-08-16",
-        "observer": "tanya",
-        "org": "gray - HWDT"
+        "observer": "tanya-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -510,8 +834,8 @@
         "where": "Lerwick, Shetland Islands",
         "time": "16:31",
         "date": "2025-08-14",
-        "observer": "tanya",
-        "org": "gray - HWDT"
+        "observer": "tanya-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -604,8 +928,7 @@
         "where": "Eshaness Lighthouse, Shetland",
         "time": "18:30",
         "date": "2025-08-04",
-        "observer": "HughHarrop",
-        "org": "SOCS"
+        "observer": "HughHarrop-SOCS"
       }
     },
     {
@@ -620,8 +943,7 @@
         "where": "Yaafield, Shetland",
         "time": "18:30",
         "date": "2025-08-04",
-        "observer": "HughHarrop",
-        "org": "SOCS"
+        "observer": "HughHarrop-SOCS"
       }
     },
     {
@@ -952,8 +1274,8 @@
         "where": "Gulberwick, Shetland",
         "time": "17:26",
         "date": "2025-07-26",
-        "observer": "tanya",
-        "org": "gray - HWDT"
+        "observer": "tanya-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -968,8 +1290,8 @@
         "where": "Gulberwick, Shetland",
         "time": "07:15",
         "date": "2025-07-22",
-        "observer": "tanya",
-        "org": "gray - HWDT"
+        "observer": "tanya-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -984,8 +1306,8 @@
         "where": "Papa, Shetland Islands",
         "time": "11:53",
         "date": "2025-07-18",
-        "observer": "tanya",
-        "org": "gray - HWDT"
+        "observer": "tanya-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -1019,21 +1341,6 @@
       }
     },
     {
-      "sightingData": "White-beaked dolphin (x3) : Heoga Ness Sound, Shetland at 19:42 on 2025-07-14 by Ian Towriess",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "White-beaked dolphin",
-        "count": 3,
-        "where": "Heoga Ness Sound, Shetland",
-        "time": "19:42",
-        "date": "2025-07-14",
-        "observer": "Ian Towriess"
-      }
-    },
-    {
       "sightingData": "Minke whale (x1) : Heoga Ness Sound, Shetland at 19:42 on 2025-07-14 by Ian Towriess",
       "regionNo": "1",
       "region": "Shetland Isles (1)",
@@ -1042,6 +1349,21 @@
       "parsed": {
         "species": "Minke whale",
         "count": 1,
+        "where": "Heoga Ness Sound, Shetland",
+        "time": "19:42",
+        "date": "2025-07-14",
+        "observer": "Ian Towriess"
+      }
+    },
+    {
+      "sightingData": "White-beaked dolphin (x3) : Heoga Ness Sound, Shetland at 19:42 on 2025-07-14 by Ian Towriess",
+      "regionNo": "1",
+      "region": "Shetland Isles (1)",
+      "record_validated": false,
+      "regionNoRequested": "1",
+      "parsed": {
+        "species": "White-beaked dolphin",
+        "count": 3,
         "where": "Heoga Ness Sound, Shetland",
         "time": "19:42",
         "date": "2025-07-14",
@@ -1334,331 +1656,6 @@
       }
     },
     {
-      "sightingData": "Minke whale (x1) : Sumburgh Head, Shetland at 17:20 on 2025-06-10 by Ella Marwood",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Minke whale",
-        "count": 1,
-        "where": "Sumburgh Head, Shetland",
-        "time": "17:20",
-        "date": "2025-06-10",
-        "observer": "Ella Marwood"
-      }
-    },
-    {
-      "sightingData": "Atlantic white-sided dolphin (x52) : Atlantic Ocean, West of Shetland at 14:11 on 2025-06-10 by sandie-gray-HWDT",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Atlantic white-sided dolphin",
-        "count": 52,
-        "where": "Atlantic Ocean, West of Shetland",
-        "time": "14:11",
-        "date": "2025-06-10",
-        "observer": "sandie",
-        "org": "gray-HWDT"
-      }
-    },
-    {
-      "sightingData": "Killer whale  (x1) : Sumburgh Head, Shetland at 22:13 on 2025-06-08 by Carole Davis",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Killer whale",
-        "count": 1,
-        "where": "Sumburgh Head, Shetland",
-        "time": "22:13",
-        "date": "2025-06-08",
-        "observer": "Carole Davis"
-      }
-    },
-    {
-      "sightingData": "Minke whale (x1) : Grutness, Shetland at 20:25 on 2025-06-08 by Orcinus-HWDT",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Minke whale",
-        "count": 1,
-        "where": "Grutness, Shetland",
-        "time": "20:25",
-        "date": "2025-06-08",
-        "observer": "Orcinus",
-        "org": "HWDT"
-      }
-    },
-    {
-      "sightingData": "Minke whale (x1) : Compass Head, Shetland at 21:30 on 2025-06-07 by Karen Hall",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Minke whale",
-        "count": 1,
-        "where": "Compass Head, Shetland",
-        "time": "21:30",
-        "date": "2025-06-07",
-        "observer": "Karen Hall"
-      }
-    },
-    {
-      "sightingData": "Killer whale  (x1) : Sumburgh Head, Shetland at 20:50 on 2025-06-07 by Karen Hall",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Killer whale",
-        "count": 1,
-        "where": "Sumburgh Head, Shetland",
-        "time": "20:50",
-        "date": "2025-06-07",
-        "observer": "Karen Hall"
-      }
-    },
-    {
-      "sightingData": "Basking Shark (x1) : Hermaness, Shetland at 18:20 on 2025-06-07 by Marcus Conway",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Basking Shark",
-        "count": 1,
-        "where": "Hermaness, Shetland",
-        "time": "18:20",
-        "date": "2025-06-07",
-        "observer": "Marcus Conway"
-      }
-    },
-    {
-      "sightingData": "Minke whale (x1) : Dalsetter, Shetland at 10:00 on 2025-06-07 by Karen Hall",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Minke whale",
-        "count": 1,
-        "where": "Dalsetter, Shetland",
-        "time": "10:00",
-        "date": "2025-06-07",
-        "observer": "Karen Hall"
-      }
-    },
-    {
-      "sightingData": "Risso’s dolphin (x4) : Bressay Lightouse, Shetland at 10:00 on 2025-06-07 by Karen Hall",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Risso’s dolphin",
-        "count": 4,
-        "where": "Bressay Lightouse, Shetland",
-        "time": "10:00",
-        "date": "2025-06-07",
-        "observer": "Karen Hall"
-      }
-    },
-    {
-      "sightingData": "Minke whale (x1) : Aithsetter, Shetland at 07:45 on 2025-06-07 by Karen Hall",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Minke whale",
-        "count": 1,
-        "where": "Aithsetter, Shetland",
-        "time": "07:45",
-        "date": "2025-06-07",
-        "observer": "Karen Hall"
-      }
-    },
-    {
-      "sightingData": "Minke whale (x1) : Grutness, Shetland at 09:22 on 2025-06-06 by Karen Hall",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Minke whale",
-        "count": 1,
-        "where": "Grutness, Shetland",
-        "time": "09:22",
-        "date": "2025-06-06",
-        "observer": "Karen Hall"
-      }
-    },
-    {
-      "sightingData": "Risso’s dolphin (x8) : Bressay Lighthouse, Shetland at 09:13 on 2025-06-06 by Karen Hall",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Risso’s dolphin",
-        "count": 8,
-        "where": "Bressay Lighthouse, Shetland",
-        "time": "09:13",
-        "date": "2025-06-06",
-        "observer": "Karen Hall"
-      }
-    },
-    {
-      "sightingData": "Harbour porpoise (x5) : Quendale Bay, Shetland at 06:55 on 2025-06-06 by Karen Hall",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Harbour porpoise",
-        "count": 5,
-        "where": "Quendale Bay, Shetland",
-        "time": "06:55",
-        "date": "2025-06-06",
-        "observer": "Karen Hall"
-      }
-    },
-    {
-      "sightingData": "Minke whale (x1) : Sumburgh Head, Shetland at 09:40 on 2025-06-02 by Laura Edwards-White",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Minke whale",
-        "count": 1,
-        "where": "Sumburgh Head, Shetland",
-        "time": "09:40",
-        "date": "2025-06-02",
-        "observer": "Laura Edwards",
-        "org": "White"
-      }
-    },
-    {
-      "sightingData": "Risso’s dolphin (x3) : Sumburgh Head, Shetland at 09:15 on 2025-06-02 by KarenHall-SOCS",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Risso’s dolphin",
-        "count": 3,
-        "where": "Sumburgh Head, Shetland",
-        "time": "09:15",
-        "date": "2025-06-02",
-        "observer": "KarenHall",
-        "org": "SOCS"
-      }
-    },
-    {
-      "sightingData": "Killer whale  (x3) : Belmont, Shetland at 14:00 on 2025-06-01 by KarenHall-SOCS",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Killer whale",
-        "count": 3,
-        "where": "Belmont, Shetland",
-        "time": "14:00",
-        "date": "2025-06-01",
-        "observer": "KarenHall",
-        "org": "SOCS"
-      }
-    },
-    {
-      "sightingData": "Killer whale  (x2) : Fetherland, Shetland at 10:00 on 2025-06-01 by KarenHall-SOCS",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Killer whale",
-        "count": 2,
-        "where": "Fetherland, Shetland",
-        "time": "10:00",
-        "date": "2025-06-01",
-        "observer": "KarenHall",
-        "org": "SOCS"
-      }
-    },
-    {
-      "sightingData": "Sperm whale (x1) : Offshore Shetland at 21:45 on 2025-05-31 by steve-truluck-HWDT",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Sperm whale",
-        "count": 1,
-        "where": "Offshore Shetland",
-        "time": "21:45",
-        "date": "2025-05-31",
-        "observer": "steve",
-        "org": "truluck-HWDT"
-      }
-    },
-    {
-      "sightingData": "Long-finned pilot whale (x3) : Offshore Shetland at 19:48 on 2025-05-30 by steve-truluck-HDWT",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Long-finned pilot whale",
-        "count": 3,
-        "where": "Offshore Shetland",
-        "time": "19:48",
-        "date": "2025-05-30",
-        "observer": "steve",
-        "org": "truluck-HDWT"
-      }
-    },
-    {
-      "sightingData": "Risso’s dolphin (x20) : Hamars Ness, Shetland at 08:45 on 2025-05-20 by PeterSawford-SOCS",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Risso’s dolphin",
-        "count": 20,
-        "where": "Hamars Ness, Shetland",
-        "time": "08:45",
-        "date": "2025-05-20",
-        "observer": "PeterSawford",
-        "org": "SOCS"
-      }
-    },
-    {
-      "sightingData": "Killer whale  (x2) : Off St Ninian's Isle, Shetland at 18:30 on 2025-05-18 by AndrewMacleod-SOCS",
-      "regionNo": "1",
-      "region": "Shetland Isles (1)",
-      "record_validated": false,
-      "regionNoRequested": "1",
-      "parsed": {
-        "species": "Killer whale",
-        "count": 2,
-        "where": "Off St Ninian's Isle, Shetland",
-        "time": "18:30",
-        "date": "2025-05-18",
-        "observer": "AndrewMacleod",
-        "org": "SOCS"
-      }
-    },
-    {
       "sightingData": "Common dolphin (x12) : Portskerra, Highland at 14:22 on 2026-01-11 by laurenpeach - HWDT",
       "regionNo": "2",
       "region": "Orkney & North Scotland (2)",
@@ -1753,6 +1750,22 @@
       }
     },
     {
+      "sightingData": "Killer whale  (x11) : South Ronaldsay, Orkney Islands at 10:15 on 2025-12-05 by christina-worth - HWDT",
+      "regionNo": "2",
+      "region": "Orkney & North Scotland (2)",
+      "record_validated": false,
+      "regionNoRequested": "2",
+      "parsed": {
+        "species": "Killer whale",
+        "count": 11,
+        "where": "South Ronaldsay, Orkney Islands",
+        "time": "10:15",
+        "date": "2025-12-05",
+        "observer": "christina-worth",
+        "org": "HWDT"
+      }
+    },
+    {
       "sightingData": "Killer whale  (x11) : 58.75N 2.98W at 10:15 on 2025-12-05 by Christina Worth",
       "regionNo": "2",
       "region": "Orkney & North Scotland (2)",
@@ -1765,22 +1778,6 @@
         "time": "10:15",
         "date": "2025-12-05",
         "observer": "Christina Worth"
-      }
-    },
-    {
-      "sightingData": "Killer whale  (x11) : South Ronaldsay, Orkney Islands at 10:15 on 2025-12-05 by christina-worth - HWDT",
-      "regionNo": "2",
-      "region": "Orkney & North Scotland (2)",
-      "record_validated": false,
-      "regionNoRequested": "2",
-      "parsed": {
-        "species": "Killer whale",
-        "count": 11,
-        "where": "South Ronaldsay, Orkney Islands",
-        "time": "10:15",
-        "date": "2025-12-05",
-        "observer": "christina",
-        "org": "worth - HWDT"
       }
     },
     {
@@ -1810,8 +1807,8 @@
         "where": "Stroma, Orkney Islands",
         "time": "09:45",
         "date": "2025-12-03",
-        "observer": "christina",
-        "org": "worth - HWDT"
+        "observer": "christina-worth",
+        "org": "HWDT"
       }
     },
     {
@@ -2154,8 +2151,8 @@
         "where": "Skirza, Highland",
         "time": "17:10",
         "date": "2025-11-11",
-        "observer": "lorna",
-        "org": "jappy - HWDT"
+        "observer": "lorna-jappy",
+        "org": "HWDT"
       }
     },
     {
@@ -2186,8 +2183,8 @@
         "where": "Hoxa Head, Orkney Islands",
         "time": "10:30",
         "date": "2025-11-09",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {
@@ -2218,8 +2215,8 @@
         "where": "Orphir Bay, Orkney Islands",
         "time": "14:20",
         "date": "2025-11-08",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {
@@ -2234,8 +2231,8 @@
         "where": "Orphir, Orkney Islands",
         "time": "13:20",
         "date": "2025-11-08",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {
@@ -2250,8 +2247,8 @@
         "where": "Hobbister, Orkney Islands",
         "time": "12:03",
         "date": "2025-11-08",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {
@@ -2297,8 +2294,8 @@
         "where": "South Ronaldsay, Orkney Islands",
         "time": "13:25",
         "date": "2025-11-07",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {
@@ -2329,8 +2326,8 @@
         "where": "South Ronaldsay, Orkney Islands",
         "time": "11:15",
         "date": "2025-11-07",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {
@@ -2345,8 +2342,8 @@
         "where": "South Ronaldsay, Orkney Islands",
         "time": "11:05",
         "date": "2025-11-07",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {
@@ -2361,8 +2358,8 @@
         "where": "Sands of Wright, Orkney Islands",
         "time": "09:40",
         "date": "2025-11-07",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {
@@ -2455,8 +2452,8 @@
         "where": "Staxigoe, Highland",
         "time": "15:10",
         "date": "2025-11-01",
-        "observer": "megan",
-        "org": "bramwell - HWDT"
+        "observer": "megan-bramwell",
+        "org": "HWDT"
       }
     },
     {
@@ -2486,8 +2483,8 @@
         "where": "Herston, Orkney Islands",
         "time": "13:55",
         "date": "2025-11-01",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {
@@ -2507,22 +2504,6 @@
       }
     },
     {
-      "sightingData": "Killer whale  (x6) : Windwick, Orkney at 11:56 on 2025-10-26 by Robert Foubister - OCS",
-      "regionNo": "2",
-      "region": "Orkney & North Scotland (2)",
-      "record_validated": false,
-      "regionNoRequested": "2",
-      "parsed": {
-        "species": "Killer whale",
-        "count": 6,
-        "where": "Windwick, Orkney",
-        "time": "11:56",
-        "date": "2025-10-26",
-        "observer": "Robert Foubister",
-        "org": "OCS"
-      }
-    },
-    {
       "sightingData": "Killer whale  (x5) : Windwick, Orkney at 11:56 on 2025-10-26 by Robert Foubister - OCS",
       "regionNo": "2",
       "region": "Orkney & North Scotland (2)",
@@ -2531,6 +2512,22 @@
       "parsed": {
         "species": "Killer whale",
         "count": 5,
+        "where": "Windwick, Orkney",
+        "time": "11:56",
+        "date": "2025-10-26",
+        "observer": "Robert Foubister",
+        "org": "OCS"
+      }
+    },
+    {
+      "sightingData": "Killer whale  (x6) : Windwick, Orkney at 11:56 on 2025-10-26 by Robert Foubister - OCS",
+      "regionNo": "2",
+      "region": "Orkney & North Scotland (2)",
+      "record_validated": false,
+      "regionNoRequested": "2",
+      "parsed": {
+        "species": "Killer whale",
+        "count": 6,
         "where": "Windwick, Orkney",
         "time": "11:56",
         "date": "2025-10-26",
@@ -2566,8 +2563,8 @@
         "where": "Switha, Orkney Islands",
         "time": "13:06",
         "date": "2025-10-14",
-        "observer": "alister",
-        "org": "clunas - HWDT"
+        "observer": "alister-clunas",
+        "org": "HWDT"
       }
     },
     {
@@ -2598,8 +2595,7 @@
         "where": "East of Nybster, Highland",
         "time": "17:50",
         "date": "2025-09-03",
-        "observer": "Odinrobb",
-        "org": "HWDT"
+        "observer": "Odinrobb-HWDT"
       }
     },
     {
@@ -2779,8 +2775,7 @@
         "where": "Wick, Highlands",
         "time": "07:16",
         "date": "2025-08-19",
-        "observer": "Blacksheep",
-        "org": "HWDT"
+        "observer": "Blacksheep-HWDT"
       }
     },
     {
@@ -2795,8 +2790,7 @@
         "where": "Wick, Highlands",
         "time": "15:37",
         "date": "2025-08-18",
-        "observer": "Blacksheep",
-        "org": "HWDT"
+        "observer": "Blacksheep-HWDT"
       }
     },
     {
@@ -2841,8 +2835,7 @@
         "where": "Wick, Highland",
         "time": "18:47",
         "date": "2025-08-17",
-        "observer": "Blacksheep",
-        "org": "HWDT"
+        "observer": "Blacksheep-HWDT"
       }
     },
     {
@@ -2857,8 +2850,7 @@
         "where": "North of Staxigoe, Highlands",
         "time": "17:09",
         "date": "2025-08-17",
-        "observer": "Blacksheep",
-        "org": "HWDT"
+        "observer": "Blacksheep-HWDT"
       }
     },
     {
@@ -2873,8 +2865,7 @@
         "where": "Dunnet Head, Highland",
         "time": "16:37",
         "date": "2025-08-15",
-        "observer": "Blacksheep",
-        "org": "HWDT"
+        "observer": "Blacksheep-HWDT"
       }
     },
     {
@@ -2889,8 +2880,8 @@
         "where": "Near Tharso, Highland",
         "time": "16:40",
         "date": "2025-08-11",
-        "observer": "jessica",
-        "org": "finan - HWDT"
+        "observer": "jessica-finan",
+        "org": "HWDT"
       }
     },
     {
@@ -3087,8 +3078,7 @@
         "where": "Crosskirk, Highland",
         "time": "17:20",
         "date": "2025-07-22",
-        "observer": "jackieosborn",
-        "org": "HWDT"
+        "observer": "jackieosborn-HWDT"
       }
     },
     {
@@ -3118,8 +3108,7 @@
         "where": "Sandside Head, Caithness",
         "time": "12:15",
         "date": "2025-07-22",
-        "observer": "Zoe Doran",
-        "org": "CMFCS"
+        "observer": "Zoe Doran-CMFCS"
       }
     },
     {
@@ -3180,8 +3169,7 @@
         "where": "Durness, Sutherland",
         "time": "14:02",
         "date": "2025-07-11",
-        "observer": "FionaFortrose",
-        "org": "HWDT"
+        "observer": "FionaFortrose-HWDT"
       }
     },
     {
@@ -3215,6 +3203,22 @@
       }
     },
     {
+      "sightingData": "Bottlenose dolphin (x4) : Portsoy, Aberdeenshire at 15:04 on 2026-01-18 by gillian-townsend - HWDT",
+      "regionNo": "3-4",
+      "region": "NE Scotland (3-4)",
+      "record_validated": false,
+      "regionNoRequested": "3-4",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 4,
+        "where": "Portsoy, Aberdeenshire",
+        "time": "15:04",
+        "date": "2026-01-18",
+        "observer": "gillian-townsend",
+        "org": "HWDT"
+      }
+    },
+    {
       "sightingData": "Harbour porpoise (x1) : Fishertown, Highland at 11:10 on 2026-01-16 by Phocoena - HWDT",
       "regionNo": "3-4",
       "region": "NE Scotland (3-4)",
@@ -3242,8 +3246,8 @@
         "where": "Burghead, Highland",
         "time": "09:46",
         "date": "2026-01-16",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3258,8 +3262,8 @@
         "where": "Burghead, Highland",
         "time": "09:28",
         "date": "2026-01-16",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3274,8 +3278,8 @@
         "where": "Burghead, Highland",
         "time": "09:28",
         "date": "2026-01-16",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3306,8 +3310,8 @@
         "where": "Burghead, Highland",
         "time": "12:30",
         "date": "2026-01-13",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3354,8 +3358,8 @@
         "where": "Cromarty, Highland",
         "time": "13:57",
         "date": "2026-01-10",
-        "observer": "sandie",
-        "org": "gray - HWDT"
+        "observer": "sandie-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -3386,8 +3390,8 @@
         "where": "Burghead, Highland",
         "time": "13:55",
         "date": "2026-01-09",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3402,8 +3406,8 @@
         "where": "Fortrose, Highland",
         "time": "11:43",
         "date": "2026-01-08",
-        "observer": "alister",
-        "org": "clunas - HWDT"
+        "observer": "alister-clunas",
+        "org": "HWDT"
       }
     },
     {
@@ -3546,8 +3550,8 @@
         "where": "Lossiemouth, Highland",
         "time": "10:45",
         "date": "2025-12-12",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3702,8 +3706,8 @@
         "where": "Culbin Forest, Highland",
         "time": "12:38",
         "date": "2025-11-11",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3718,8 +3722,8 @@
         "where": "Cummingston, Highland",
         "time": "12:15",
         "date": "2025-11-11",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3734,8 +3738,8 @@
         "where": "Burghead, Highland",
         "time": "11:32",
         "date": "2025-11-11",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3750,8 +3754,8 @@
         "where": "Ardersier Port, Highland",
         "time": "15:40",
         "date": "2025-11-09",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -3829,8 +3833,8 @@
         "where": "Lossiemouth, Highland",
         "time": "13:06",
         "date": "2025-11-07",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3845,8 +3849,8 @@
         "where": "Burghead, Highland",
         "time": "12:25",
         "date": "2025-11-07",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3861,8 +3865,8 @@
         "where": "Burghead, Highland",
         "time": "12:15",
         "date": "2025-11-07",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3877,8 +3881,8 @@
         "where": "Burghead, Highland",
         "time": "11:33",
         "date": "2025-11-07",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3893,8 +3897,8 @@
         "where": "Littleferry, Highland",
         "time": "11:05",
         "date": "2025-11-07",
-        "observer": "mike",
-        "org": "king - HWDT"
+        "observer": "mike-king",
+        "org": "HWDT"
       }
     },
     {
@@ -3909,8 +3913,8 @@
         "where": "Cromarty, Highland",
         "time": "08:51",
         "date": "2025-11-07",
-        "observer": "sandie",
-        "org": "gray - HWDT"
+        "observer": "sandie-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -3956,23 +3960,8 @@
         "where": "Burghead, Highland",
         "time": "12:30",
         "date": "2025-11-06",
-        "observer": "alan",
-        "org": "airey - HWDT"
-      }
-    },
-    {
-      "sightingData": "Bottlenose dolphin (x10) : Findochty, Moray at 11:16 on 2025-11-06 by Diane Borthwick CMFCS",
-      "regionNo": "3-4",
-      "region": "NE Scotland (3-4)",
-      "record_validated": false,
-      "regionNoRequested": "3-4",
-      "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 10,
-        "where": "Findochty, Moray",
-        "time": "11:16",
-        "date": "2025-11-06",
-        "observer": "Diane Borthwick CMFCS"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -3992,6 +3981,21 @@
       }
     },
     {
+      "sightingData": "Bottlenose dolphin (x10) : Findochty, Moray at 11:16 on 2025-11-06 by Diane Borthwick CMFCS",
+      "regionNo": "3-4",
+      "region": "NE Scotland (3-4)",
+      "record_validated": false,
+      "regionNoRequested": "3-4",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 10,
+        "where": "Findochty, Moray",
+        "time": "11:16",
+        "date": "2025-11-06",
+        "observer": "Diane Borthwick CMFCS"
+      }
+    },
+    {
       "sightingData": "Humpback whale (x1) : Shandwick, Highland at 10:15 on 2025-11-06 by alan-airey - HWDT",
       "regionNo": "3-4",
       "region": "NE Scotland (3-4)",
@@ -4003,8 +4007,8 @@
         "where": "Shandwick, Highland",
         "time": "10:15",
         "date": "2025-11-06",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -4019,8 +4023,8 @@
         "where": "Burghead, Highland",
         "time": "10:13",
         "date": "2025-11-06",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -4035,8 +4039,8 @@
         "where": "Culbin Forest, Highland",
         "time": "09:15",
         "date": "2025-11-05",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -4051,8 +4055,8 @@
         "where": "Roseisle Forest, Highland",
         "time": "08:33",
         "date": "2025-11-05",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -4083,8 +4087,8 @@
         "where": "Coul Links, Highland",
         "time": "15:46",
         "date": "2025-11-04",
-        "observer": "mike",
-        "org": "king - HWDT"
+        "observer": "mike-king",
+        "org": "HWDT"
       }
     },
     {
@@ -4099,8 +4103,8 @@
         "where": "Embo Beach, Highland",
         "time": "15:06",
         "date": "2025-11-04",
-        "observer": "mike",
-        "org": "king - HWDT"
+        "observer": "mike-king",
+        "org": "HWDT"
       }
     },
     {
@@ -4207,8 +4211,8 @@
         "where": "Sarclet, Highland",
         "time": "14:00",
         "date": "2025-11-01",
-        "observer": "lorna",
-        "org": "jappy - HWDT"
+        "observer": "lorna-jappy",
+        "org": "HWDT"
       }
     },
     {
@@ -4270,8 +4274,8 @@
         "where": "Fort George, Highland",
         "time": "13:57",
         "date": "2025-10-29",
-        "observer": "ewan",
-        "org": "fenelon - HWDT"
+        "observer": "ewan-fenelon",
+        "org": "HWDT"
       }
     },
     {
@@ -4286,8 +4290,8 @@
         "where": "Moray Firth, Highland",
         "time": "13:30",
         "date": "2025-10-28",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -4318,8 +4322,7 @@
         "where": "Cromarty, Highland",
         "time": "14:13",
         "date": "2025-10-24",
-        "observer": "Sandie",
-        "org": "gray-HWDT"
+        "observer": "Sandie-gray-HWDT"
       }
     },
     {
@@ -4334,23 +4337,7 @@
         "where": "Culbin Sands, Moray",
         "time": "12:49",
         "date": "2025-10-21",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
-      }
-    },
-    {
-      "sightingData": "Harbour porpoise (x2) : Burghead, Moray at 11:00 on 2025-10-21 by Phocoena - HWDT",
-      "regionNo": "3-4",
-      "region": "NE Scotland (3-4)",
-      "record_validated": false,
-      "regionNoRequested": "3-4",
-      "parsed": {
-        "species": "Harbour porpoise",
-        "count": 2,
-        "where": "Burghead, Moray",
-        "time": "11:00",
-        "date": "2025-10-21",
-        "observer": "Phocoena",
+        "observer": "gordie-bryce",
         "org": "HWDT"
       }
     },
@@ -4371,6 +4358,22 @@
       }
     },
     {
+      "sightingData": "Harbour porpoise (x2) : Burghead, Moray at 11:00 on 2025-10-21 by Phocoena - HWDT",
+      "regionNo": "3-4",
+      "region": "NE Scotland (3-4)",
+      "record_validated": false,
+      "regionNoRequested": "3-4",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 2,
+        "where": "Burghead, Moray",
+        "time": "11:00",
+        "date": "2025-10-21",
+        "observer": "Phocoena",
+        "org": "HWDT"
+      }
+    },
+    {
       "sightingData": "Minke whale (x1) : Lossiemouth, Moray at 10:08 on 2025-10-21 by alan-airey - HWDT",
       "regionNo": "3-4",
       "region": "NE Scotland (3-4)",
@@ -4382,8 +4385,8 @@
         "where": "Lossiemouth, Moray",
         "time": "10:08",
         "date": "2025-10-21",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -4398,8 +4401,8 @@
         "where": "Burghead, Moray",
         "time": "08:24",
         "date": "2025-10-21",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -4414,8 +4417,8 @@
         "where": "Northwest of Kinloss, Moray",
         "time": "08:22",
         "date": "2025-10-21",
-        "observer": "alan",
-        "org": "airey - HWDT"
+        "observer": "alan-airey",
+        "org": "HWDT"
       }
     },
     {
@@ -4430,8 +4433,8 @@
         "where": "North West of Burghead, Moray",
         "time": "15:34",
         "date": "2025-10-20",
-        "observer": "tilly",
-        "org": "currah - HWDT"
+        "observer": "tilly-currah",
+        "org": "HWDT"
       }
     },
     {
@@ -4446,8 +4449,8 @@
         "where": "Cromarty. Highlands",
         "time": "13:53",
         "date": "2025-10-18",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -4462,8 +4465,8 @@
         "where": "Ardersier Port, Highlands",
         "time": "13:30",
         "date": "2025-10-18",
-        "observer": "goride",
-        "org": "bryce - HWDT"
+        "observer": "goride-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -4478,8 +4481,8 @@
         "where": "Golspie, Highlands",
         "time": "10:45",
         "date": "2025-10-18",
-        "observer": "marc",
-        "org": "berw-hughes - HWDT"
+        "observer": "marc-berw-hughes",
+        "org": "HWDT"
       }
     },
     {
@@ -4638,8 +4641,8 @@
         "where": "Fishertown, Highlands",
         "time": "12:59",
         "date": "2025-10-16",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -4654,8 +4657,8 @@
         "where": "Dunbeath, Highlands",
         "time": "11:50",
         "date": "2025-10-16",
-        "observer": "marc",
-        "org": "berw-hughes - HWDT"
+        "observer": "marc-berw-hughes",
+        "org": "HWDT"
       }
     },
     {
@@ -4670,8 +4673,8 @@
         "where": "Cromarty, Highlands",
         "time": "11:35",
         "date": "2025-10-16",
-        "observer": "sandie",
-        "org": "gray - HWDT"
+        "observer": "sandie-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -4734,8 +4737,8 @@
         "where": "Fishertown, Highlands",
         "time": "16:30",
         "date": "2025-10-15",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -4766,8 +4769,8 @@
         "where": "Culbin Sands, Highlands",
         "time": "07:51",
         "date": "2025-10-15",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -4782,8 +4785,8 @@
         "where": "Culbin Sands, Highlands",
         "time": "07:30",
         "date": "2025-10-15",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -4798,8 +4801,8 @@
         "where": "Cromarty, Highlands",
         "time": "07:05",
         "date": "2025-10-15",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -4830,8 +4833,8 @@
         "where": "Rockfield, Highlands",
         "time": "16:40",
         "date": "2025-10-14",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -4862,8 +4865,8 @@
         "where": "Embo Beach, Highlands",
         "time": "15:17",
         "date": "2025-10-14",
-        "observer": "mike",
-        "org": "king - HWDT"
+        "observer": "mike-king",
+        "org": "HWDT"
       }
     },
     {
@@ -4878,8 +4881,7 @@
         "where": "Inverness, Highlands",
         "time": "14:34",
         "date": "2025-10-14",
-        "observer": "GrumpyGramps",
-        "org": "HWDT"
+        "observer": "GrumpyGramps -HWDT"
       }
     },
     {
@@ -4894,8 +4896,8 @@
         "where": "Cromarty, Highlands",
         "time": "13:08",
         "date": "2025-10-14",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -4942,8 +4944,8 @@
         "where": "Cromarty, Highlands",
         "time": "14:40",
         "date": "2025-10-13",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -4974,8 +4976,8 @@
         "where": "Cromarty, Highlands",
         "time": "11:34",
         "date": "2025-10-13",
-        "observer": "sandie",
-        "org": "gray - HWDT"
+        "observer": "sandie-gray",
+        "org": "HWDT"
       }
     },
     {
@@ -5006,8 +5008,8 @@
         "where": "Cromarty, Highlands",
         "time": "13:26",
         "date": "2025-10-12",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -5150,8 +5152,8 @@
         "where": "Fort George, Highlands",
         "time": "06:35",
         "date": "2025-10-05",
-        "observer": "alister",
-        "org": "clunas - HWDT"
+        "observer": "alister-clunas",
+        "org": "HWDT"
       }
     },
     {
@@ -5166,8 +5168,8 @@
         "where": "Pulteneytown, Highlands",
         "time": "12:15",
         "date": "2025-10-03",
-        "observer": "tony",
-        "org": "phillips - HWDT"
+        "observer": "tony-phillips",
+        "org": "HWDT"
       }
     },
     {
@@ -5294,8 +5296,7 @@
         "where": "Nairn, Highlands",
         "time": "10:00",
         "date": "2025-10-01",
-        "observer": "Phocoena",
-        "org": "HWDT"
+        "observer": "Phocoena-HWDT"
       }
     },
     {
@@ -5372,8 +5373,8 @@
         "where": "Horsecastle Bay, Scottish Borders",
         "time": "11:15",
         "date": "2026-01-13",
-        "observer": "billy",
-        "org": "byrne - HWDT"
+        "observer": "billy-byrne",
+        "org": "HWDT"
       }
     },
     {
@@ -5404,8 +5405,8 @@
         "where": "Kirkcaldy, Fife",
         "time": "16:28",
         "date": "2026-01-08",
-        "observer": "conor",
-        "org": "ryan - HWDT"
+        "observer": "conor-ryan",
+        "org": "HWDT"
       }
     },
     {
@@ -5468,8 +5469,8 @@
         "where": "Kinghorn, Fife",
         "time": "14:59",
         "date": "2026-01-01",
-        "observer": "megan",
-        "org": "bramwell - HWDT"
+        "observer": "megan-bramwell",
+        "org": "HWDT"
       }
     },
     {
@@ -5544,8 +5545,8 @@
         "where": "Seafield, Fife",
         "time": "12:00",
         "date": "2025-12-29",
-        "observer": "lisa",
-        "org": "fullerton - HWDT"
+        "observer": "lisa-fullerton",
+        "org": "HWDT"
       }
     },
     {
@@ -5575,8 +5576,8 @@
         "where": "Riverside, Stirling",
         "time": "15:35",
         "date": "2025-12-08",
-        "observer": "allie",
-        "org": "rhona - HWDT"
+        "observer": "allie-rhona",
+        "org": "HWDT"
       }
     },
     {
@@ -5848,8 +5849,8 @@
         "where": "Coldingham Bay, Fife",
         "time": "13:00",
         "date": "2025-10-08",
-        "observer": "toby",
-        "org": "p - HWDT"
+        "observer": "toby-p",
+        "org": "HWDT"
       }
     },
     {
@@ -5864,8 +5865,8 @@
         "where": "Coldingham Bay, East Lothian",
         "time": "11:53",
         "date": "2025-10-08",
-        "observer": "toby",
-        "org": "p - HWDT"
+        "observer": "toby-p",
+        "org": "HWDT"
       }
     },
     {
@@ -5895,8 +5896,8 @@
         "where": "Kingsbarns, Fife",
         "time": "09:14",
         "date": "2025-10-06",
-        "observer": "simon",
-        "org": "pinder - HWDT"
+        "observer": "simon-pinder",
+        "org": "HWDT"
       }
     },
     {
@@ -5911,8 +5912,8 @@
         "where": "Pettycur, Fife",
         "time": "16:56",
         "date": "2025-10-01",
-        "observer": "fin",
-        "org": "spotter - HWDT"
+        "observer": "fin-spotter",
+        "org": "HWDT"
       }
     },
     {
@@ -5987,8 +5988,8 @@
         "where": "St Abbs, East Lothian",
         "time": "16:31",
         "date": "2025-09-17",
-        "observer": "beth",
-        "org": "mcjury - HWDT"
+        "observer": "beth-mcjury",
+        "org": "HWDT"
       }
     },
     {
@@ -6183,8 +6184,7 @@
         "where": "Prestonpans, East Lothian",
         "time": "08:15",
         "date": "2025-08-28",
-        "observer": "Jessica Meadows",
-        "org": "Smith"
+        "observer": "Jessica Meadows-Smith"
       }
     },
     {
@@ -6349,8 +6349,7 @@
         "where": "Crail, Fife",
         "time": "10:51",
         "date": "2025-08-17",
-        "observer": "ellen",
-        "org": "HWDT"
+        "observer": "ellen-HWDT"
       }
     },
     {
@@ -6365,8 +6364,7 @@
         "where": "Offshore Stonehaven, Aberdeenshire",
         "time": "18:40",
         "date": "2025-08-16",
-        "observer": "Chancersdad",
-        "org": "HWDT"
+        "observer": "Chancersdad-HWDT"
       }
     },
     {
@@ -6396,8 +6394,7 @@
         "where": "Kinghorn, Fife",
         "time": "08:13",
         "date": "2025-08-16",
-        "observer": "soulkeeper",
-        "org": "HWDT"
+        "observer": "soulkeeper-HWDT"
       }
     },
     {
@@ -6412,8 +6409,7 @@
         "where": "Kinghorn, Fife",
         "time": "08:13",
         "date": "2025-08-16",
-        "observer": "soulkeeper",
-        "org": "HWDT"
+        "observer": "soulkeeper-HWDT"
       }
     },
     {
@@ -6488,8 +6484,7 @@
         "where": "Lower Burnmouth, Scottish Borders",
         "time": "19:30",
         "date": "2025-08-07",
-        "observer": "paulev",
-        "org": "HWDT"
+        "observer": "paulev-HWDT"
       }
     },
     {
@@ -6504,8 +6499,7 @@
         "where": "Torry Battery, Highland",
         "time": "13:49",
         "date": "2025-08-05",
-        "observer": "angela",
-        "org": "hutchison-HWDT"
+        "observer": "angela-hutchison-HWDT"
       }
     },
     {
@@ -6520,8 +6514,7 @@
         "where": "Cellardyke, Fife",
         "time": "09:58",
         "date": "2025-08-04",
-        "observer": "gregor",
-        "org": "chalmers-HWDT"
+        "observer": "gregor-chalmers-HWDT"
       }
     },
     {
@@ -7068,6 +7061,21 @@
       }
     },
     {
+      "sightingData": "Bottlenose dolphin (x15) : Collywell Bay, Seaton Sluice, Northumberland at 00:00 on 2025-12-31 by NECP",
+      "regionNo": "7-9",
+      "region": "Yorkshire & NE England (7-9)",
+      "record_validated": false,
+      "regionNoRequested": "7-9",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 15,
+        "where": "Collywell Bay, Seaton Sluice, Northumberland",
+        "time": "00:00",
+        "date": "2025-12-31",
+        "observer": "NECP"
+      }
+    },
+    {
       "sightingData": "Bottlenose dolphin (x10) : Marine Drive, Scarborough, North Yorkshire at 00:00 on 2025-12-31 by NECP",
       "regionNo": "7-9",
       "region": "Yorkshire & NE England (7-9)",
@@ -7092,21 +7100,6 @@
         "species": "Harbour porpoise",
         "count": 1,
         "where": "Filey Brigg, North Yorkshire",
-        "time": "00:00",
-        "date": "2025-12-31",
-        "observer": "NECP"
-      }
-    },
-    {
-      "sightingData": "Bottlenose dolphin (x15) : Collywell Bay, Seaton Sluice, Northumberland at 00:00 on 2025-12-31 by NECP",
-      "regionNo": "7-9",
-      "region": "Yorkshire & NE England (7-9)",
-      "record_validated": false,
-      "regionNoRequested": "7-9",
-      "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 15,
-        "where": "Collywell Bay, Seaton Sluice, Northumberland",
         "time": "00:00",
         "date": "2025-12-31",
         "observer": "NECP"
@@ -7278,21 +7271,6 @@
       }
     },
     {
-      "sightingData": "Harbour porpoise (x3) : 54.30N 0.42W at 09:00 on 2025-12-19 by Stuart baines",
-      "regionNo": "7-9",
-      "region": "Yorkshire & NE England (7-9)",
-      "record_validated": false,
-      "regionNoRequested": "7-9",
-      "parsed": {
-        "species": "Harbour porpoise",
-        "count": 3,
-        "where": "54.30N 0.42W",
-        "time": "09:00",
-        "date": "2025-12-19",
-        "observer": "Stuart baines"
-      }
-    },
-    {
       "sightingData": "Harbour porpoise (x4) : 54.30N 0.42W at 09:00 on 2025-12-19 by Stuart baines",
       "regionNo": "7-9",
       "region": "Yorkshire & NE England (7-9)",
@@ -7301,6 +7279,21 @@
       "parsed": {
         "species": "Harbour porpoise",
         "count": 4,
+        "where": "54.30N 0.42W",
+        "time": "09:00",
+        "date": "2025-12-19",
+        "observer": "Stuart baines"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x3) : 54.30N 0.42W at 09:00 on 2025-12-19 by Stuart baines",
+      "regionNo": "7-9",
+      "region": "Yorkshire & NE England (7-9)",
+      "record_validated": false,
+      "regionNoRequested": "7-9",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 3,
         "where": "54.30N 0.42W",
         "time": "09:00",
         "date": "2025-12-19",
@@ -10995,8 +10988,7 @@
         "where": "Dover Harbour. Kent",
         "time": "13:35",
         "date": "2024-10-26",
-        "observer": "mark miller",
-        "org": "eloit"
+        "observer": "mark miller-eloit"
       }
     },
     {
@@ -11420,21 +11412,6 @@
       }
     },
     {
-      "sightingData": "Bottlenose dolphin (x3) : Lymington, Hampshire at 00:00 on 2024-07-29 by Yeates/HDW",
-      "regionNo": "15-18",
-      "region": "SE England (15-18)",
-      "record_validated": true,
-      "regionNoRequested": "15-18",
-      "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 3,
-        "where": "Lymington, Hampshire",
-        "time": "00:00",
-        "date": "2024-07-29",
-        "observer": "Yeates/HDW"
-      }
-    },
-    {
       "sightingData": "Common dolphin (x3) : Lymington River. Hampshire at 00:00 on 2024-07-29 by daniel yeates/hdw",
       "regionNo": "15-18",
       "region": "SE England (15-18)",
@@ -11447,6 +11424,21 @@
         "time": "00:00",
         "date": "2024-07-29",
         "observer": "daniel yeates/hdw"
+      }
+    },
+    {
+      "sightingData": "Bottlenose dolphin (x3) : Lymington, Hampshire at 00:00 on 2024-07-29 by Yeates/HDW",
+      "regionNo": "15-18",
+      "region": "SE England (15-18)",
+      "record_validated": true,
+      "regionNoRequested": "15-18",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 3,
+        "where": "Lymington, Hampshire",
+        "time": "00:00",
+        "date": "2024-07-29",
+        "observer": "Yeates/HDW"
       }
     },
     {
@@ -11717,6 +11709,21 @@
         "time": "09:10",
         "date": "2026-01-16",
         "observer": "Paul Wreford"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x15) : Nare point NCI Station, Cornwall at 00:00 on 2026-01-16 by Bruce Robinson",
+      "regionNo": "19-21",
+      "region": "SW England (19-21)",
+      "record_validated": false,
+      "regionNoRequested": "19-21",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 15,
+        "where": "Nare point NCI Station, Cornwall",
+        "time": "00:00",
+        "date": "2026-01-16",
+        "observer": "Bruce Robinson"
       }
     },
     {
@@ -12770,6 +12777,16 @@
       }
     },
     {
+      "sightingData": "Bottlenose dolphin (x-1) : Porthcressa, Isles of Scilly at 15:22 on 2025-10-06 by Carl Chapman/SWN",
+      "regionNo": "19-21",
+      "region": "SW England (19-21)",
+      "record_validated": true,
+      "regionNoRequested": "19-21",
+      "parsed": {
+        "raw": "Bottlenose dolphin (x-1) : Porthcressa, Isles of Scilly at 15:22 on 2025-10-06 by Carl Chapman/SWN"
+      }
+    },
+    {
       "sightingData": "Common dolphin (x2) : Porthcressa, Isles of Scilly at 15:22 on 2025-10-06 by Carl Chapman/SWN",
       "regionNo": "19-21",
       "region": "SW England (19-21)",
@@ -12782,16 +12799,6 @@
         "time": "15:22",
         "date": "2025-10-06",
         "observer": "Carl Chapman/SWN"
-      }
-    },
-    {
-      "sightingData": "Bottlenose dolphin (x-1) : Porthcressa, Isles of Scilly at 15:22 on 2025-10-06 by Carl Chapman/SWN",
-      "regionNo": "19-21",
-      "region": "SW England (19-21)",
-      "record_validated": true,
-      "regionNoRequested": "19-21",
-      "parsed": {
-        "raw": "Bottlenose dolphin (x-1) : Porthcressa, Isles of Scilly at 15:22 on 2025-10-06 by Carl Chapman/SWN"
       }
     },
     {
@@ -13155,18 +13162,33 @@
       }
     },
     {
-      "sightingData": "Harbour porpoise (x4) : 50.12N 5.04W at 11:35 on 2025-09-25 by Newquay sea safaris and fishing",
-      "regionNo": "19-21",
-      "region": "SW England (19-21)",
+      "sightingData": "Harbour porpoise (x1) : Grosnez headland, Jersey at 00:00 on 2026-01-17 by Bertram Bree",
+      "regionNo": "22",
+      "region": "Channel Isles (22)",
       "record_validated": false,
-      "regionNoRequested": "19-21",
+      "regionNoRequested": "22",
       "parsed": {
         "species": "Harbour porpoise",
-        "count": 4,
-        "where": "50.12N 5.04W",
-        "time": "11:35",
-        "date": "2025-09-25",
-        "observer": "Newquay sea safaris and fishing"
+        "count": 1,
+        "where": "Grosnez headland, Jersey",
+        "time": "00:00",
+        "date": "2026-01-17",
+        "observer": "Bertram Bree"
+      }
+    },
+    {
+      "sightingData": "Bottlenose dolphin (x10) : Grosnez headland, Jersey at 00:00 on 2026-01-17 by Bertram Bree",
+      "regionNo": "22",
+      "region": "Channel Isles (22)",
+      "record_validated": false,
+      "regionNoRequested": "22",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 10,
+        "where": "Grosnez headland, Jersey",
+        "time": "00:00",
+        "date": "2026-01-17",
+        "observer": "Bertram Bree"
       }
     },
     {
@@ -13575,21 +13597,6 @@
       }
     },
     {
-      "sightingData": "Bottlenose dolphin (x20) : Corbiere, Jersey island at 00:00 on 2025-01-03 by bertram bree",
-      "regionNo": "22",
-      "region": "Channel Isles (22)",
-      "record_validated": true,
-      "regionNoRequested": "22",
-      "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 20,
-        "where": "Corbiere, Jersey island",
-        "time": "00:00",
-        "date": "2025-01-03",
-        "observer": "bertram bree"
-      }
-    },
-    {
       "sightingData": "Common dolphin (x40) : Grosnez, Jersey island at 00:00 on 2025-01-03 by bertram bree",
       "regionNo": "22",
       "region": "Channel Isles (22)",
@@ -13599,6 +13606,21 @@
         "species": "Common dolphin",
         "count": 40,
         "where": "Grosnez, Jersey island",
+        "time": "00:00",
+        "date": "2025-01-03",
+        "observer": "bertram bree"
+      }
+    },
+    {
+      "sightingData": "Bottlenose dolphin (x20) : Corbiere, Jersey island at 00:00 on 2025-01-03 by bertram bree",
+      "regionNo": "22",
+      "region": "Channel Isles (22)",
+      "record_validated": true,
+      "regionNoRequested": "22",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 20,
+        "where": "Corbiere, Jersey island",
         "time": "00:00",
         "date": "2025-01-03",
         "observer": "bertram bree"
@@ -13620,21 +13642,6 @@
       }
     },
     {
-      "sightingData": "Bottlenose dolphin (x12) : Corbiere, Jersey island at 00:00 on 2024-12-27 by bertram bree",
-      "regionNo": "22",
-      "region": "Channel Isles (22)",
-      "record_validated": true,
-      "regionNoRequested": "22",
-      "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 12,
-        "where": "Corbiere, Jersey island",
-        "time": "00:00",
-        "date": "2024-12-27",
-        "observer": "bertram bree"
-      }
-    },
-    {
       "sightingData": "Harbour porpoise (x4) : Grosnez, Jersey island at 00:00 on 2024-12-27 by bertram bree",
       "regionNo": "22",
       "region": "Channel Isles (22)",
@@ -13644,6 +13651,21 @@
         "species": "Harbour porpoise",
         "count": 4,
         "where": "Grosnez, Jersey island",
+        "time": "00:00",
+        "date": "2024-12-27",
+        "observer": "bertram bree"
+      }
+    },
+    {
+      "sightingData": "Bottlenose dolphin (x12) : Corbiere, Jersey island at 00:00 on 2024-12-27 by bertram bree",
+      "regionNo": "22",
+      "region": "Channel Isles (22)",
+      "record_validated": true,
+      "regionNoRequested": "22",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 12,
+        "where": "Corbiere, Jersey island",
         "time": "00:00",
         "date": "2024-12-27",
         "observer": "bertram bree"
@@ -14050,21 +14072,6 @@
       }
     },
     {
-      "sightingData": "Bottlenose dolphin (x28) : Jethou at 00:00 on 2024-01-19 by Chrissie Johns /DSG",
-      "regionNo": "22",
-      "region": "Channel Isles (22)",
-      "record_validated": true,
-      "regionNoRequested": "22",
-      "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 28,
-        "where": "Jethou",
-        "time": "00:00",
-        "date": "2024-01-19",
-        "observer": "Chrissie Johns /DSG"
-      }
-    },
-    {
       "sightingData": "Bottlenose dolphin (x8) : Bordeaux , Geurnsey at 00:00 on 2024-01-19 by Carl Crowson /DSG",
       "regionNo": "22",
       "region": "Channel Isles (22)",
@@ -14077,6 +14084,21 @@
         "time": "00:00",
         "date": "2024-01-19",
         "observer": "Carl Crowson /DSG"
+      }
+    },
+    {
+      "sightingData": "Bottlenose dolphin (x28) : Jethou at 00:00 on 2024-01-19 by Chrissie Johns /DSG",
+      "regionNo": "22",
+      "region": "Channel Isles (22)",
+      "record_validated": true,
+      "regionNoRequested": "22",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 28,
+        "where": "Jethou",
+        "time": "00:00",
+        "date": "2024-01-19",
+        "observer": "Chrissie Johns /DSG"
       }
     },
     {
@@ -14095,21 +14117,6 @@
       }
     },
     {
-      "sightingData": "Common dolphin (x1) : Corbiere. Jersey at 00:00 on 2023-12-26 by betram bree",
-      "regionNo": "22",
-      "region": "Channel Isles (22)",
-      "record_validated": true,
-      "regionNoRequested": "22",
-      "parsed": {
-        "species": "Common dolphin",
-        "count": 1,
-        "where": "Corbiere. Jersey",
-        "time": "00:00",
-        "date": "2023-12-26",
-        "observer": "betram bree"
-      }
-    },
-    {
       "sightingData": "Harbour porpoise (x2) : Corbiere. Jersey at 00:00 on 2023-12-26 by betram bree",
       "regionNo": "22",
       "region": "Channel Isles (22)",
@@ -14118,6 +14125,21 @@
       "parsed": {
         "species": "Harbour porpoise",
         "count": 2,
+        "where": "Corbiere. Jersey",
+        "time": "00:00",
+        "date": "2023-12-26",
+        "observer": "betram bree"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x1) : Corbiere. Jersey at 00:00 on 2023-12-26 by betram bree",
+      "regionNo": "22",
+      "region": "Channel Isles (22)",
+      "record_validated": true,
+      "regionNoRequested": "22",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 1,
         "where": "Corbiere. Jersey",
         "time": "00:00",
         "date": "2023-12-26",
@@ -14260,21 +14282,6 @@
       }
     },
     {
-      "sightingData": "Harbour porpoise (x3) : Offshore Guernsey at 08:00 on 2022-07-28 by Hugh Chawner ",
-      "regionNo": "22",
-      "region": "Channel Isles (22)",
-      "record_validated": true,
-      "regionNoRequested": "22",
-      "parsed": {
-        "species": "Harbour porpoise",
-        "count": 3,
-        "where": "Offshore Guernsey",
-        "time": "08:00",
-        "date": "2022-07-28",
-        "observer": "Hugh Chawner"
-      }
-    },
-    {
       "sightingData": "Harbour porpoise (x2) : 49.71N 1.72W at 08:00 on 2022-07-28 by Hugh Chawner ",
       "regionNo": "22",
       "region": "Channel Isles (22)",
@@ -14284,6 +14291,21 @@
         "species": "Harbour porpoise",
         "count": 2,
         "where": "49.71N 1.72W",
+        "time": "08:00",
+        "date": "2022-07-28",
+        "observer": "Hugh Chawner"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x3) : Offshore Guernsey at 08:00 on 2022-07-28 by Hugh Chawner ",
+      "regionNo": "22",
+      "region": "Channel Isles (22)",
+      "record_validated": true,
+      "regionNoRequested": "22",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 3,
+        "where": "Offshore Guernsey",
         "time": "08:00",
         "date": "2022-07-28",
         "observer": "Hugh Chawner"
@@ -14620,36 +14642,6 @@
       }
     },
     {
-      "sightingData": "Bottlenose dolphin (x15) : Jerbourg. Guernsey at 10:30 on 2021-07-25 by Nicky Harris",
-      "regionNo": "22",
-      "region": "Channel Isles (22)",
-      "record_validated": true,
-      "regionNoRequested": "22",
-      "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 15,
-        "where": "Jerbourg. Guernsey",
-        "time": "10:30",
-        "date": "2021-07-25",
-        "observer": "Nicky Harris"
-      }
-    },
-    {
-      "sightingData": "Bottlenose dolphin (x5) : Corbiere. Jersey at 00:00 on 2021-07-25 by Mark Dryden",
-      "regionNo": "22",
-      "region": "Channel Isles (22)",
-      "record_validated": true,
-      "regionNoRequested": "22",
-      "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 5,
-        "where": "Corbiere. Jersey",
-        "time": "00:00",
-        "date": "2021-07-25",
-        "observer": "Mark Dryden"
-      }
-    },
-    {
       "sightingData": "Harbour porpoise (x2) : 51.21N 4.12W at 14:04 on 2026-01-18 by chris blackmore",
       "regionNo": "23-24",
       "region": "Bristol Channel & South Wales (23-24)",
@@ -14695,6 +14687,36 @@
       }
     },
     {
+      "sightingData": "Dolphin species (x2) : Port Eynon, Wales at 16:25 on 2025-12-31 by Anonymous",
+      "regionNo": "23-24",
+      "region": "Bristol Channel & South Wales (23-24)",
+      "record_validated": false,
+      "regionNoRequested": "23-24",
+      "parsed": {
+        "species": "Dolphin species",
+        "count": 2,
+        "where": "Port Eynon, Wales",
+        "time": "16:25",
+        "date": "2025-12-31",
+        "observer": "Anonymous"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x4) : Morte point, North Devon at 00:00 on 2025-12-31 by Ian Parrott",
+      "regionNo": "23-24",
+      "region": "Bristol Channel & South Wales (23-24)",
+      "record_validated": false,
+      "regionNoRequested": "23-24",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 4,
+        "where": "Morte point, North Devon",
+        "time": "00:00",
+        "date": "2025-12-31",
+        "observer": "Ian Parrott"
+      }
+    },
+    {
       "sightingData": "Common dolphin (x6) : 51.62N 5.31W at 10:22 on 2025-12-29 by Falcon Boats",
       "regionNo": "23-24",
       "region": "Bristol Channel & South Wales (23-24)",
@@ -14707,6 +14729,21 @@
         "time": "10:22",
         "date": "2025-12-29",
         "observer": "Falcon Boats"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x5) : Morte point, North Devon at 00:00 on 2025-12-29 by Ian Parrott",
+      "regionNo": "23-24",
+      "region": "Bristol Channel & South Wales (23-24)",
+      "record_validated": false,
+      "regionNoRequested": "23-24",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 5,
+        "where": "Morte point, North Devon",
+        "time": "00:00",
+        "date": "2025-12-29",
+        "observer": "Ian Parrott"
       }
     },
     {
@@ -16105,48 +16142,48 @@
       }
     },
     {
-      "sightingData": "Common dolphin (x8) : 51.54N 4.13W at 14:50 on 2025-07-24 by Gower Coast Adventures",
-      "regionNo": "23-24",
-      "region": "Bristol Channel & South Wales (23-24)",
+      "sightingData": "Harbour porpoise (x2) : 51.86N 5.32W at 19:35 on 2026-01-24 by Hannah Phillips",
+      "regionNo": "25",
+      "region": "West Wales (25)",
       "record_validated": false,
-      "regionNoRequested": "23-24",
-      "parsed": {
-        "species": "Common dolphin",
-        "count": 8,
-        "where": "51.54N 4.13W",
-        "time": "14:50",
-        "date": "2025-07-24",
-        "observer": "Gower Coast Adventures"
-      }
-    },
-    {
-      "sightingData": "Harbour porpoise (x1) : 51.55N 4.29W at 13:23 on 2025-07-24 by Gower Coast Adventures",
-      "regionNo": "23-24",
-      "region": "Bristol Channel & South Wales (23-24)",
-      "record_validated": false,
-      "regionNoRequested": "23-24",
+      "regionNoRequested": "25",
       "parsed": {
         "species": "Harbour porpoise",
-        "count": 1,
-        "where": "51.55N 4.29W",
-        "time": "13:23",
-        "date": "2025-07-24",
-        "observer": "Gower Coast Adventures"
+        "count": 2,
+        "where": "51.86N 5.32W",
+        "time": "19:35",
+        "date": "2026-01-24",
+        "observer": "Hannah Phillips"
       }
     },
     {
-      "sightingData": "Common dolphin (x12) : 51.53N 4.22W at 13:06 on 2025-07-24 by Gower Coast Adventures",
-      "regionNo": "23-24",
-      "region": "Bristol Channel & South Wales (23-24)",
+      "sightingData": "Harbour porpoise (x12) : 52.03N 5.07W at 10:16 on 2026-01-24 by Hannah Phillips",
+      "regionNo": "25",
+      "region": "West Wales (25)",
       "record_validated": false,
-      "regionNoRequested": "23-24",
+      "regionNoRequested": "25",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 12,
+        "where": "52.03N 5.07W",
+        "time": "10:16",
+        "date": "2026-01-24",
+        "observer": "Hannah Phillips"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x15) : 52.03N 5.07W at 09:36 on 2026-01-24 by Hannah Phillips",
+      "regionNo": "25",
+      "region": "West Wales (25)",
+      "record_validated": false,
+      "regionNoRequested": "25",
       "parsed": {
         "species": "Common dolphin",
-        "count": 12,
-        "where": "51.53N 4.22W",
-        "time": "13:06",
-        "date": "2025-07-24",
-        "observer": "Gower Coast Adventures"
+        "count": 15,
+        "where": "52.03N 5.07W",
+        "time": "09:36",
+        "date": "2026-01-24",
+        "observer": "Hannah Phillips"
       }
     },
     {
@@ -16210,6 +16247,21 @@
       }
     },
     {
+      "sightingData": "Common dolphin (x15) : 52.04N 4.98W at 14:00 on 2026-01-04 by Hannah Phillips",
+      "regionNo": "25",
+      "region": "West Wales (25)",
+      "record_validated": false,
+      "regionNoRequested": "25",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 15,
+        "where": "52.04N 4.98W",
+        "time": "14:00",
+        "date": "2026-01-04",
+        "observer": "Hannah Phillips"
+      }
+    },
+    {
       "sightingData": "Harbour porpoise (x15) : Bardsey Sound, Gwynedd at 11:05 on 2026-01-01 by kim atkinson",
       "regionNo": "25",
       "region": "West Wales (25)",
@@ -16237,6 +16289,36 @@
         "time": "15:20",
         "date": "2025-12-31",
         "observer": "Falcon Boats"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x8) : 52.04N 4.98W at 14:06 on 2025-12-31 by Hannah Phillips",
+      "regionNo": "25",
+      "region": "West Wales (25)",
+      "record_validated": false,
+      "regionNoRequested": "25",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 8,
+        "where": "52.04N 4.98W",
+        "time": "14:06",
+        "date": "2025-12-31",
+        "observer": "Hannah Phillips"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x14) : 52.04N 4.98W at 14:00 on 2025-12-31 by Hannah Phillips",
+      "regionNo": "25",
+      "region": "West Wales (25)",
+      "record_validated": false,
+      "regionNoRequested": "25",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 14,
+        "where": "52.04N 4.98W",
+        "time": "14:00",
+        "date": "2025-12-31",
+        "observer": "Hannah Phillips"
       }
     },
     {
@@ -16401,8 +16483,7 @@
         "where": "52.22N 4.36W",
         "time": "09:03",
         "date": "2025-11-04",
-        "observer": "Dylan Coundley",
-        "org": "Hughes"
+        "observer": "Dylan Coundley-Hughes"
       }
     },
     {
@@ -16432,8 +16513,7 @@
         "where": "52.21N 4.39W",
         "time": "15:04",
         "date": "2025-10-29",
-        "observer": "Dylan Coundley",
-        "org": "Hughes"
+        "observer": "Dylan Coundley-Hughes"
       }
     },
     {
@@ -17187,6 +17267,21 @@
       }
     },
     {
+      "sightingData": "Harbour porpoise (x2) : Ramsey Sound, Pembrokeshire, just off the coast path directly opposite 'The Bitches' rocks  at 12:44 on 2025-10-14 by Miriam Ellis",
+      "regionNo": "25",
+      "region": "West Wales (25)",
+      "record_validated": false,
+      "regionNoRequested": "25",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 2,
+        "where": "Ramsey Sound, Pembrokeshire, just off the coast path directly opposite 'The Bitches' rocks",
+        "time": "12:44",
+        "date": "2025-10-14",
+        "observer": "Miriam Ellis"
+      }
+    },
+    {
       "sightingData": "Bottlenose dolphin (x2) : 52.14N 4.50W at 11:10 on 2025-10-14 by Stuart Walker",
       "regionNo": "25",
       "region": "West Wales (25)",
@@ -17214,6 +17309,21 @@
         "time": "10:45",
         "date": "2025-10-14",
         "observer": "Falcon Boats"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x20) : Off the coast of North Pembrokeshire, above Treleddyd-Fawr, near Porth Gwyn. at 11:10 on 2025-10-13 by Miriam Ellis",
+      "regionNo": "25",
+      "region": "West Wales (25)",
+      "record_validated": false,
+      "regionNoRequested": "25",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 20,
+        "where": "Off the coast of North Pembrokeshire, above Treleddyd-Fawr, near Porth Gwyn.",
+        "time": "11:10",
+        "date": "2025-10-13",
+        "observer": "Miriam Ellis"
       }
     },
     {
@@ -17532,123 +17642,18 @@
       }
     },
     {
-      "sightingData": "Bottlenose dolphin (x1) : 52.22N 4.37W at 10:57 on 2025-09-30 by AZA",
-      "regionNo": "25",
-      "region": "West Wales (25)",
+      "sightingData": "Harbour porpoise (x4) : 53.43N 4.38W at 10:42 on 2026-01-28 by Joanna",
+      "regionNo": "26",
+      "region": "North Wales (26)",
       "record_validated": false,
-      "regionNoRequested": "25",
+      "regionNoRequested": "26",
       "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 1,
-        "where": "52.22N 4.37W",
-        "time": "10:57",
-        "date": "2025-09-30",
-        "observer": "AZA"
-      }
-    },
-    {
-      "sightingData": "Grey seal (x9) : 52.22N 4.37W at 10:31 on 2025-09-30 by AZA",
-      "regionNo": "25",
-      "region": "West Wales (25)",
-      "record_validated": false,
-      "regionNoRequested": "25",
-      "parsed": {
-        "species": "Grey seal",
-        "count": 9,
-        "where": "52.22N 4.37W",
-        "time": "10:31",
-        "date": "2025-09-30",
-        "observer": "AZA"
-      }
-    },
-    {
-      "sightingData": "Bottlenose dolphin (x1) : 52.22N 4.37W at 10:31 on 2025-09-30 by AZA",
-      "regionNo": "25",
-      "region": "West Wales (25)",
-      "record_validated": false,
-      "regionNoRequested": "25",
-      "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 1,
-        "where": "52.22N 4.37W",
-        "time": "10:31",
-        "date": "2025-09-30",
-        "observer": "AZA"
-      }
-    },
-    {
-      "sightingData": "Grey seal (x1) : 52.22N 4.37W at 10:25 on 2025-09-30 by AZA",
-      "regionNo": "25",
-      "region": "West Wales (25)",
-      "record_validated": false,
-      "regionNoRequested": "25",
-      "parsed": {
-        "species": "Grey seal",
-        "count": 1,
-        "where": "52.22N 4.37W",
-        "time": "10:25",
-        "date": "2025-09-30",
-        "observer": "AZA"
-      }
-    },
-    {
-      "sightingData": "Bottlenose dolphin (x4) : 52.22N 4.36W at 10:16 on 2025-09-30 by AZA",
-      "regionNo": "25",
-      "region": "West Wales (25)",
-      "record_validated": false,
-      "regionNoRequested": "25",
-      "parsed": {
-        "species": "Bottlenose dolphin",
+        "species": "Harbour porpoise",
         "count": 4,
-        "where": "52.22N 4.36W",
-        "time": "10:16",
-        "date": "2025-09-30",
-        "observer": "AZA"
-      }
-    },
-    {
-      "sightingData": "Bottlenose dolphin (x3) : 52.22N 4.36W at 10:07 on 2025-09-30 by AZA",
-      "regionNo": "25",
-      "region": "West Wales (25)",
-      "record_validated": false,
-      "regionNoRequested": "25",
-      "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 3,
-        "where": "52.22N 4.36W",
-        "time": "10:07",
-        "date": "2025-09-30",
-        "observer": "AZA"
-      }
-    },
-    {
-      "sightingData": "Grey seal (x7) : 52.22N 4.38W at 15:08 on 2025-09-26 by Savannah Young",
-      "regionNo": "25",
-      "region": "West Wales (25)",
-      "record_validated": false,
-      "regionNoRequested": "25",
-      "parsed": {
-        "species": "Grey seal",
-        "count": 7,
-        "where": "52.22N 4.38W",
-        "time": "15:08",
-        "date": "2025-09-26",
-        "observer": "Savannah Young"
-      }
-    },
-    {
-      "sightingData": "Bottlenose dolphin (x5) : 52.22N 4.36W at 14:56 on 2025-09-26 by Savannah Young",
-      "regionNo": "25",
-      "region": "West Wales (25)",
-      "record_validated": false,
-      "regionNoRequested": "25",
-      "parsed": {
-        "species": "Bottlenose dolphin",
-        "count": 5,
-        "where": "52.22N 4.36W",
-        "time": "14:56",
-        "date": "2025-09-26",
-        "observer": "Savannah Young"
+        "where": "53.43N 4.38W",
+        "time": "10:42",
+        "date": "2026-01-28",
+        "observer": "Joanna"
       }
     },
     {
@@ -17664,6 +17669,36 @@
         "time": "10:28",
         "date": "2026-01-19",
         "observer": "Anonymous"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x2) : NCI Moelfre Watch Station   Anglesey at 10:52 on 2026-01-15 by John Begley",
+      "regionNo": "26",
+      "region": "North Wales (26)",
+      "record_validated": false,
+      "regionNoRequested": "26",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 2,
+        "where": "NCI Moelfre Watch Station   Anglesey",
+        "time": "10:52",
+        "date": "2026-01-15",
+        "observer": "John Begley"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x1) : NCI Moelfre Watch Station   Anglesey at 09:40 on 2026-01-15 by mike thompson",
+      "regionNo": "26",
+      "region": "North Wales (26)",
+      "record_validated": false,
+      "regionNoRequested": "26",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 1,
+        "where": "NCI Moelfre Watch Station   Anglesey",
+        "time": "09:40",
+        "date": "2026-01-15",
+        "observer": "mike thompson"
       }
     },
     {
@@ -17903,8 +17938,7 @@
         "where": "53.41N 4.29W",
         "time": "10:30",
         "date": "2025-10-31",
-        "observer": "Nathan Pell",
-        "org": "Fallowell"
+        "observer": "Nathan Pell-Fallowell"
       }
     },
     {
@@ -19089,8 +19123,7 @@
         "where": "53.25N 4.57W",
         "time": "12:10",
         "date": "2025-09-27",
-        "observer": "Nathan Pell",
-        "org": "Fallowell"
+        "observer": "Nathan Pell-Fallowell"
       }
     },
     {
@@ -19106,51 +19139,6 @@
         "time": "11:24",
         "date": "2025-09-27",
         "observer": "Caitlin Conway"
-      }
-    },
-    {
-      "sightingData": "Risso’s dolphin (x5) : 53.42N 4.29W at 13:04 on 2025-09-26 by Ian Jones",
-      "regionNo": "26",
-      "region": "North Wales (26)",
-      "record_validated": false,
-      "regionNoRequested": "26",
-      "parsed": {
-        "species": "Risso’s dolphin",
-        "count": 5,
-        "where": "53.42N 4.29W",
-        "time": "13:04",
-        "date": "2025-09-26",
-        "observer": "Ian Jones"
-      }
-    },
-    {
-      "sightingData": "Risso’s dolphin (x10) : 53.42N 4.29W at 12:09 on 2025-09-26 by Ian Jones",
-      "regionNo": "26",
-      "region": "North Wales (26)",
-      "record_validated": false,
-      "regionNoRequested": "26",
-      "parsed": {
-        "species": "Risso’s dolphin",
-        "count": 10,
-        "where": "53.42N 4.29W",
-        "time": "12:09",
-        "date": "2025-09-26",
-        "observer": "Ian Jones"
-      }
-    },
-    {
-      "sightingData": "Risso’s dolphin (x6) : 53.42N 4.29W at 12:52 on 2025-09-25 by Ian Jones",
-      "regionNo": "26",
-      "region": "North Wales (26)",
-      "record_validated": false,
-      "regionNoRequested": "26",
-      "parsed": {
-        "species": "Risso’s dolphin",
-        "count": 6,
-        "where": "53.42N 4.29W",
-        "time": "12:52",
-        "date": "2025-09-25",
-        "observer": "Ian Jones"
       }
     },
     {
@@ -19319,6 +19307,21 @@
       }
     },
     {
+      "sightingData": "Bottlenose dolphin (x3) : 54.76N 3.54W at 08:03 on 2025-08-21 by Anonymous",
+      "regionNo": "27-28",
+      "region": "NW England (27-28)",
+      "record_validated": false,
+      "regionNoRequested": "27-28",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 3,
+        "where": "54.76N 3.54W",
+        "time": "08:03",
+        "date": "2025-08-21",
+        "observer": "Anonymous"
+      }
+    },
+    {
       "sightingData": "Common dolphin (x4) : 54.54N 3.60W at 12:25 on 2025-08-16 by Catriona",
       "regionNo": "27-28",
       "region": "NW England (27-28)",
@@ -19375,8 +19378,7 @@
         "where": "Off Seacombe, Merseyside",
         "time": "18:00",
         "date": "2025-08-03",
-        "observer": "robin",
-        "org": "cox-HWDT"
+        "observer": "robin-cox-HWDT"
       }
     },
     {
@@ -19605,21 +19607,6 @@
       }
     },
     {
-      "sightingData": "Harbour porpoise (x2) : Wirral at 10:30 on 2025-07-19 by Paul Gilhooley ",
-      "regionNo": "27-28",
-      "region": "NW England (27-28)",
-      "record_validated": false,
-      "regionNoRequested": "27-28",
-      "parsed": {
-        "species": "Harbour porpoise",
-        "count": 2,
-        "where": "Wirral",
-        "time": "10:30",
-        "date": "2025-07-19",
-        "observer": "Paul Gilhooley"
-      }
-    },
-    {
       "sightingData": "Bottlenose dolphin (x1) : Wirral at 10:30 on 2025-07-19 by Paul Gilhooley ",
       "regionNo": "27-28",
       "region": "NW England (27-28)",
@@ -19628,6 +19615,21 @@
       "parsed": {
         "species": "Bottlenose dolphin",
         "count": 1,
+        "where": "Wirral",
+        "time": "10:30",
+        "date": "2025-07-19",
+        "observer": "Paul Gilhooley"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x2) : Wirral at 10:30 on 2025-07-19 by Paul Gilhooley ",
+      "regionNo": "27-28",
+      "region": "NW England (27-28)",
+      "record_validated": false,
+      "regionNoRequested": "27-28",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 2,
         "where": "Wirral",
         "time": "10:30",
         "date": "2025-07-19",
@@ -20235,21 +20237,6 @@
       }
     },
     {
-      "sightingData": "Harbour porpoise (x2) : Cumbria at 16:40 on 2025-03-24 by DOUG RADFORD",
-      "regionNo": "27-28",
-      "region": "NW England (27-28)",
-      "record_validated": false,
-      "regionNoRequested": "27-28",
-      "parsed": {
-        "species": "Harbour porpoise",
-        "count": 2,
-        "where": "Cumbria",
-        "time": "16:40",
-        "date": "2025-03-24",
-        "observer": "DOUG RADFORD"
-      }
-    },
-    {
       "sightingData": "Dolphin species (x1) : Cumbria at 16:40 on 2025-03-24 by DOUG RADFORD",
       "regionNo": "27-28",
       "region": "NW England (27-28)",
@@ -20258,6 +20245,21 @@
       "parsed": {
         "species": "Dolphin species",
         "count": 1,
+        "where": "Cumbria",
+        "time": "16:40",
+        "date": "2025-03-24",
+        "observer": "DOUG RADFORD"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x2) : Cumbria at 16:40 on 2025-03-24 by DOUG RADFORD",
+      "regionNo": "27-28",
+      "region": "NW England (27-28)",
+      "record_validated": false,
+      "regionNoRequested": "27-28",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 2,
         "where": "Cumbria",
         "time": "16:40",
         "date": "2025-03-24",
@@ -20637,21 +20639,6 @@
         "time": "14:33",
         "date": "2024-08-29",
         "observer": "Catriona"
-      }
-    },
-    {
-      "sightingData": "Harbour porpoise (x2) : 53.41N 3.00W at 14:00 on 2024-08-10 by Anonymous",
-      "regionNo": "27-28",
-      "region": "NW England (27-28)",
-      "record_validated": false,
-      "regionNoRequested": "27-28",
-      "parsed": {
-        "species": "Harbour porpoise",
-        "count": 2,
-        "where": "53.41N 3.00W",
-        "time": "14:00",
-        "date": "2024-08-10",
-        "observer": "Anonymous"
       }
     },
     {
@@ -21435,21 +21422,6 @@
       }
     },
     {
-      "sightingData": "Harbour porpoise (x3) : Marine drive, Isle of Man at 16:30 on 2025-09-22 by Adam Tansley/MWDW",
-      "regionNo": "29",
-      "region": "Isle of Man (29)",
-      "record_validated": true,
-      "regionNoRequested": "29",
-      "parsed": {
-        "species": "Harbour porpoise",
-        "count": 3,
-        "where": "Marine drive, Isle of Man",
-        "time": "16:30",
-        "date": "2025-09-22",
-        "observer": "Adam Tansley/MWDW"
-      }
-    },
-    {
       "sightingData": "Risso’s dolphin (x3) : Marine drive Toll gate, Isle of Man at 16:30 on 2025-09-22 by /MWDW",
       "regionNo": "29",
       "region": "Isle of Man (29)",
@@ -21462,6 +21434,21 @@
         "time": "16:30",
         "date": "2025-09-22",
         "observer": "/MWDW"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x3) : Marine drive, Isle of Man at 16:30 on 2025-09-22 by Adam Tansley/MWDW",
+      "regionNo": "29",
+      "region": "Isle of Man (29)",
+      "record_validated": true,
+      "regionNoRequested": "29",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 3,
+        "where": "Marine drive, Isle of Man",
+        "time": "16:30",
+        "date": "2025-09-22",
+        "observer": "Adam Tansley/MWDW"
       }
     },
     {
@@ -21506,8 +21493,7 @@
         "where": "Douglas bay, Isle of Man",
         "time": "17:45",
         "date": "2025-09-15",
-        "observer": "Becca Sayle",
-        "org": "Lowes/MWDW"
+        "observer": "Becca Sayle-Lowes/MWDW"
       }
     },
     {
@@ -22156,6 +22142,133 @@
       }
     },
     {
+      "sightingData": "Bottlenose dolphin (x5) : Wemyss Bay, Inverclyde at 16:44 on 2026-01-24 by stuartcooksailing - HWDT",
+      "regionNo": "30-32",
+      "region": "SW Scotland & Inner Hebrides (30-32)",
+      "record_validated": false,
+      "regionNoRequested": "30-32",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 5,
+        "where": "Wemyss Bay, Inverclyde",
+        "time": "16:44",
+        "date": "2026-01-24",
+        "observer": "stuartcooksailing",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Humpback whale (x1) : Loch Ainort, Highland at 16:10 on 2026-01-24 by melaniemoss - HWDT",
+      "regionNo": "30-32",
+      "region": "SW Scotland & Inner Hebrides (30-32)",
+      "record_validated": false,
+      "regionNoRequested": "30-32",
+      "parsed": {
+        "species": "Humpback whale",
+        "count": 1,
+        "where": "Loch Ainort, Highland",
+        "time": "16:10",
+        "date": "2026-01-24",
+        "observer": "melaniemoss",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Bottlenose dolphin (x3) : Skelmorlie, Inverclyde at 09:01 on 2026-01-24 by ferghal-swanwick - HWDT",
+      "regionNo": "30-32",
+      "region": "SW Scotland & Inner Hebrides (30-32)",
+      "record_validated": false,
+      "regionNoRequested": "30-32",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 3,
+        "where": "Skelmorlie, Inverclyde",
+        "time": "09:01",
+        "date": "2026-01-24",
+        "observer": "ferghal-swanwick",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Bottlenose dolphin (x3) : Skelmorlie, Inverclyde at 09:01 on 2026-01-24 by ferghal-swanwick - HWDT",
+      "regionNo": "30-32",
+      "region": "SW Scotland & Inner Hebrides (30-32)",
+      "record_validated": false,
+      "regionNoRequested": "30-32",
+      "parsed": {
+        "species": "Bottlenose dolphin",
+        "count": 3,
+        "where": "Skelmorlie, Inverclyde",
+        "time": "09:01",
+        "date": "2026-01-24",
+        "observer": "ferghal-swanwick",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Minke whale (x1) : Largs, North Ayrshire at 12:22 on 2026-01-21 by Sally Tapp",
+      "regionNo": "30-32",
+      "region": "SW Scotland & Inner Hebrides (30-32)",
+      "record_validated": false,
+      "regionNoRequested": "30-32",
+      "parsed": {
+        "species": "Minke whale",
+        "count": 1,
+        "where": "Largs, North Ayrshire",
+        "time": "12:22",
+        "date": "2026-01-21",
+        "observer": "Sally Tapp"
+      }
+    },
+    {
+      "sightingData": "Killer whale  (x2) : Caliach Point, Argyll and Bute at 10:05 on 2026-01-21 by morvensummers - HWDT",
+      "regionNo": "30-32",
+      "region": "SW Scotland & Inner Hebrides (30-32)",
+      "record_validated": false,
+      "regionNoRequested": "30-32",
+      "parsed": {
+        "species": "Killer whale",
+        "count": 2,
+        "where": "Caliach Point, Argyll and Bute",
+        "time": "10:05",
+        "date": "2026-01-21",
+        "observer": "morvensummers",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Humpback whale (x1) : Broadford, Highland at 13:00 on 2026-01-19 by thatcher - HWDT",
+      "regionNo": "30-32",
+      "region": "SW Scotland & Inner Hebrides (30-32)",
+      "record_validated": false,
+      "regionNoRequested": "30-32",
+      "parsed": {
+        "species": "Humpback whale",
+        "count": 1,
+        "where": "Broadford, Highland",
+        "time": "13:00",
+        "date": "2026-01-19",
+        "observer": "thatcher",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x2) : Skelmorlie, Inverclyde at 16:28 on 2026-01-18 by sophie-shields - HWDT",
+      "regionNo": "30-32",
+      "region": "SW Scotland & Inner Hebrides (30-32)",
+      "record_validated": false,
+      "regionNoRequested": "30-32",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 2,
+        "where": "Skelmorlie, Inverclyde",
+        "time": "16:28",
+        "date": "2026-01-18",
+        "observer": "sophie-shields",
+        "org": "HWDT"
+      }
+    },
+    {
       "sightingData": "Bottlenose dolphin (x4) : 55.96N 4.82W at 15:15 on 2026-01-18 by Alex McDonald",
       "regionNo": "30-32",
       "region": "SW Scotland & Inner Hebrides (30-32)",
@@ -22168,6 +22281,38 @@
         "time": "15:15",
         "date": "2026-01-18",
         "observer": "Alex McDonald"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x1) : Wemyss Bay, Inverclyde at 13:06 on 2026-01-18 by sophie-shields - HWDT",
+      "regionNo": "30-32",
+      "region": "SW Scotland & Inner Hebrides (30-32)",
+      "record_validated": false,
+      "regionNoRequested": "30-32",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 1,
+        "where": "Wemyss Bay, Inverclyde",
+        "time": "13:06",
+        "date": "2026-01-18",
+        "observer": "sophie-shields",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x9) : Harrapool, Highland at 09:34 on 2026-01-18 by StuDew - HWDT",
+      "regionNo": "30-32",
+      "region": "SW Scotland & Inner Hebrides (30-32)",
+      "record_validated": false,
+      "regionNoRequested": "30-32",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 9,
+        "where": "Harrapool, Highland",
+        "time": "09:34",
+        "date": "2026-01-18",
+        "observer": "StuDew",
+        "org": "HWDT"
       }
     },
     {
@@ -22258,8 +22403,8 @@
         "where": "Lochaline, Highland",
         "time": "11:10",
         "date": "2026-01-15",
-        "observer": "peter",
-        "org": "guthrie - HWDT"
+        "observer": "peter-guthrie",
+        "org": "HWDT"
       }
     },
     {
@@ -22290,8 +22435,8 @@
         "where": "Port a'Bhearnaig, Argyll and Bute",
         "time": "13:10",
         "date": "2026-01-12",
-        "observer": "hannah",
-        "org": "lightley - HWDT"
+        "observer": "hannah-lightley",
+        "org": "HWDT"
       }
     },
     {
@@ -22322,8 +22467,8 @@
         "where": "Ulva Ferry, Argyll and Bute",
         "time": "15:26",
         "date": "2026-01-08",
-        "observer": "jac",
-        "org": "fereday - HWDT"
+        "observer": "jac-fereday",
+        "org": "HWDT"
       }
     },
     {
@@ -22338,8 +22483,8 @@
         "where": "Loch Ainort, Highland",
         "time": "12:45",
         "date": "2026-01-08",
-        "observer": "lance",
-        "org": "montaigue - HWDT"
+        "observer": "lance-montaigue",
+        "org": "HWDT"
       }
     },
     {
@@ -22354,8 +22499,8 @@
         "where": "Lamlash Bay, North Ayrshire",
         "time": "10:25",
         "date": "2026-01-08",
-        "observer": "sophie",
-        "org": "shields - HWDT"
+        "observer": "sophie-shields",
+        "org": "HWDT"
       }
     },
     {
@@ -22370,8 +22515,8 @@
         "where": "Tobermory, Argyll and Bute",
         "time": "09:53",
         "date": "2026-01-08",
-        "observer": "sharyn",
-        "org": "murray - HWDT"
+        "observer": "sharyn-murray",
+        "org": "HWDT"
       }
     },
     {
@@ -22386,8 +22531,8 @@
         "where": "Tobermory Bay, Argyll and Bute",
         "time": "10:30",
         "date": "2026-01-03",
-        "observer": "conor",
-        "org": "ryan - HWDT"
+        "observer": "conor-ryan",
+        "org": "HWDT"
       }
     },
     {
@@ -22418,8 +22563,8 @@
         "where": "Tobermory Bay, Argyll and Bute",
         "time": "18:30",
         "date": "2025-12-31",
-        "observer": "liz",
-        "org": "tallentire - HWDT"
+        "observer": "liz-tallentire",
+        "org": "HWDT"
       }
     },
     {
@@ -22434,8 +22579,8 @@
         "where": "Tobermory, Argyll and Bute",
         "time": "11:34",
         "date": "2025-12-31",
-        "observer": "emma",
-        "org": "steel - HWDT"
+        "observer": "emma-steel",
+        "org": "HWDT"
       }
     },
     {
@@ -22450,8 +22595,8 @@
         "where": "Port na Coite, Argyll and Bute",
         "time": "11:57",
         "date": "2025-12-30",
-        "observer": "sharyn",
-        "org": "murray - HWDT"
+        "observer": "sharyn-murray",
+        "org": "HWDT"
       }
     },
     {
@@ -22530,8 +22675,8 @@
         "where": "Calve Island, Argyll and Bute",
         "time": "15:15",
         "date": "2025-12-28",
-        "observer": "bettie",
-        "org": "payne - HWDT"
+        "observer": "bettie-payne",
+        "org": "HWDT"
       }
     },
     {
@@ -22546,8 +22691,8 @@
         "where": "Port Ann, Argyll and Bute",
         "time": "15:09",
         "date": "2025-12-28",
-        "observer": "lesley",
-        "org": "gallagher - HWDT"
+        "observer": "lesley-gallagher",
+        "org": "HWDT"
       }
     },
     {
@@ -22578,8 +22723,8 @@
         "where": "Davaar Island, Argyll and Bute",
         "time": "12:20",
         "date": "2025-12-28",
-        "observer": "toni",
-        "org": "woods - HWDT"
+        "observer": "toni-woods",
+        "org": "HWDT"
       }
     },
     {
@@ -22610,8 +22755,8 @@
         "where": "Rum, Highland",
         "time": "10:11",
         "date": "2025-12-28",
-        "observer": "ryan",
-        "org": "ewan-macrae - HWDT"
+        "observer": "ryan-ewan-macrae",
+        "org": "HWDT"
       }
     },
     {
@@ -22641,8 +22786,8 @@
         "where": "Tobermory Waterfront, Argyll and Bute",
         "time": "11:36",
         "date": "2025-12-27",
-        "observer": "bettie",
-        "org": "payne - HWDT"
+        "observer": "bettie-payne",
+        "org": "HWDT"
       }
     },
     {
@@ -22672,8 +22817,8 @@
         "where": "Largs, North Ayrshire",
         "time": "10:10",
         "date": "2025-12-27",
-        "observer": "eilidh",
-        "org": "obrien - HWDT"
+        "observer": "eilidh-obrien",
+        "org": "HWDT"
       }
     },
     {
@@ -22688,8 +22833,8 @@
         "where": "Salen, Argyll and Bute",
         "time": "09:27",
         "date": "2025-12-26",
-        "observer": "caroline",
-        "org": "willis - HWDT"
+        "observer": "caroline-willis",
+        "org": "HWDT"
       }
     },
     {
@@ -22704,8 +22849,8 @@
         "where": "Killinallan, Argyll and Bute",
         "time": "15:40",
         "date": "2025-12-25",
-        "observer": "fiona",
-        "org": "macgillivray - HWDT"
+        "observer": "fiona-macgillivray",
+        "org": "HWDT"
       }
     },
     {
@@ -22720,8 +22865,8 @@
         "where": "Scarisdale, Argyll and Bute",
         "time": "13:46",
         "date": "2025-12-25",
-        "observer": "jac",
-        "org": "fereday - HWDT"
+        "observer": "jac-fereday",
+        "org": "HWDT"
       }
     },
     {
@@ -22752,8 +22897,8 @@
         "where": "Inverie, Highland",
         "time": "10:43",
         "date": "2025-12-24",
-        "observer": "ryan",
-        "org": "ewan-macrae - HWDT"
+        "observer": "ryan-ewan-macrae",
+        "org": "HWDT"
       }
     },
     {
@@ -22768,8 +22913,8 @@
         "where": "Eorsa, Argyll and Bute",
         "time": "14:28",
         "date": "2025-12-23",
-        "observer": "jac",
-        "org": "fereday - HWDT"
+        "observer": "jac-fereday",
+        "org": "HWDT"
       }
     },
     {
@@ -22784,8 +22929,8 @@
         "where": "Eorsa, Argyll and Bute",
         "time": "11:00",
         "date": "2025-12-23",
-        "observer": "daniel",
-        "org": "brooks - HWDT"
+        "observer": "daniel-brooks",
+        "org": "HWDT"
       }
     },
     {
@@ -22800,8 +22945,8 @@
         "where": "Brodick Bay, North Ayrshire",
         "time": "10:21",
         "date": "2025-12-23",
-        "observer": "sophie",
-        "org": "shields - HWDT"
+        "observer": "sophie-shields",
+        "org": "HWDT"
       }
     },
     {
@@ -22816,8 +22961,8 @@
         "where": "Ardrossan, North Ayrshire",
         "time": "10:04",
         "date": "2025-12-23",
-        "observer": "sophie",
-        "org": "shields - HWDT"
+        "observer": "sophie-shields",
+        "org": "HWDT"
       }
     },
     {
@@ -22832,8 +22977,8 @@
         "where": "Craignure Bay, Argyll and Bute",
         "time": "15:40",
         "date": "2025-12-22",
-        "observer": "EmmaJane",
-        "org": "HebridesCruises - HWDT"
+        "observer": "EmmaJane-HebridesCruises",
+        "org": "HWDT"
       }
     },
     {
@@ -22864,8 +23009,8 @@
         "where": "Ardmore Point Lighthouse, Argyll and Bute",
         "time": "15:13",
         "date": "2025-12-12",
-        "observer": "conor",
-        "org": "ryan - HWDT"
+        "observer": "conor-ryan",
+        "org": "HWDT"
       }
     },
     {
@@ -22990,8 +23135,8 @@
         "where": "Loch Beag, Highland",
         "time": "16:10",
         "date": "2025-11-25",
-        "observer": "matthew",
-        "org": "waterston - HWDT"
+        "observer": "matthew-waterston",
+        "org": "HWDT"
       }
     },
     {
@@ -23006,8 +23151,8 @@
         "where": "Loch Beag, Highland",
         "time": "16:00",
         "date": "2025-11-25",
-        "observer": "matthew",
-        "org": "waterston - HWDT"
+        "observer": "matthew-waterston",
+        "org": "HWDT"
       }
     },
     {
@@ -23022,8 +23167,8 @@
         "where": "Lochbuie, Argyll and Bute",
         "time": "14:10",
         "date": "2025-11-25",
-        "observer": "daniel",
-        "org": "brooks - HWDT"
+        "observer": "daniel-brooks",
+        "org": "HWDT"
       }
     },
     {
@@ -23038,8 +23183,8 @@
         "where": "Lochbuie, Argyll and Bute",
         "time": "14:00",
         "date": "2025-11-25",
-        "observer": "daniel",
-        "org": "brooks - HWDT"
+        "observer": "daniel-brooks",
+        "org": "HWDT"
       }
     },
     {
@@ -23054,8 +23199,8 @@
         "where": "Lochbuie, Argyll and Bute",
         "time": "14:00",
         "date": "2025-11-25",
-        "observer": "daniel",
-        "org": "brooks - HWDT"
+        "observer": "daniel-brooks",
+        "org": "HWDT"
       }
     },
     {
@@ -23086,8 +23231,8 @@
         "where": "Barr-nam-Boc Bay, Argyll and Bute",
         "time": "13:04",
         "date": "2025-11-25",
-        "observer": "steven",
-        "org": "benjamins - HWDT"
+        "observer": "steven-benjamins",
+        "org": "HWDT"
       }
     },
     {
@@ -23102,8 +23247,8 @@
         "where": "Gortenanrue, Argyll and Bute",
         "time": "12:00",
         "date": "2025-11-25",
-        "observer": "daniel",
-        "org": "brooks - HWDT"
+        "observer": "daniel-brooks",
+        "org": "HWDT"
       }
     },
     {
@@ -23181,8 +23326,8 @@
         "where": "Eorsa, Argyll and Bute",
         "time": "14:00",
         "date": "2025-11-22",
-        "observer": "daniel",
-        "org": "brooks - HWDT"
+        "observer": "daniel-brooks",
+        "org": "HWDT"
       }
     },
     {
@@ -23197,8 +23342,8 @@
         "where": "Craigmore, Argyll and Bute",
         "time": "12:27",
         "date": "2025-11-22",
-        "observer": "sophie",
-        "org": "shields - HWDT"
+        "observer": "sophie-shields",
+        "org": "HWDT"
       }
     },
     {
@@ -23213,8 +23358,8 @@
         "where": "Eigg, Highland",
         "time": "12:18",
         "date": "2025-11-22",
-        "observer": "chris",
-        "org": "naessens - HWDT"
+        "observer": "chris-naessens",
+        "org": "HWDT"
       }
     },
     {
@@ -23229,8 +23374,8 @@
         "where": "Salen, Highland",
         "time": "11:15",
         "date": "2025-11-22",
-        "observer": "john",
-        "org": "healey - HWDT"
+        "observer": "john-healey",
+        "org": "HWDT"
       }
     },
     {
@@ -23245,8 +23390,8 @@
         "where": "Kerrera, Argyll and Bute",
         "time": "14:10",
         "date": "2025-11-21",
-        "observer": "esther",
-        "org": "whitford - HWDT"
+        "observer": "esther-whitford",
+        "org": "HWDT"
       }
     },
     {
@@ -23261,8 +23406,8 @@
         "where": "Lunderston Bay, Inverclyde",
         "time": "12:45",
         "date": "2025-11-21",
-        "observer": "sophie",
-        "org": "shields - HWDT"
+        "observer": "sophie-shields",
+        "org": "HWDT"
       }
     },
     {
@@ -23277,8 +23422,8 @@
         "where": "Levan, Inverclyde",
         "time": "12:30",
         "date": "2025-11-21",
-        "observer": "sophie",
-        "org": "shields - HWDT"
+        "observer": "sophie-shields",
+        "org": "HWDT"
       }
     },
     {
@@ -23293,8 +23438,8 @@
         "where": "Cloch, Inverclyde",
         "time": "11:41",
         "date": "2025-11-21",
-        "observer": "sophie",
-        "org": "shields - HWDT"
+        "observer": "sophie-shields",
+        "org": "HWDT"
       }
     },
     {
@@ -23309,8 +23454,8 @@
         "where": "Kinloch, Highland",
         "time": "11:42",
         "date": "2025-11-20",
-        "observer": "chris",
-        "org": "naessens - HWDT"
+        "observer": "chris-naessens",
+        "org": "HWDT"
       }
     },
     {
@@ -23405,8 +23550,8 @@
         "where": "Port Bealach nan Gall, Argyll and Bute",
         "time": "15:35",
         "date": "2025-11-17",
-        "observer": "venture",
-        "org": "west - HWDT"
+        "observer": "venture-west",
+        "org": "HWDT"
       }
     },
     {
@@ -23436,8 +23581,8 @@
         "where": "An Caolas Caolas, Argyll and Bute",
         "time": "14:13",
         "date": "2025-11-17",
-        "observer": "frazer",
-        "org": "james-macinnes - HWDT"
+        "observer": "frazer-james-macinnes",
+        "org": "HWDT"
       }
     },
     {
@@ -23452,8 +23597,8 @@
         "where": "Glenuig Bay, Highland",
         "time": "13:00",
         "date": "2025-11-17",
-        "observer": "jasmine",
-        "org": "atkins - HWDT"
+        "observer": "jasmine-atkins",
+        "org": "HWDT"
       }
     },
     {
@@ -23468,8 +23613,8 @@
         "where": "Ganavan, Argyll and Bute",
         "time": "12:11",
         "date": "2025-11-17",
-        "observer": "zoe",
-        "org": "stevenson - HWDT"
+        "observer": "zoe-stevenson",
+        "org": "HWDT"
       }
     },
     {
@@ -23500,8 +23645,7 @@
         "where": "Sound of Jura, Argyll and Bute",
         "time": "11:33",
         "date": "2025-11-17",
-        "observer": "alex",
-        "org": "keivers- HWDT"
+        "observer": "alex-keivers- HWDT"
       }
     },
     {
@@ -23532,8 +23676,8 @@
         "where": "Kilmory, Highland",
         "time": "10:09",
         "date": "2025-11-16",
-        "observer": "john",
-        "org": "healey - HWDT"
+        "observer": "john-healey",
+        "org": "HWDT"
       }
     },
     {
@@ -23548,8 +23692,8 @@
         "where": "Tobermory Waterfront, Argyll and Bute",
         "time": "14:29",
         "date": "2025-11-15",
-        "observer": "niki",
-        "org": "clear - HWDT"
+        "observer": "niki-clear",
+        "org": "HWDT"
       }
     },
     {
@@ -23564,8 +23708,8 @@
         "where": "Eorsa, Argyll and Bute",
         "time": "12:30",
         "date": "2025-11-12",
-        "observer": "daniel",
-        "org": "brooks - HWDT"
+        "observer": "daniel-brooks",
+        "org": "HWDT"
       }
     },
     {
@@ -23596,8 +23740,8 @@
         "where": "Eorsa, Argyll and Bute",
         "time": "15:00",
         "date": "2025-11-10",
-        "observer": "daniel",
-        "org": "brooks - HWDT"
+        "observer": "daniel-brooks",
+        "org": "HWDT"
       }
     },
     {
@@ -23612,8 +23756,8 @@
         "where": "Auchnacraig, Argyll and Bute",
         "time": "14:46",
         "date": "2025-11-08",
-        "observer": "theo",
-        "org": "de-clermont - HWDT"
+        "observer": "theo-de-clermont",
+        "org": "HWDT"
       }
     },
     {
@@ -23628,8 +23772,8 @@
         "where": "Duart Point, Argyll and Bute",
         "time": "12:38",
         "date": "2025-11-08",
-        "observer": "theo",
-        "org": "de-clermont - HWDT"
+        "observer": "theo-de-clermont",
+        "org": "HWDT"
       }
     },
     {
@@ -23644,8 +23788,8 @@
         "where": "Rubha nan Gall Lighthouse, Argyll and Bute",
         "time": "12:36",
         "date": "2025-11-08",
-        "observer": "lusanda",
-        "org": "donnelly - HWDT"
+        "observer": "lusanda-donnelly",
+        "org": "HWDT"
       }
     },
     {
@@ -23676,8 +23820,8 @@
         "where": "Glenforsa Airfield, Argyll and Bute",
         "time": "11:18",
         "date": "2025-11-08",
-        "observer": "theo",
-        "org": "de-clermont - HWDT"
+        "observer": "theo-de-clermont",
+        "org": "HWDT"
       }
     },
     {
@@ -23692,8 +23836,8 @@
         "where": "Calgary, Argyll and Bute",
         "time": "11:17",
         "date": "2025-11-08",
-        "observer": "josh",
-        "org": "heald - HWDT"
+        "observer": "josh-heald",
+        "org": "HWDT"
       }
     },
     {
@@ -23724,8 +23868,7 @@
         "where": "Eorsa, Argyll and Bute",
         "time": "15:15",
         "date": "2025-11-06",
-        "observer": "daniel",
-        "org": "brooks- HWDT"
+        "observer": "daniel-brooks- HWDT"
       }
     },
     {
@@ -23740,8 +23883,7 @@
         "where": "Eorsa, Argyll and Bute",
         "time": "11:56",
         "date": "2025-11-06",
-        "observer": "mia",
-        "org": "ramirez- HWDT"
+        "observer": "mia-ramirez- HWDT"
       }
     },
     {
@@ -23756,8 +23898,8 @@
         "where": "Pennyghael, Argyll and Bute",
         "time": "09:10",
         "date": "2025-11-06",
-        "observer": "jayne",
-        "org": "reid - HWDT"
+        "observer": "jayne-reid",
+        "org": "HWDT"
       }
     },
     {
@@ -23772,8 +23914,8 @@
         "where": "Kellan, Argyll and Bute",
         "time": "14:40",
         "date": "2025-11-05",
-        "observer": "urban",
-        "org": "valife - HWDT"
+        "observer": "urban-valife",
+        "org": "HWDT"
       }
     },
     {
@@ -23788,8 +23930,8 @@
         "where": "Fishnish Bay, Argyll and Bute",
         "time": "11:20",
         "date": "2025-11-05",
-        "observer": "theo",
-        "org": "de-clermont - HWDT"
+        "observer": "theo-de-clermont",
+        "org": "HWDT"
       }
     },
     {
@@ -23804,8 +23946,8 @@
         "where": "Rubha Raonuill, Highland",
         "time": "10:32",
         "date": "2025-11-03",
-        "observer": "ryan",
-        "org": "ewan-macrae - HWDT"
+        "observer": "ryan-ewan-macrae",
+        "org": "HWDT"
       }
     },
     {
@@ -23820,8 +23962,8 @@
         "where": "Saltcoats, North Ayrshire",
         "time": "14:11",
         "date": "2025-11-02",
-        "observer": "bill",
-        "org": "robinson - HWDT"
+        "observer": "bill-robinson",
+        "org": "HWDT"
       }
     },
     {
@@ -23836,8 +23978,8 @@
         "where": "Coiresa, Argyll and Bute",
         "time": "11:35",
         "date": "2025-11-02",
-        "observer": "venture",
-        "org": "west - HWDT"
+        "observer": "venture-west",
+        "org": "HWDT"
       }
     },
     {
@@ -23852,8 +23994,8 @@
         "where": "Eorsa, Argyll and Bute",
         "time": "14:23",
         "date": "2025-11-01",
-        "observer": "jenny",
-        "org": "mcdowall - HWDT"
+        "observer": "jenny-mcdowall",
+        "org": "HWDT"
       }
     },
     {
@@ -23948,8 +24090,8 @@
         "where": "Lagavulin Bay, Argyll and Bute",
         "time": "15:26",
         "date": "2025-10-29",
-        "observer": "islay",
-        "org": "sea-adventures - HWDT"
+        "observer": "islay-sea-adventures",
+        "org": "HWDT"
       }
     },
     {
@@ -24012,8 +24154,7 @@
         "where": "Mull, Argyll and Bute",
         "time": "08:35",
         "date": "2025-10-28",
-        "observer": "daniel",
-        "org": "brooks-HWDT"
+        "observer": "daniel-brooks-HWDT"
       }
     },
     {
@@ -24028,8 +24169,7 @@
         "where": "Near Ardrossan, North Ayrshire",
         "time": "17:06",
         "date": "2025-10-27",
-        "observer": "sophie",
-        "org": "shields-HWDT"
+        "observer": "sophie-shields-HWDT"
       }
     },
     {
@@ -24059,8 +24199,7 @@
         "where": "Near Brodick, North Ayrshire",
         "time": "16:58",
         "date": "2025-10-27",
-        "observer": "sophie",
-        "org": "shields-HWDT"
+        "observer": "sophie-shields-HWDT"
       }
     },
     {
@@ -24075,8 +24214,7 @@
         "where": "Near Brodick, North Ayrshire",
         "time": "16:48",
         "date": "2025-10-27",
-        "observer": "sophie",
-        "org": "shields-HWDT"
+        "observer": "sophie-shields-HWDT"
       }
     },
     {
@@ -24091,8 +24229,7 @@
         "where": "Near Brodick, North Ayrshire",
         "time": "16:44",
         "date": "2025-10-27",
-        "observer": "sophie",
-        "org": "shields-HWDT"
+        "observer": "sophie-shields-HWDT"
       }
     },
     {
@@ -24107,8 +24244,8 @@
         "where": "Loch Nan Uamh, Highland",
         "time": "16:30",
         "date": "2025-10-27",
-        "observer": "stevens",
-        "org": "family - HWDT"
+        "observer": "stevens-family",
+        "org": "HWDT"
       }
     },
     {
@@ -24139,8 +24276,8 @@
         "where": "Loch Nan Uamh, Highland",
         "time": "15:45",
         "date": "2025-10-27",
-        "observer": "stevens",
-        "org": "family - HWDT"
+        "observer": "stevens-family",
+        "org": "HWDT"
       }
     },
     {
@@ -24187,8 +24324,8 @@
         "where": "Near Claonaig, Argyll and Bute",
         "time": "15:13",
         "date": "2025-10-27",
-        "observer": "bill",
-        "org": "robinson - HWDT"
+        "observer": "bill-robinson",
+        "org": "HWDT"
       }
     },
     {
@@ -24208,22 +24345,6 @@
       }
     },
     {
-      "sightingData": "Harbour porpoise (x4) : Loch Nan Uamh, Highland at 15:00 on 2025-10-27 by stevens-family - HWDT",
-      "regionNo": "30-32",
-      "region": "SW Scotland & Inner Hebrides (30-32)",
-      "record_validated": false,
-      "regionNoRequested": "30-32",
-      "parsed": {
-        "species": "Harbour porpoise",
-        "count": 4,
-        "where": "Loch Nan Uamh, Highland",
-        "time": "15:00",
-        "date": "2025-10-27",
-        "observer": "stevens",
-        "org": "family - HWDT"
-      }
-    },
-    {
       "sightingData": "Minke whale (x2) : Loch Nan Uamh, Highland at 15:00 on 2025-10-27 by stevens-family - HWDT",
       "regionNo": "30-32",
       "region": "SW Scotland & Inner Hebrides (30-32)",
@@ -24235,8 +24356,24 @@
         "where": "Loch Nan Uamh, Highland",
         "time": "15:00",
         "date": "2025-10-27",
-        "observer": "stevens",
-        "org": "family - HWDT"
+        "observer": "stevens-family",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x4) : Loch Nan Uamh, Highland at 15:00 on 2025-10-27 by stevens-family - HWDT",
+      "regionNo": "30-32",
+      "region": "SW Scotland & Inner Hebrides (30-32)",
+      "record_validated": false,
+      "regionNoRequested": "30-32",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 4,
+        "where": "Loch Nan Uamh, Highland",
+        "time": "15:00",
+        "date": "2025-10-27",
+        "observer": "stevens-family",
+        "org": "HWDT"
       }
     },
     {
@@ -24267,8 +24404,7 @@
         "where": "Near Saltcoats, North Ayrshire",
         "time": "10:07",
         "date": "2025-10-27",
-        "observer": "sophie",
-        "org": "shields-HWDT"
+        "observer": "sophie-shields-HWDT"
       }
     },
     {
@@ -24283,8 +24419,8 @@
         "where": "Loch Linnhe, Highland",
         "time": "09:32",
         "date": "2025-10-27",
-        "observer": "rachel",
-        "org": "ball - HWDT"
+        "observer": "rachel-ball",
+        "org": "HWDT"
       }
     },
     {
@@ -24299,8 +24435,7 @@
         "where": "Cille-a-mhoraire, Argyll and Bute",
         "time": "08:40",
         "date": "2025-10-27",
-        "observer": "daniel",
-        "org": "brooks-HWDT"
+        "observer": "daniel-brooks-HWDT"
       }
     },
     {
@@ -24315,8 +24450,7 @@
         "where": "Near Brodick, North Ayrshire",
         "time": "10:23",
         "date": "2025-10-26",
-        "observer": "hannah",
-        "org": "lloyd-HWDT"
+        "observer": "hannah-lloyd-HWDT"
       }
     },
     {
@@ -24331,8 +24465,8 @@
         "where": "Brodick, North Ayrshire",
         "time": "10:18",
         "date": "2025-10-26",
-        "observer": "bill",
-        "org": "robinson - HWDT"
+        "observer": "bill-robinson",
+        "org": "HWDT"
       }
     },
     {
@@ -24347,8 +24481,7 @@
         "where": "Near Brodick, North Ayrshire",
         "time": "10:11",
         "date": "2025-10-26",
-        "observer": "hannah",
-        "org": "lloyd-HWDT"
+        "observer": "hannah-lloyd-HWDT"
       }
     },
     {
@@ -24379,8 +24512,7 @@
         "where": "Near Pennygown, Argyll and Bute",
         "time": "08:38",
         "date": "2025-10-26",
-        "observer": "tanya",
-        "org": "HWDT"
+        "observer": "tanya-HWDT"
       }
     },
     {
@@ -24395,8 +24527,7 @@
         "where": "Loch na Keal, Argyll and Bute",
         "time": "16:37",
         "date": "2025-10-25",
-        "observer": "e",
-        "org": "cooper-HWDT"
+        "observer": "e-cooper-HWDT"
       }
     },
     {
@@ -24411,8 +24542,7 @@
         "where": "Loch na Keal, Argyll and Bute",
         "time": "16:30",
         "date": "2025-10-25",
-        "observer": "laurag",
-        "org": "HWDT"
+        "observer": "laurag-HWDT"
       }
     },
     {
@@ -24443,8 +24573,7 @@
         "where": "Near Oban, Argyll and Bute",
         "time": "09:36",
         "date": "2025-10-25",
-        "observer": "Jamie",
-        "org": "HWDT"
+        "observer": "Jamie-HWDT"
       }
     },
     {
@@ -24475,8 +24604,8 @@
         "where": "Port Ellen, Islay, Argyll and Bute",
         "time": "12:04",
         "date": "2025-10-24",
-        "observer": "islay",
-        "org": "sea-adventures - HWDT"
+        "observer": "islay-sea-adventures",
+        "org": "HWDT"
       }
     },
     {
@@ -24507,8 +24636,8 @@
         "where": "Troon, South Ayrshire",
         "time": "07:11",
         "date": "2025-10-24",
-        "observer": "hannah",
-        "org": "lloyd - HWDT"
+        "observer": "hannah-lloyd",
+        "org": "HWDT"
       }
     },
     {
@@ -24539,8 +24668,7 @@
         "where": "Camusbane, Highlands",
         "time": "13:06",
         "date": "2025-10-23",
-        "observer": "Nick",
-        "org": "HWDT"
+        "observer": "Nick-HWDT"
       }
     },
     {
@@ -24555,8 +24683,8 @@
         "where": "Mallaig, Highland",
         "time": "12:57",
         "date": "2025-10-23",
-        "observer": "jeremy",
-        "org": "newnham - HWDT"
+        "observer": "jeremy-newnham",
+        "org": "HWDT"
       }
     },
     {
@@ -24571,8 +24699,8 @@
         "where": "North West of Oban, Argyll and Bute",
         "time": "10:23",
         "date": "2025-10-23",
-        "observer": "Oban",
-        "org": "sea-tours - HWDT"
+        "observer": "Oban-sea-tours",
+        "org": "HWDT"
       }
     },
     {
@@ -24587,8 +24715,8 @@
         "where": "North West of Oban, Argyll and Bute",
         "time": "09:46",
         "date": "2025-10-23",
-        "observer": "Oban",
-        "org": "sea-tours - HWDT"
+        "observer": "Oban-sea-tours",
+        "org": "HWDT"
       }
     },
     {
@@ -24618,8 +24746,8 @@
         "where": "Loch Nan Uamh, Highland",
         "time": "16:30",
         "date": "2025-10-22",
-        "observer": "matthew",
-        "org": "waterston - HWDT"
+        "observer": "matthew-waterston",
+        "org": "HWDT"
       }
     },
     {
@@ -24634,8 +24762,8 @@
         "where": "Loch Nan Uamh, Highland",
         "time": "16:15",
         "date": "2025-10-22",
-        "observer": "matthew",
-        "org": "waterston - HWDT"
+        "observer": "matthew-waterston",
+        "org": "HWDT"
       }
     },
     {
@@ -24682,8 +24810,8 @@
         "where": "Garroch Head, Argyll and Bute",
         "time": "13:48",
         "date": "2025-10-22",
-        "observer": "heather",
-        "org": "pykett - HWDT"
+        "observer": "heather-pykett",
+        "org": "HWDT"
       }
     },
     {
@@ -24698,8 +24826,8 @@
         "where": "Tobermory, Mull, Argyll and Bute",
         "time": "11:17",
         "date": "2025-10-22",
-        "observer": "kai",
-        "org": "grundy - HWDT"
+        "observer": "kai-grundy",
+        "org": "HWDT"
       }
     },
     {
@@ -24746,8 +24874,8 @@
         "where": "Mallaig, Highland",
         "time": "09:01",
         "date": "2025-10-22",
-        "observer": "jeremy",
-        "org": "newnham - HWDT"
+        "observer": "jeremy-newnham",
+        "org": "HWDT"
       }
     },
     {
@@ -24762,8 +24890,8 @@
         "where": "Loch Nan Uamh, Highland",
         "time": "17:20",
         "date": "2025-10-21",
-        "observer": "matthew",
-        "org": "waterston - HWDT"
+        "observer": "matthew-waterston",
+        "org": "HWDT"
       }
     },
     {
@@ -24778,8 +24906,8 @@
         "where": "Inch Kenneth, Argyll and Bute",
         "time": "15:45",
         "date": "2025-10-21",
-        "observer": "finn",
-        "org": "turus-mara - HWDT"
+        "observer": "finn-turus-mara",
+        "org": "HWDT"
       }
     },
     {
@@ -24794,8 +24922,8 @@
         "where": "Routenburn, North Ayrshire",
         "time": "13:55",
         "date": "2025-10-21",
-        "observer": "sophie",
-        "org": "shields - HWDT"
+        "observer": "sophie-shields",
+        "org": "HWDT"
       }
     },
     {
@@ -24826,8 +24954,8 @@
         "where": "Northeast of Glenuig, Highland",
         "time": "17:16",
         "date": "2025-10-20",
-        "observer": "matthew",
-        "org": "waterston - HWDT"
+        "observer": "matthew-waterston",
+        "org": "HWDT"
       }
     },
     {
@@ -24858,8 +24986,8 @@
         "where": "Eilean a' Chaolias, Highland",
         "time": "16:45",
         "date": "2025-10-20",
-        "observer": "matthew",
-        "org": "waterston - HWDT"
+        "observer": "matthew-waterston",
+        "org": "HWDT"
       }
     },
     {
@@ -24874,8 +25002,8 @@
         "where": "Loch nan Uamh, Highland",
         "time": "16:20",
         "date": "2025-10-20",
-        "observer": "matthew",
-        "org": "waterston - HWDT"
+        "observer": "matthew-waterston",
+        "org": "HWDT"
       }
     },
     {
@@ -24890,8 +25018,8 @@
         "where": "North of Gigha, Argyll and Bute",
         "time": "15:31",
         "date": "2025-10-20",
-        "observer": "theo",
-        "org": "de-clermont - HWDT"
+        "observer": "theo-de-clermont",
+        "org": "HWDT"
       }
     },
     {
@@ -24938,8 +25066,8 @@
         "where": "Ardmore Point, Mull, Argyll and Bute",
         "time": "12:28",
         "date": "2025-10-20",
-        "observer": "kathryn",
-        "org": "dugdale - HWDT"
+        "observer": "kathryn-dugdale",
+        "org": "HWDT"
       }
     },
     {
@@ -24954,8 +25082,8 @@
         "where": "South of Lagg, Argyll and Bute",
         "time": "11:12",
         "date": "2025-10-20",
-        "observer": "theo",
-        "org": "de-clermont - HWDT"
+        "observer": "theo-de-clermont",
+        "org": "HWDT"
       }
     },
     {
@@ -24970,8 +25098,8 @@
         "where": "Ardtoe, Highland",
         "time": "10:37",
         "date": "2025-10-20",
-        "observer": "kathryn",
-        "org": "dugdale - HWDT"
+        "observer": "kathryn-dugdale",
+        "org": "HWDT"
       }
     },
     {
@@ -24986,8 +25114,8 @@
         "where": "North West of Oban, Argyll and Bute",
         "time": "10:35",
         "date": "2025-10-20",
-        "observer": "Oban",
-        "org": "sea-tours - HWDT"
+        "observer": "Oban-sea-tours",
+        "org": "HWDT"
       }
     },
     {
@@ -25002,8 +25130,8 @@
         "where": "Grasspoint, Mull, Argyll and Bute",
         "time": "10:10",
         "date": "2025-10-20",
-        "observer": "Oban",
-        "org": "sea-tours - HWDT"
+        "observer": "Oban-sea-tours",
+        "org": "HWDT"
       }
     },
     {
@@ -25018,8 +25146,8 @@
         "where": "Ockle, Highland",
         "time": "10:08",
         "date": "2025-10-20",
-        "observer": "kathryn",
-        "org": "dugdale - HWDT"
+        "observer": "kathryn-dugdale",
+        "org": "HWDT"
       }
     },
     {
@@ -25034,8 +25162,8 @@
         "where": "Ardmore, Argyll and Bute",
         "time": "10:00",
         "date": "2025-10-20",
-        "observer": "Oban",
-        "org": "sea-tours - HWDT"
+        "observer": "Oban-sea-tours",
+        "org": "HWDT"
       }
     },
     {
@@ -25050,8 +25178,8 @@
         "where": "South East of Toward, Argyll and Bute",
         "time": "08:34",
         "date": "2025-10-20",
-        "observer": "iona",
-        "org": "poole - HWDT"
+        "observer": "iona-poole",
+        "org": "HWDT"
       }
     },
     {
@@ -25176,8 +25304,8 @@
         "where": "Rubha a' Fhreastaig, Argyll and Bute",
         "time": "09:58",
         "date": "2025-10-18",
-        "observer": "Oban",
-        "org": "sea-tours - HWDT"
+        "observer": "Oban-sea-tours",
+        "org": "HWDT"
       }
     },
     {
@@ -25192,8 +25320,8 @@
         "where": "Oban, Argyll and Bute",
         "time": "07:53",
         "date": "2025-10-18",
-        "observer": "sean",
-        "org": "black - HWDT"
+        "observer": "sean-black",
+        "org": "HWDT"
       }
     },
     {
@@ -25208,8 +25336,8 @@
         "where": "Beasdale, Highlands",
         "time": "17:06",
         "date": "2025-10-17",
-        "observer": "matthew",
-        "org": "waterston - HWDT"
+        "observer": "matthew-waterston",
+        "org": "HWDT"
       }
     },
     {
@@ -25400,8 +25528,8 @@
         "where": "Samalaman Island, Highlands",
         "time": "11:30",
         "date": "2025-10-16",
-        "observer": "matthew",
-        "org": "waterston - HWDT"
+        "observer": "matthew-waterston",
+        "org": "HWDT"
       }
     },
     {
@@ -25416,8 +25544,8 @@
         "where": "Carradale, Argyll and Bute",
         "time": "11:03",
         "date": "2025-10-16",
-        "observer": "dani",
-        "org": "fraser - HWDT"
+        "observer": "dani-fraser",
+        "org": "HWDT"
       }
     },
     {
@@ -25448,8 +25576,8 @@
         "where": "Rubha Raonuill, Highlands",
         "time": "09:42",
         "date": "2025-10-16",
-        "observer": "ryan",
-        "org": "ewan-macrae - HWDT"
+        "observer": "ryan-ewan-macrae",
+        "org": "HWDT"
       }
     },
     {
@@ -25480,8 +25608,8 @@
         "where": "Tobermory, Argyll and Bute",
         "time": "08:44",
         "date": "2025-10-16",
-        "observer": "venture",
-        "org": "west - HWDT"
+        "observer": "venture-west",
+        "org": "HWDT"
       }
     },
     {
@@ -25512,8 +25640,8 @@
         "where": "Scarba, Argyll and Bute",
         "time": "15:30",
         "date": "2025-10-15",
-        "observer": "venture",
-        "org": "west - HWDT"
+        "observer": "venture-west",
+        "org": "HWDT"
       }
     },
     {
@@ -25528,8 +25656,8 @@
         "where": "Toward, North Aryshire",
         "time": "15:03",
         "date": "2025-10-15",
-        "observer": "graham",
-        "org": "mcneil - HWDT"
+        "observer": "graham-mcneil",
+        "org": "HWDT"
       }
     },
     {
@@ -25560,8 +25688,8 @@
         "where": "A' Chruach, Highlands",
         "time": "11:30",
         "date": "2025-10-15",
-        "observer": "rod",
-        "org": "barry - HWDT"
+        "observer": "rod-barry",
+        "org": "HWDT"
       }
     },
     {
@@ -25624,8 +25752,8 @@
         "where": "Eilean a'Ghaill, Highlands",
         "time": "16:12",
         "date": "2025-10-14",
-        "observer": "niki",
-        "org": "clear - HWDT"
+        "observer": "niki-clear",
+        "org": "HWDT"
       }
     },
     {
@@ -25672,8 +25800,8 @@
         "where": "Balnaha, Highlands",
         "time": "10:50",
         "date": "2025-10-14",
-        "observer": "jonny",
-        "org": "alcock - HWDT"
+        "observer": "jonny-alcock",
+        "org": "HWDT"
       }
     },
     {
@@ -25688,8 +25816,8 @@
         "where": "Durimyean Bay, Argyll and Bute",
         "time": "09:36",
         "date": "2025-10-14",
-        "observer": "stef",
-        "org": "cooper - HWDT"
+        "observer": "stef-cooper",
+        "org": "HWDT"
       }
     },
     {
@@ -26130,8 +26258,8 @@
         "where": "Mallaig, Highlands",
         "time": "09:21",
         "date": "2025-10-13",
-        "observer": "chris",
-        "org": "naessens - HWDT"
+        "observer": "chris-naessens",
+        "org": "HWDT"
       }
     },
     {
@@ -26221,8 +26349,8 @@
         "where": "Craignure Bay, Argyll and Bute",
         "time": "07:04",
         "date": "2025-10-13",
-        "observer": "may",
-        "org": "redfern - HWDT"
+        "observer": "may-redfern",
+        "org": "HWDT"
       }
     },
     {
@@ -26253,8 +26381,8 @@
         "where": "Aird, Highlands",
         "time": "15:50",
         "date": "2025-10-12",
-        "observer": "eloise",
-        "org": "dey - HWDT"
+        "observer": "eloise-dey",
+        "org": "HWDT"
       }
     },
     {
@@ -26317,8 +26445,8 @@
         "where": "Iona, Argyll and Bute",
         "time": "10:38",
         "date": "2025-10-12",
-        "observer": "niki",
-        "org": "clear - HWDT"
+        "observer": "niki-clear",
+        "org": "HWDT"
       }
     },
     {
@@ -26333,8 +26461,8 @@
         "where": "Port na Caillich, Argyll and Bute",
         "time": "09:32",
         "date": "2025-10-12",
-        "observer": "cameron",
-        "org": "smith - HWDT"
+        "observer": "cameron-smith",
+        "org": "HWDT"
       }
     },
     {
@@ -26413,8 +26541,8 @@
         "where": "Rothesay, Argyll and Bute",
         "time": "17:05",
         "date": "2025-10-11",
-        "observer": "sophie",
-        "org": "shields - HWDT"
+        "observer": "sophie-shields",
+        "org": "HWDT"
       }
     },
     {
@@ -26429,8 +26557,8 @@
         "where": "Kilchoan, Highlands",
         "time": "14:30",
         "date": "2025-10-11",
-        "observer": "diarmid",
-        "org": "macmillan - HWDT"
+        "observer": "diarmid-macmillan",
+        "org": "HWDT"
       }
     },
     {
@@ -26445,8 +26573,8 @@
         "where": "Rothesay, Argyll and Bute",
         "time": "13:32",
         "date": "2025-10-11",
-        "observer": "sophie",
-        "org": "shields - HWDT"
+        "observer": "sophie-shields",
+        "org": "HWDT"
       }
     },
     {
@@ -26461,8 +26589,8 @@
         "where": "Toward, Argyll and Bute",
         "time": "13:18",
         "date": "2025-10-11",
-        "observer": "sophie",
-        "org": "shields - HWDT"
+        "observer": "sophie-shields",
+        "org": "HWDT"
       }
     },
     {
@@ -26556,8 +26684,8 @@
         "where": "Duart Point, Argyll and Bute",
         "time": "09:10",
         "date": "2025-10-11",
-        "observer": "summer",
-        "org": "nixon - HWDT"
+        "observer": "summer-nixon",
+        "org": "HWDT"
       }
     },
     {
@@ -26572,8 +26700,7 @@
         "where": "Tobermory, Argyll and Bute",
         "time": "15:57",
         "date": "2025-10-10",
-        "observer": "laura",
-        "org": "HWDT"
+        "observer": "laura- HWDT"
       }
     },
     {
@@ -26588,8 +26715,8 @@
         "where": "Clachan-Seil, Argyll and Bute",
         "time": "15:08",
         "date": "2025-10-10",
-        "observer": "alasdair",
-        "org": "macinnes - HWDT"
+        "observer": "alasdair-macinnes",
+        "org": "HWDT"
       }
     },
     {
@@ -26604,8 +26731,8 @@
         "where": "Aird, Highlands",
         "time": "14:10",
         "date": "2025-10-10",
-        "observer": "chris",
-        "org": "naessens - HWDT"
+        "observer": "chris-naessens",
+        "org": "HWDT"
       }
     },
     {
@@ -26620,8 +26747,8 @@
         "where": "Mull, Argyll and Bute",
         "time": "13:51",
         "date": "2025-10-10",
-        "observer": "jac",
-        "org": "fereday - HWDT"
+        "observer": "jac-fereday",
+        "org": "HWDT"
       }
     },
     {
@@ -26636,8 +26763,8 @@
         "where": "Kerrera, Argyll and Bute",
         "time": "13:04",
         "date": "2025-10-10",
-        "observer": "elliot",
-        "org": "macdonald-bell - HWDT"
+        "observer": "elliot-macdonald-bell",
+        "org": "HWDT"
       }
     },
     {
@@ -26684,8 +26811,8 @@
         "where": "Kilberry Bay, Argyll and Bute",
         "time": "12:02",
         "date": "2025-10-10",
-        "observer": "alasdair",
-        "org": "macinnes - HWDT"
+        "observer": "alasdair-macinnes",
+        "org": "HWDT"
       }
     },
     {
@@ -26700,8 +26827,8 @@
         "where": "Inverie",
         "time": "09:44",
         "date": "2025-10-10",
-        "observer": "ryan",
-        "org": "ewan-macrae - HWDT"
+        "observer": "ryan-ewan-macrae",
+        "org": "HWDT"
       }
     },
     {
@@ -26716,8 +26843,8 @@
         "where": "Inverie, Highlands",
         "time": "06:57",
         "date": "2025-10-10",
-        "observer": "ryan",
-        "org": "ewan-macrae - HWDT"
+        "observer": "ryan-ewan-macrae",
+        "org": "HWDT"
       }
     },
     {
@@ -26732,8 +26859,8 @@
         "where": "Mallaig Harbour",
         "time": "12:26",
         "date": "2025-10-09",
-        "observer": "chris",
-        "org": "naessens - HWDT"
+        "observer": "chris-naessens",
+        "org": "HWDT"
       }
     },
     {
@@ -26748,8 +26875,8 @@
         "where": "Port-na-Luing, Argyll and Bute",
         "time": "10:37",
         "date": "2025-10-09",
-        "observer": "theo",
-        "org": "de-clermont - HWDT"
+        "observer": "theo-de-clermont",
+        "org": "HWDT"
       }
     },
     {
@@ -26764,8 +26891,8 @@
         "where": "Ardmore Point, Argyll and Bute",
         "time": "08:00",
         "date": "2025-10-09",
-        "observer": "diarmid",
-        "org": "macmillan - HWDT"
+        "observer": "diarmid-macmillan",
+        "org": "HWDT"
       }
     },
     {
@@ -26796,8 +26923,8 @@
         "where": "Garroch Head, North Ayrshire",
         "time": "12:14",
         "date": "2025-10-08",
-        "observer": "amy",
-        "org": "graydon - HWDT"
+        "observer": "amy-graydon",
+        "org": "HWDT"
       }
     },
     {
@@ -26812,8 +26939,8 @@
         "where": "Inchmarnock, Argyll and Bute",
         "time": "10:54",
         "date": "2025-10-08",
-        "observer": "amy",
-        "org": "graydon - HWDT"
+        "observer": "amy-graydon",
+        "org": "HWDT"
       }
     },
     {
@@ -26844,8 +26971,8 @@
         "where": "Tobermory, Argyll and Bute",
         "time": "08:10",
         "date": "2025-10-08",
-        "observer": "diarmid",
-        "org": "macmillan - HWDT"
+        "observer": "diarmid-macmillan",
+        "org": "HWDT"
       }
     },
     {
@@ -26892,8 +27019,8 @@
         "where": "Brodick, North Ayrshire",
         "time": "16:26",
         "date": "2025-10-07",
-        "observer": "michael",
-        "org": "mackinnon - HWDT"
+        "observer": "michael-mackinnon",
+        "org": "HWDT"
       }
     },
     {
@@ -26924,8 +27051,8 @@
         "where": "Lamlash, North Aryshire",
         "time": "09:45",
         "date": "2025-10-07",
-        "observer": "michael",
-        "org": "mackinnon - HWDT"
+        "observer": "michael-mackinnon",
+        "org": "HWDT"
       }
     },
     {
@@ -26940,8 +27067,8 @@
         "where": "Rubha Fiart, Argyll and Bute",
         "time": "16:30",
         "date": "2025-10-06",
-        "observer": "summer",
-        "org": "nixon - HWDT"
+        "observer": "summer-nixon",
+        "org": "HWDT"
       }
     },
     {
@@ -26988,8 +27115,8 @@
         "where": "Brodick, Argyll and Bute",
         "time": "09:48",
         "date": "2025-10-05",
-        "observer": "eva",
-        "org": "kohle - HWDT"
+        "observer": "eva-kohle",
+        "org": "HWDT"
       }
     },
     {
@@ -27036,8 +27163,8 @@
         "where": "Saltcoats, North Aryshire",
         "time": "09:34",
         "date": "2025-10-03",
-        "observer": "bill",
-        "org": "robinson - HWDT"
+        "observer": "bill-robinson",
+        "org": "HWDT"
       }
     },
     {
@@ -27068,8 +27195,8 @@
         "where": "Lismore, Argyll and Bute",
         "time": "16:39",
         "date": "2025-10-02",
-        "observer": "HebridesCruises",
-        "org": "LucyMary - HWDT"
+        "observer": "HebridesCruises-LucyMary",
+        "org": "HWDT"
       }
     },
     {
@@ -27084,8 +27211,8 @@
         "where": "Inverie, Highlands",
         "time": "07:01",
         "date": "2025-10-02",
-        "observer": "ryan",
-        "org": "ewan-macrae - HWDT"
+        "observer": "ryan-ewan-macrae",
+        "org": "HWDT"
       }
     },
     {
@@ -27100,8 +27227,8 @@
         "where": "Inverie, Highlands",
         "time": "17:16",
         "date": "2025-10-01",
-        "observer": "ryan",
-        "org": "ewan-macrae - HWDT"
+        "observer": "ryan-ewan-macrae",
+        "org": "HWDT"
       }
     },
     {
@@ -27132,8 +27259,183 @@
         "where": "Milton, Argyll and Bute",
         "time": "09:18",
         "date": "2025-10-01",
-        "observer": "theo",
-        "org": "de-clermont-HWDT"
+        "observer": "theo-de-clermont-HWDT"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x4) : Isle Martin, Highland at 14:49 on 2026-01-18 by Noel - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 4,
+        "where": "Isle Martin, Highland",
+        "time": "14:49",
+        "date": "2026-01-18",
+        "observer": "Noel",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x15) : Isle Martin, Highland at 14:36 on 2026-01-18 by Noel - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 15,
+        "where": "Isle Martin, Highland",
+        "time": "14:36",
+        "date": "2026-01-18",
+        "observer": "Noel",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x8) : Isle Martin, Highland at 13:52 on 2026-01-18 by Noel - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 8,
+        "where": "Isle Martin, Highland",
+        "time": "13:52",
+        "date": "2026-01-18",
+        "observer": "Noel",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x5) : Morefield, Highland at 14:43 on 2026-01-17 by Phocoena - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 5,
+        "where": "Morefield, Highland",
+        "time": "14:43",
+        "date": "2026-01-17",
+        "observer": "Phocoena",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x26) : Claigan - An Claigeann, Highland at 14:06 on 2026-01-17 by lance-montaigue - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 26,
+        "where": "Claigan - An Claigeann, Highland",
+        "time": "14:06",
+        "date": "2026-01-17",
+        "observer": "lance-montaigue",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x3) : Ardmair, Highland at 13:39 on 2026-01-17 by GrumpyGramps - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 3,
+        "where": "Ardmair, Highland",
+        "time": "13:39",
+        "date": "2026-01-17",
+        "observer": "GrumpyGramps",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Humpback whale (x1) : Uig, Highland at 13:04 on 2026-01-17 by lance-montaigue - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Humpback whale",
+        "count": 1,
+        "where": "Uig, Highland",
+        "time": "13:04",
+        "date": "2026-01-17",
+        "observer": "lance-montaigue",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x6) : Rhue, Highland at 12:40 on 2026-01-17 by Phocoena - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 6,
+        "where": "Rhue, Highland",
+        "time": "12:40",
+        "date": "2026-01-17",
+        "observer": "Phocoena",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x30) : Isle Martin, Highland at 12:38 on 2026-01-17 by Noel - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 30,
+        "where": "Isle Martin, Highland",
+        "time": "12:38",
+        "date": "2026-01-17",
+        "observer": "Noel",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Harbour porpoise (x5) : Isle Martin, Highland at 12:19 on 2026-01-17 by Noel - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 5,
+        "where": "Isle Martin, Highland",
+        "time": "12:19",
+        "date": "2026-01-17",
+        "observer": "Noel",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x6) : Morefield, Highland at 11:44 on 2026-01-17 by Noel - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 6,
+        "where": "Morefield, Highland",
+        "time": "11:44",
+        "date": "2026-01-17",
+        "observer": "Noel",
+        "org": "HWDT"
       }
     },
     {
@@ -27148,8 +27450,8 @@
         "where": "Borreraig, Highland",
         "time": "13:01",
         "date": "2026-01-16",
-        "observer": "claire",
-        "org": "anderson - HWDT"
+        "observer": "claire-anderson",
+        "org": "HWDT"
       }
     },
     {
@@ -27164,8 +27466,8 @@
         "where": "Cnoc Mor, Highland",
         "time": "15:22",
         "date": "2026-01-15",
-        "observer": "lance",
-        "org": "montaigue - HWDT"
+        "observer": "lance-montaigue",
+        "org": "HWDT"
       }
     },
     {
@@ -27180,8 +27482,8 @@
         "where": "Loch Pooltiel, Highland",
         "time": "11:33",
         "date": "2026-01-13",
-        "observer": "claire",
-        "org": "anderson - HWDT"
+        "observer": "claire-anderson",
+        "org": "HWDT"
       }
     },
     {
@@ -27212,8 +27514,8 @@
         "where": "Eilean Horrisdale, Highland",
         "time": "11:08",
         "date": "2026-01-13",
-        "observer": "david",
-        "org": "mcnee - HWDT"
+        "observer": "david-mcnee",
+        "org": "HWDT"
       }
     },
     {
@@ -27324,8 +27626,8 @@
         "where": "Little Loch Broom, Highland",
         "time": "15:43",
         "date": "2026-01-07",
-        "observer": "ian",
-        "org": "hammons - HWDT"
+        "observer": "ian-hammons",
+        "org": "HWDT"
       }
     },
     {
@@ -27356,8 +27658,8 @@
         "where": "Kishorn Port, Highland",
         "time": "15:08",
         "date": "2026-01-07",
-        "observer": "lance",
-        "org": "montaigue - HWDT"
+        "observer": "lance-montaigue",
+        "org": "HWDT"
       }
     },
     {
@@ -27388,8 +27690,8 @@
         "where": "Narrows of Raasay, Highland",
         "time": "10:30",
         "date": "2026-01-01",
-        "observer": "alan",
-        "org": "prior - HWDT"
+        "observer": "alan-prior",
+        "org": "HWDT"
       }
     },
     {
@@ -27404,8 +27706,8 @@
         "where": "Rhue, Highland",
         "time": "15:00",
         "date": "2025-12-30",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -27420,8 +27722,8 @@
         "where": "Rhue, Highland",
         "time": "15:00",
         "date": "2025-12-30",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -27452,8 +27754,8 @@
         "where": "Rhue, Highland",
         "time": "13:13",
         "date": "2025-12-30",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -27627,8 +27929,8 @@
         "where": "Morefield, Highland",
         "time": "09:14",
         "date": "2025-12-29",
-        "observer": "conor",
-        "org": "ryan - HWDT"
+        "observer": "conor-ryan",
+        "org": "HWDT"
       }
     },
     {
@@ -27643,8 +27945,8 @@
         "where": "Rhue, Highland",
         "time": "09:12",
         "date": "2025-12-29",
-        "observer": "conor",
-        "org": "ryan - HWDT"
+        "observer": "conor-ryan",
+        "org": "HWDT"
       }
     },
     {
@@ -27659,8 +27961,8 @@
         "where": "Eilean Dubh, Highland",
         "time": "08:46",
         "date": "2025-12-29",
-        "observer": "conor",
-        "org": "ryan - HWDT"
+        "observer": "conor-ryan",
+        "org": "HWDT"
       }
     },
     {
@@ -27739,8 +28041,8 @@
         "where": "Morefield, Highland",
         "time": "14:12",
         "date": "2025-12-27",
-        "observer": "conor",
-        "org": "ryan - HWDT"
+        "observer": "conor-ryan",
+        "org": "HWDT"
       }
     },
     {
@@ -28011,8 +28313,8 @@
         "where": "Rhue, Highland",
         "time": "16:00",
         "date": "2025-12-25",
-        "observer": "steve",
-        "org": "watt - HWDT"
+        "observer": "steve-watt",
+        "org": "HWDT"
       }
     },
     {
@@ -28075,8 +28377,8 @@
         "where": "Rigg Viewpoint, Highland",
         "time": "13:00",
         "date": "2025-12-25",
-        "observer": "sylvia",
-        "org": "porter - HWDT"
+        "observer": "sylvia-porter",
+        "org": "HWDT"
       }
     },
     {
@@ -28107,8 +28409,8 @@
         "where": "Rhue, Highland",
         "time": "21:55",
         "date": "2025-12-24",
-        "observer": "steve",
-        "org": "watt - HWDT"
+        "observer": "steve-watt",
+        "org": "HWDT"
       }
     },
     {
@@ -28235,8 +28537,8 @@
         "where": "Rhue, Highland",
         "time": "10:35",
         "date": "2025-12-24",
-        "observer": "each",
-        "org": "mara - HWDT"
+        "observer": "each-mara",
+        "org": "HWDT"
       }
     },
     {
@@ -28384,22 +28686,6 @@
       }
     },
     {
-      "sightingData": "Common dolphin (x20) : Isle Martin, Highland at 15:02 on 2025-12-21 by Noel - HWDT",
-      "regionNo": "33-34",
-      "region": "NW Scotland & Outer Hebrides (33-34)",
-      "record_validated": false,
-      "regionNoRequested": "33-34",
-      "parsed": {
-        "species": "Common dolphin",
-        "count": 20,
-        "where": "Isle Martin, Highland",
-        "time": "15:02",
-        "date": "2025-12-21",
-        "observer": "Noel",
-        "org": "HWDT"
-      }
-    },
-    {
       "sightingData": "Humpback whale (x1) : Isle Martin, Highland at 15:02 on 2025-12-21 by Noel - HWDT",
       "regionNo": "33-34",
       "region": "NW Scotland & Outer Hebrides (33-34)",
@@ -28408,6 +28694,22 @@
       "parsed": {
         "species": "Humpback whale",
         "count": 1,
+        "where": "Isle Martin, Highland",
+        "time": "15:02",
+        "date": "2025-12-21",
+        "observer": "Noel",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Common dolphin (x20) : Isle Martin, Highland at 15:02 on 2025-12-21 by Noel - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Common dolphin",
+        "count": 20,
         "where": "Isle Martin, Highland",
         "time": "15:02",
         "date": "2025-12-21",
@@ -28475,8 +28777,8 @@
         "where": "Rhue, Highland",
         "time": "12:15",
         "date": "2025-12-21",
-        "observer": "carol",
-        "org": "hogan - HWDT"
+        "observer": "carol-hogan",
+        "org": "HWDT"
       }
     },
     {
@@ -28752,22 +29054,6 @@
       }
     },
     {
-      "sightingData": "Humpback whale (x1) : Morefield, Highland at 15:07 on 2025-12-16 by Noel - HWDT",
-      "regionNo": "33-34",
-      "region": "NW Scotland & Outer Hebrides (33-34)",
-      "record_validated": false,
-      "regionNoRequested": "33-34",
-      "parsed": {
-        "species": "Humpback whale",
-        "count": 1,
-        "where": "Morefield, Highland",
-        "time": "15:07",
-        "date": "2025-12-16",
-        "observer": "Noel",
-        "org": "HWDT"
-      }
-    },
-    {
       "sightingData": "Common dolphin (x9) : Morefield, Highland at 15:07 on 2025-12-16 by Noel - HWDT",
       "regionNo": "33-34",
       "region": "NW Scotland & Outer Hebrides (33-34)",
@@ -28776,6 +29062,22 @@
       "parsed": {
         "species": "Common dolphin",
         "count": 9,
+        "where": "Morefield, Highland",
+        "time": "15:07",
+        "date": "2025-12-16",
+        "observer": "Noel",
+        "org": "HWDT"
+      }
+    },
+    {
+      "sightingData": "Humpback whale (x1) : Morefield, Highland at 15:07 on 2025-12-16 by Noel - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Humpback whale",
+        "count": 1,
         "where": "Morefield, Highland",
         "time": "15:07",
         "date": "2025-12-16",
@@ -29355,8 +29657,8 @@
         "where": "Reiff, Highland",
         "time": "09:26",
         "date": "2025-12-07",
-        "observer": "each",
-        "org": "mara - HWDT"
+        "observer": "each-mara",
+        "org": "HWDT"
       }
     },
     {
@@ -29595,8 +29897,8 @@
         "where": "Ullapool, Highland",
         "time": "09:37",
         "date": "2025-12-05",
-        "observer": "kerr",
-        "org": "hunter - HWDT"
+        "observer": "kerr-hunter",
+        "org": "HWDT"
       }
     },
     {
@@ -29611,8 +29913,8 @@
         "where": "Ullapool, Highland",
         "time": "15:11",
         "date": "2025-12-04",
-        "observer": "mark",
-        "org": "mullen - HWDT"
+        "observer": "mark-mullen",
+        "org": "HWDT"
       }
     },
     {
@@ -29632,22 +29934,6 @@
       }
     },
     {
-      "sightingData": "Harbour porpoise (x7) : Morefield, Highland at 14:46 on 2025-12-04 by mark-mullen - HWDT",
-      "regionNo": "33-34",
-      "region": "NW Scotland & Outer Hebrides (33-34)",
-      "record_validated": false,
-      "regionNoRequested": "33-34",
-      "parsed": {
-        "species": "Harbour porpoise",
-        "count": 7,
-        "where": "Morefield, Highland",
-        "time": "14:46",
-        "date": "2025-12-04",
-        "observer": "mark",
-        "org": "mullen - HWDT"
-      }
-    },
-    {
       "sightingData": "Humpback whale (x1) : Morefield, Highland at 14:46 on 2025-12-04 by Noel - HWDT",
       "regionNo": "33-34",
       "region": "NW Scotland & Outer Hebrides (33-34)",
@@ -29664,6 +29950,22 @@
       }
     },
     {
+      "sightingData": "Harbour porpoise (x7) : Morefield, Highland at 14:46 on 2025-12-04 by mark-mullen - HWDT",
+      "regionNo": "33-34",
+      "region": "NW Scotland & Outer Hebrides (33-34)",
+      "record_validated": false,
+      "regionNoRequested": "33-34",
+      "parsed": {
+        "species": "Harbour porpoise",
+        "count": 7,
+        "where": "Morefield, Highland",
+        "time": "14:46",
+        "date": "2025-12-04",
+        "observer": "mark-mullen",
+        "org": "HWDT"
+      }
+    },
+    {
       "sightingData": "Common dolphin (x3) : Morefield, Highland at 14:44 on 2025-12-04 by mark-mullen - HWDT",
       "regionNo": "33-34",
       "region": "NW Scotland & Outer Hebrides (33-34)",
@@ -29675,8 +29977,8 @@
         "where": "Morefield, Highland",
         "time": "14:44",
         "date": "2025-12-04",
-        "observer": "mark",
-        "org": "mullen - HWDT"
+        "observer": "mark-mullen",
+        "org": "HWDT"
       }
     },
     {
@@ -30091,8 +30393,8 @@
         "where": "Ru Meanish, Highland",
         "time": "14:02",
         "date": "2025-11-22",
-        "observer": "sylvia",
-        "org": "porter - HWDT"
+        "observer": "sylvia-porter",
+        "org": "HWDT"
       }
     },
     {
@@ -30107,8 +30409,8 @@
         "where": "Taobh Siar, Na H-Eileanan Siar",
         "time": "15:22",
         "date": "2025-11-20",
-        "observer": "michael",
-        "org": "durance - HWDT"
+        "observer": "michael-durance",
+        "org": "HWDT"
       }
     },
     {
@@ -30123,8 +30425,8 @@
         "where": "Loch a Siar, Na H-Eileanan Siar",
         "time": "14:40",
         "date": "2025-11-20",
-        "observer": "jason",
-        "org": "brooker - HWDT"
+        "observer": "jason-brooker",
+        "org": "HWDT"
       }
     },
     {
@@ -30314,8 +30616,8 @@
         "where": "Near Stornoway, Outer Hebrides",
         "time": "14:53",
         "date": "2025-10-25",
-        "observer": "teri",
-        "org": "charlton - HWDT"
+        "observer": "teri-charlton",
+        "org": "HWDT"
       }
     },
     {
@@ -30330,8 +30632,8 @@
         "where": "Near Stornoway, Outer Hebrides",
         "time": "14:51",
         "date": "2025-10-25",
-        "observer": "teri",
-        "org": "charlton - HWDT"
+        "observer": "teri-charlton",
+        "org": "HWDT"
       }
     },
     {
@@ -30346,8 +30648,8 @@
         "where": "West of Porth Henderson, Highland",
         "time": "14:43",
         "date": "2025-10-20",
-        "observer": "HebrideanWhaleCruises",
-        "org": "Orca - HWDT"
+        "observer": "HebrideanWhaleCruises-Orca",
+        "org": "HWDT"
       }
     },
     {
@@ -30362,8 +30664,8 @@
         "where": "West of Port Henderson, Highland",
         "time": "14:22",
         "date": "2025-10-20",
-        "observer": "HebrideanWhaleCruises",
-        "org": "Orca - HWDT"
+        "observer": "HebrideanWhaleCruises-Orca",
+        "org": "HWDT"
       }
     },
     {
@@ -30378,8 +30680,8 @@
         "where": "Pabail Uarach, Western Isles",
         "time": "11:41",
         "date": "2025-10-19",
-        "observer": "chris",
-        "org": "evans - HWDT"
+        "observer": "chris-evans",
+        "org": "HWDT"
       }
     },
     {
@@ -30490,8 +30792,8 @@
         "where": "Colbost, Highlands",
         "time": "14:24",
         "date": "2025-10-17",
-        "observer": "michael",
-        "org": "tetley - HWDT"
+        "observer": "michael-tetley",
+        "org": "HWDT"
       }
     },
     {
@@ -30522,8 +30824,8 @@
         "where": "Tote Forest, Highlands",
         "time": "15:36",
         "date": "2025-10-16",
-        "observer": "sylvia",
-        "org": "porter - HWDT"
+        "observer": "sylvia-porter",
+        "org": "HWDT"
       }
     },
     {
@@ -30618,8 +30920,8 @@
         "where": "Invershiel, Highlands",
         "time": "15:28",
         "date": "2025-10-15",
-        "observer": "otterburn",
-        "org": "house - HWDT"
+        "observer": "otterburn-house",
+        "org": "HWDT"
       }
     },
     {
@@ -30714,8 +31016,8 @@
         "where": "Longa, Highlands",
         "time": "12:56",
         "date": "2025-10-14",
-        "observer": "HebrideanWhaleCruises",
-        "org": "Orca - HWDT"
+        "observer": "HebrideanWhaleCruises-Orca",
+        "org": "HWDT"
       }
     },
     {
@@ -30746,8 +31048,8 @@
         "where": "Ullapool, Highlands",
         "time": "08:25",
         "date": "2025-10-14",
-        "observer": "fiona",
-        "org": "day - HWDT"
+        "observer": "fiona-day",
+        "org": "HWDT"
       }
     },
     {
@@ -30762,8 +31064,8 @@
         "where": "Eilean Furadh Mór, Highlands",
         "time": "07:07",
         "date": "2025-10-14",
-        "observer": "fiona",
-        "org": "day - HWDT"
+        "observer": "fiona-day",
+        "org": "HWDT"
       }
     },
     {
@@ -30778,8 +31080,8 @@
         "where": "Calabost, Western Isles",
         "time": "06:49",
         "date": "2025-10-14",
-        "observer": "fiona",
-        "org": "day - HWDT"
+        "observer": "fiona-day",
+        "org": "HWDT"
       }
     },
     {
@@ -30826,8 +31128,8 @@
         "where": "Horse Island, Highlands",
         "time": "12:00",
         "date": "2025-10-13",
-        "observer": "gordie",
-        "org": "bryce - HWDT"
+        "observer": "gordie-bryce",
+        "org": "HWDT"
       }
     },
     {
@@ -30890,8 +31192,8 @@
         "where": "Rudha Robhanais, Western Isles",
         "time": "11:00",
         "date": "2025-10-12",
-        "observer": "fiona",
-        "org": "day - HWDT"
+        "observer": "fiona-day",
+        "org": "HWDT"
       }
     },
     {
@@ -30906,8 +31208,8 @@
         "where": "Rudha Robhanais, Western Isles",
         "time": "11:00",
         "date": "2025-10-12",
-        "observer": "fiona",
-        "org": "day - HWDT"
+        "observer": "fiona-day",
+        "org": "HWDT"
       }
     },
     {
@@ -30938,8 +31240,8 @@
         "where": "Off Lochboisdale, Highland",
         "time": "16:11",
         "date": "2025-10-11",
-        "observer": "fiona",
-        "org": "day - HWDT"
+        "observer": "fiona-day",
+        "org": "HWDT"
       }
     },
     {
@@ -30954,8 +31256,8 @@
         "where": "Off Ascrib Islands, Highland",
         "time": "13:29",
         "date": "2025-10-11",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {
@@ -30970,8 +31272,8 @@
         "where": "West of Rona, Highland",
         "time": "14:35",
         "date": "2025-10-10",
-        "observer": "HebrideanWhaleCruises",
-        "org": "Orca - HWDT"
+        "observer": "HebrideanWhaleCruises-Orca",
+        "org": "HWDT"
       }
     },
     {
@@ -31130,8 +31432,8 @@
         "where": "Kilmaluag, Highlands",
         "time": "12:37",
         "date": "2025-10-01",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {
@@ -31146,8 +31448,8 @@
         "where": "Skye, Highlands",
         "time": "12:05",
         "date": "2025-10-01",
-        "observer": "fiona",
-        "org": "sloan - HWDT"
+        "observer": "fiona-sloan",
+        "org": "HWDT"
       }
     },
     {

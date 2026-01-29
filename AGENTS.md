@@ -10,15 +10,16 @@ building an interactive map-based application for UK marine mammal sightings.
 
 ## 🎯 Project overview
 
-**Where’s Willie** is a React web application that visualises recent marine mammal
+**Where's Willie** is a React web application that visualises recent marine mammal
 sightings (whales, dolphins, seals) around the UK.
 
 Key characteristics:
 - Interactive map (Leaflet via react-leaflet)
+- Real-time data from Seawatch Foundation API
 - Species-based filtering
 - Zoom-dependent visualisation
 - Informational side panels with species metadata
-- Mock data-first, with the intention to swap in real data later
+- Only displays sightings with valid GPS coordinates from the last 31 days
 
 ---
 
@@ -32,8 +33,9 @@ src/
         InfoBar.jsx # Selected animal details (right-hand panel)
         Footer.jsx # Status + attribution
     data/
-        mockSightings.js # Mock sighting data + rarity map
+        speciesRarity.js # Species rarity classification
         speciesMeta.js # Species facts, images, friendly descriptions
+        seawatchAdapter.js # Adapter for Seawatch Foundation API data
     assets/
         species/ # Animal images (jpg/png/webp)
     styles/
