@@ -20,6 +20,7 @@ export default function App() {
   const [rareOnly, setRareOnly] = useState(false);
   const [activeSighting, setActiveSighting] = useState(null);
   const [liveSightings, setLiveSightings] = useState([]);
+  const [recencyDays, setRecencyDays] = useState(31);
 
   useEffect(() => {
     let isMounted = true;
@@ -27,13 +28,13 @@ export default function App() {
       .then(response => (response.ok ? response.json() : null))
       .then(data => {
         if (!isMounted || !data) return;
-        setLiveSightings(adaptSeawatchData(data));
+        setLiveSightings(adaptSeawatchData(data, { days: recencyDays }));
       })
       .catch(() => {});
     return () => {
       isMounted = false;
     };
-  }, []);
+  }, [recencyDays]);
 
   const speciesList = useMemo(() => {
     const species = new Set(Object.keys(SPECIES_RARITY));
@@ -78,6 +79,8 @@ export default function App() {
         speciesList={speciesList}
         selected={selected}
         onToggle={toggleSpecies}
+        recencyDays={recencyDays}
+        onRecencyChange={setRecencyDays}
       />
       <main className="main">
         <MapShell
