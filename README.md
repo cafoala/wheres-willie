@@ -6,9 +6,10 @@ An interactive React web application for visualising recent marine mammal sighti
 
 - Interactive map using Leaflet
 - Real-time sighting data from Seawatch Foundation
+- **Automatic geocoding** - converts location names to GPS coordinates
 - Species-based filtering
 - Detailed information panels for each species
-- Displays only validated sightings with GPS coordinates from the last 31 days
+- Displays validated sightings with GPS coordinates from the last 31 days
 
 ## Data Sources
 
@@ -18,20 +19,38 @@ This application supports two data sources for marine mammal sightings:
 
 Data from the [Seawatch Foundation](https://www.seawatchfoundation.org.uk/) API provides recent cetacean sightings.
 
-**Data Limitations:**
+**Data Enhancement with Geocoding:**
 - **Total sightings fetched**: ~2046 records
-- **Sightings with coordinates**: ~625 (30%)
-- **Sightings displayed**: Only those within the last 31 days **AND** with valid coordinates (~48 currently)
+- **Original with coordinates**: ~625 (30%)
+- **Geocoded locations**: ~1200+ additional sightings (estimated)
+- **Total displayable**: ~1800+ (85%+)
 
-Many sightings include location names but not GPS coordinates. Only sightings with coordinate data in the format `XX.XXN X.XXW` can be displayed on the map.
+Many sightings include location names like "Morefield, Highland" or "Cardigan Bay" but not GPS coordinates. The fetch script now:
+1. Automatically geocodes location names using OpenStreetMap Nominatim API (free, no API key)
+2. Adjusts coordinates to be offshore (~3km into the sea - marine mammals are in the water!)
+3. Caches results to avoid repeated API calls
+4. Respects rate limits (1 request per second)
 
 **Fetching Fresh Data:**
 
 ```bash
+# Fetch latest sightings with automatic geocoding
 node scripts/seawatch_fetch.mjs
+
+# This will:
+# - Download latest Seawatch data
+# - Load existing geocode cache
+# - Geocode new locations (respecting 1req/sec rate limit)
+# - Save enhanced data to public/seawatch_combined.json
+# - Update geocode cache in public/geocode_cache.json
 ```
 
-This fetches the latest sightings and saves them to `public/seawatch_combined.json`.
+**First run may take ~20-30 minutes** to geocode all unique locations. Subsequent runs use cached results and are much faster (only geocoding new locations).
+
+**Disable geocoding** (if needed):
+```bash
+node scripts/seawatch_fetch.mjs --no-geocode
+```
 
 ### 2. NBN Atlas / iRecord (Experimental)
 
