@@ -1,4 +1,54 @@
-# React + Vite
+# Where's Willie 🐋
+
+An interactive React web application for visualising recent marine mammal sightings around the UK.
+
+## Features
+
+- Interactive map using Leaflet
+- Real-time sighting data from Seawatch Foundation
+- Species-based filtering
+- Detailed information panels for each species
+- Fallback to mock data when live data is unavailable
+
+## Data Source
+
+This application uses data from the [Seawatch Foundation](https://www.seawatchfoundation.org.uk/) API.
+
+### Data Limitations
+
+The Seawatch data includes sightings from various sources with different levels of detail:
+
+- **Total sightings fetched**: ~2046 records
+- **Sightings with coordinates**: ~625 (30%)
+- **Sightings displayed**: Only those within the last 31 days **AND** with valid coordinates (~48 currently)
+
+Many sightings include location names (e.g., "Morefield, Highland") but not GPS coordinates. Only sightings with coordinate data in the format `XX.XXN X.XXW` can be displayed on the map.
+
+### Fetching Fresh Data
+
+To update the sightings data:
+
+```bash
+node scripts/seawatch_fetch.mjs
+```
+
+This will fetch the latest sightings and save them to `public/seawatch_combined.json`.
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Run tests
+node tests/seawatch_fetch.test.js
+node tests/seawatch_adapter.test.js
+```
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

@@ -18,6 +18,18 @@ const testParseSightingData = () => {
   assert.equal(parsed.date, '2025-11-30');
   assert.equal(parsed.observer, 'Bruce Meldrum');
   assert.equal(parsed.org, 'SOCS');
+
+  // Test hyphenated observer names
+  const hyphenated = 'Harbour porpoise (x3) : Morefield, Highland at 09:14 on 2025-12-29 by conor-ryan - HWDT';
+  const parsedHyphen = parseSightingData(hyphenated);
+  assert.equal(parsedHyphen.observer, 'conor-ryan');
+  assert.equal(parsedHyphen.org, 'HWDT');
+
+  // Test observer without org
+  const noOrg = 'Common dolphin (x5) : Ullapool at 10:00 on 2025-12-29 by solo-observer';
+  const parsedNoOrg = parseSightingData(noOrg);
+  assert.equal(parsedNoOrg.observer, 'solo-observer');
+  assert.equal(parsedNoOrg.org, undefined);
 };
 
 testExpandRegionNo();
