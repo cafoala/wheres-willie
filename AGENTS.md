@@ -36,12 +36,25 @@ src/
         speciesRarity.js # Species rarity classification
         speciesMeta.js # Species facts, images, friendly descriptions
         seawatchAdapter.js # Adapter for Seawatch Foundation API data
+        irecordAdapter.js # Adapter for NBN Atlas / iRecord data
     assets/
         species/ # Animal images (jpg/png/webp)
     styles/
-    layout.css # CSS Grid layout (single source of layout truth)
+        layout.css # CSS Grid layout (single source of layout truth)
     App.jsx # Top-level state and composition
     main.jsx # React entry point
+
+scripts/
+    seawatch_fetch.mjs # Fetch Seawatch data + geocode
+    irecord_fetch.mjs # Fetch NBN Atlas / iRecord data
+
+public/  # Static assets served by Vite (do not move)
+    seawatch_combined.json # Sightings data (app fetches at runtime)
+    irecord_combined.json # iRecord data (experimental)
+    geocode_cache.json # Geocoding cache (used by seawatch_fetch)
+
+tests/
+    *.test.js # Vitest tests (adapter, fetch, geocoding, components)
 
 Agents should **respect this structure** and avoid reorganising files without
 explicit instruction.

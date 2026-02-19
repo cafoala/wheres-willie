@@ -82,6 +82,16 @@ By default, fetches up to 1000 records per species for 19 marine mammal species 
 
 **Note:** The iRecord data source is currently experimental. The app uses Seawatch data by default.
 
+## Project structure
+
+- **`public/`** — Static assets served by Vite. JSON files here are fetched by the app at runtime:
+  - `seawatch_combined.json` — Sightings from Seawatch (written by fetch script)
+  - `irecord_combined.json` — Sightings from NBN Atlas (written by fetch script)
+  - `geocode_cache.json` — Geocoding cache for seawatch_fetch (not fetched by the app)
+- **`scripts/`** — CLI tools to fetch and process data (not part of the React app)
+- **`src/data/`** — Adapters and static config (species metadata, rarity)
+- **`tests/`** — Vitest tests
+
 ## Development
 
 ```bash
@@ -91,11 +101,8 @@ npm install
 # Run development server
 npm run dev
 
-# Run tests
-node tests/seawatch_fetch.test.js
-node tests/seawatch_adapter.test.js
-node tests/irecord_fetch.test.js
-node tests/irecord_adapter.test.js
+# Run tests (unit + integration)
+npm test
 ```
 
 ## React + Vite

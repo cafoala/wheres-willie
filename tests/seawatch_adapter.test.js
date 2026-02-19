@@ -1,4 +1,4 @@
-import assert from 'node:assert/strict';
+import { describe, it, expect } from 'vitest';
 
 import {
   adaptSeawatchData,
@@ -6,57 +6,48 @@ import {
   parseLatLngFromWhere,
 } from '../src/data/seawatchAdapter.js';
 
-const testParseLatLngFromWhere = () => {
-  const coords = parseLatLngFromWhere('52.22N 4.35W');
-  assert.deepEqual(coords, [52.22, -4.35]);
-  assert.equal(parseLatLngFromWhere('Nonsense'), null);
+describe('seawatchAdapter', () => {
+  it('parseLatLngFromWhere parses coordinate strings', () => {
+    expect(parseLatLngFromWhere('52.22N 4.35W')).toEqual([52.22, -4.35]);
+    expect(parseLatLngFromWhere('Nonsense')).toBeNull();
+    expect(parseLatLngFromWhere('58.34N 5.17W')).toEqual([58.34, -5.17]);
+    expect(parseLatLngFromWhere('60.00N 1.19W')).toEqual([60.00, -1.19]);
+    expect(parseLatLngFromWhere('57.16N 2.08W')).toEqual([57.16, -2.08]);
+    expect(parseLatLngFromWhere('58N 3W')).toEqual([58, -3]);
+  });
 
-  // Test more coordinate formats
-  assert.deepEqual(parseLatLngFromWhere('58.34N 5.17W'), [58.34, -5.17]);
-  assert.deepEqual(parseLatLngFromWhere('60.00N 1.19W'), [60.00, -1.19]);
-  assert.deepEqual(parseLatLngFromWhere('57.16N 2.08W'), [57.16, -2.08]);
-  
-  // Test without decimal
-  assert.deepEqual(parseLatLngFromWhere('58N 3W'), [58, -3]);
-};
+  it('isWithinLastDays filters by date', () => {
+    const now = new Date('2025-12-01T00:00:00Z');
+    expect(isWithinLastDays('2025-11-30', 31, now)).toBe(true);
+    expect(isWithinLastDays('2025-10-01', 31, now)).toBe(false);
+  });
 
-const testIsWithinLastDays = () => {
-  const now = new Date('2025-12-01T00:00:00Z');
-  assert.equal(isWithinLastDays('2025-11-30', 31, now), true);
-  assert.equal(isWithinLastDays('2025-10-01', 31, now), false);
-};
-
-const testAdaptSeawatchData = () => {
-  const now = new Date('2025-12-01T00:00:00Z');
-  const data = {
-    sightings: [
-      {
-        parsed: {
-          species: 'Bottlenose dolphin',
-          count: 2,
-          where: '52.22N 4.35W',
-          date: '2025-11-30',
-          observer: 'RJ',
+  it('adaptSeawatchData filters and transforms sightings', () => {
+    const now = new Date('2025-12-01T00:00:00Z');
+    const data = {
+      sightings: [
+        {
+          parsed: {
+            species: 'Bottlenose dolphin',
+            count: 2,
+            where: '52.22N 4.35W',
+            date: '2025-11-30',
+            observer: 'RJ',
+          },
         },
-      },
-      {
-        parsed: {
-          species: 'Common dolphin',
-          count: 5,
-          where: 'No coords',
-          date: '2025-11-30',
+        {
+          parsed: {
+            species: 'Common dolphin',
+            count: 5,
+            where: 'No coords',
+            date: '2025-11-30',
+          },
         },
-      },
-    ],
-  };
-  const adapted = adaptSeawatchData(data, { now, days: 31 });
-  assert.equal(adapted.length, 1);
-  assert.equal(adapted[0].species, 'Bottlenose dolphin');
-  assert.deepEqual([adapted[0].lat, adapted[0].lng], [52.22, -4.35]);
-};
-
-testParseLatLngFromWhere();
-testIsWithinLastDays();
-testAdaptSeawatchData();
-
-console.log('Seawatch adapter tests passed.');
+      ],
+    };
+    const adapted = adaptSeawatchData(data, { now, days: 31 });
+    expect(adapted).toHaveLength(1);
+    expect(adapted[0].species).toBe('Bottlenose dolphin');
+    expect([adapted[0].lat, adapted[0].lng]).toEqual([52.22, -4.35]);
+  });
+});

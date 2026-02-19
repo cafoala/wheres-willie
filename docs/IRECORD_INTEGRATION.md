@@ -38,7 +38,7 @@ node scripts/irecord_fetch.mjs --species "Phocoena phocoena" --species "Tursiops
 node scripts/irecord_fetch.mjs --max-records 500
 
 # Custom output path
-node scripts/irecord_fetch.mjs --output data/custom_output.json
+node scripts/irecord_fetch.mjs --output public/custom_output.json
 
 # Pretty-print JSON
 node scripts/irecord_fetch.mjs --pretty

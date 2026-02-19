@@ -69,7 +69,7 @@ const geocodeCache = new Map();
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-const adjustToOffshore = (lat, lon, locationName) => {
+export const adjustToOffshore = (lat, lon, locationName) => {
   const lowerLocation = locationName.toLowerCase();
   const isWestCoast = /west|cornwall|wales|pembroke|cardigan|hebrides|skye|mull|atlantic|irish sea/i.test(locationName);
   const isEastCoast = /east|norfolk|suffolk|essex|kent|northumberland|fife|north sea/i.test(locationName);

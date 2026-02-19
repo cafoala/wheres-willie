@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "test": "node --loader ./tests/jsxLoader.mjs tests/infobar.test.js && node tests/seawatch_fetch.test.js && node tests/seawatch_adapter.test.js",
+    "test": "vitest run",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -26,6 +26,8 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
-    "vite": "^7.1.7"
+    "jsdom": "^28.1.0",
+    "vite": "^7.1.7",
+    "vitest": "^4.0.18"
   }
 }

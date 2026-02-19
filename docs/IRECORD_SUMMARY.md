@@ -152,28 +152,23 @@ fetch('/irecord_combined.json')
 
 ```
 scripts/
-  irecord_fetch.mjs          # Fetch script (282 lines)
+  irecord_fetch.mjs          # Fetch script
 src/data/
-  irecordAdapter.js          # Data adapter (167 lines)
+  irecordAdapter.js          # Data adapter
 tests/
-  irecord_fetch.test.js      # Fetch tests (100 lines)
-  irecord_adapter.test.js    # Adapter tests (145 lines)
+  irecord_fetch.test.js      # Fetch tests (integration, uses live API)
+  irecord_adapter.test.js    # Adapter unit tests
 docs/
-  IRECORD_INTEGRATION.md     # Complete documentation (358 lines)
+  IRECORD_INTEGRATION.md     # Complete documentation
 public/
-  irecord_combined.json      # Sample data (385 occurrences)
-data/
-  irecord_test.json          # Test sample (75 occurrences)
+  irecord_combined.json      # Output from fetch script (served to app)
 ```
-
-**Total**: ~1050 lines of new code + comprehensive documentation
 
 ## Testing
 
 All tests pass:
 ```bash
-node tests/irecord_fetch.test.js    # ✓ All tests passed
-node tests/irecord_adapter.test.js  # ✓ All tests passed
+npm test
 ```
 
 ## License & Attribution
