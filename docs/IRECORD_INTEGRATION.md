@@ -1,8 +1,8 @@
-# iRecord / NBN Atlas Integration
+# NBN Atlas Integration
 
 ## Overview
 
-The NBN Atlas (National Biodiversity Network Atlas) aggregates wildlife records from across the UK, including those submitted through iRecord. This integration provides an alternative data source for marine mammal sightings with broader coverage and historical depth.
+The NBN Atlas (National Biodiversity Network Atlas) aggregates wildlife records from across the UK. This integration provides a data source for marine mammal sightings alongside Seawatch. The app displays NBN sightings from the last 90 days.
 
 ## API Information
 
@@ -18,39 +18,43 @@ The NBN Atlas (National Biodiversity Network Atlas) aggregates wildlife records 
 
 ## Scripts
 
-### Fetch Script: `scripts/irecord_fetch.mjs`
+### Fetch Script: `scripts/nbn_fetch.mjs`
 
 Fetches marine mammal occurrences from the NBN Atlas API.
 
 **Usage:**
 
 ```bash
+# Fetch last 90 days (for app)
+node scripts/nbn_fetch.mjs --days-ago 90
+
 # Fetch all default marine mammals (19 species)
-node scripts/irecord_fetch.mjs
+node scripts/nbn_fetch.mjs
 
 # Fetch only recent records (last 2 years)
-node scripts/irecord_fetch.mjs --years-ago 2
+node scripts/nbn_fetch.mjs --years-ago 2
 
 # Fetch specific species
-node scripts/irecord_fetch.mjs --species "Phocoena phocoena" --species "Tursiops truncatus"
+node scripts/nbn_fetch.mjs --species "Phocoena phocoena" --species "Tursiops truncatus"
 
 # Limit records per species
-node scripts/irecord_fetch.mjs --max-records 500
+node scripts/nbn_fetch.mjs --max-records 500
 
 # Custom output path
-node scripts/irecord_fetch.mjs --output public/custom_output.json
+node scripts/nbn_fetch.mjs --output public/custom_output.json
 
 # Pretty-print JSON
-node scripts/irecord_fetch.mjs --pretty
+node scripts/nbn_fetch.mjs --pretty
 ```
 
 **Options:**
 
-- `--output <path>` - Output file path (default: `public/irecord_combined.json`)
+- `--output <path>` - Output file path (default: `public/nbn_combined.json`)
 - `--max-records <n>` - Maximum records per species (default: 1000)
 - `--page-size <n>` - API page size (default: 100)
 - `--species <name>` - Fetch specific species (repeatable, default: all 19 marine mammals)
-- `--years-ago <n>` - Only fetch records from last N years (default: all time)
+- `--days-ago <n>` - Only fetch records from last N days (recommended: 90)
+- `--years-ago <n>` - Only fetch records from last N years
 - `--pretty` - Pretty-print JSON output
 - `--help` - Show help message
 
@@ -79,7 +83,7 @@ Pinnipeds (Seals):
 - Phoca vitulina (Harbour Seal / Common Seal)
 - Halichoerus grypus (Grey Seal)
 
-### Adapter: `src/data/irecordAdapter.js`
+### Adapter: `src/data/nbnAdapter.js`
 
 Transforms NBN Atlas occurrence records into the app's data model.
 
@@ -88,22 +92,22 @@ Transforms NBN Atlas occurrence records into the app's data model.
 - `parseCoordinates(occurrence)` - Extracts lat/lng from record
 - `parseEventDate(occurrence)` - Converts timestamp to Date object
 - `isWithinLastDays(occurrence, days)` - Date range filtering
-- `getDisplayName(occurrence)` - Returns common or scientific name
+- `getDisplayName(occurrence)` - Returns normalised common or scientific name
 - `formatLocation(occurrence)` - Formats location description
 - `formatObserver(occurrence)` - Formats observer/recorder information
 - `adaptOccurrence(occurrence)` - Transforms single occurrence to app format
-- `adaptIRecordData(irecordData, daysRecent)` - Main adapter function
+- `adaptNbnData(nbnData, daysRecent)` - Main adapter function (default 90 days)
 
 **Example Usage:**
 
 ```javascript
-import { adaptIRecordData } from './src/data/irecordAdapter.js';
+import { adaptNbnData } from './src/data/nbnAdapter.js';
 
-// Load iRecord data
-const irecordData = await fetch('/irecord_combined.json').then(r => r.json());
+// Load NBN data
+const nbnData = await fetch('/nbn_combined.json').then(r => r.json());
 
-// Get sightings from last 60 days
-const sightings = adaptIRecordData(irecordData, 60);
+// Get sightings from last 90 days
+const sightings = adaptNbnData(nbnData, 90);
 
 console.log(`Found ${sightings.length} recent sightings`);
 ```

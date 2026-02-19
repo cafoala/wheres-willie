@@ -39,7 +39,7 @@ export default function Sidebar({ speciesList, selected, onToggle, recencyDays, 
 
       <hr style={{margin:'16px 0'}} />
       <p style={{fontSize:12, opacity:.7}}>
-        Live data from Seawatch Foundation. Only sightings with GPS coordinates are shown.
+        Data from Seawatch Foundation and NBN Atlas. Only sightings with GPS coordinates are shown.
       </p>
     </aside>
   );

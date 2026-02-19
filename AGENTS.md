@@ -36,7 +36,7 @@ src/
         speciesRarity.js # Species rarity classification
         speciesMeta.js # Species facts, images, friendly descriptions
         seawatchAdapter.js # Adapter for Seawatch Foundation API data
-        irecordAdapter.js # Adapter for NBN Atlas / iRecord data
+        nbnAdapter.js # Adapter for NBN Atlas data
     assets/
         species/ # Animal images (jpg/png/webp)
     styles/
@@ -50,7 +50,7 @@ scripts/
 
 public/  # Static assets served by Vite (do not move)
     seawatch_combined.json # Sightings data (app fetches at runtime)
-    irecord_combined.json # iRecord data (experimental)
+    nbn_combined.json # NBN Atlas data (90 days)
     geocode_cache.json # Geocoding cache (used by seawatch_fetch)
 
 tests/

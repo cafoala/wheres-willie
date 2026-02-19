@@ -9,7 +9,7 @@ const iconFor = (species) =>
 const pickEmoji = (species) => ({
   'Harbour porpoise':'🐬','Common dolphin':'🐬','Bottlenose dolphin':'🐬',
   'Minke whale':'🐋','Humpback whale':'🐋','Fin whale':'🐋','Grey seal':'🦭',
-  'Common/Harbour seal':'🦭'
+  'Harbour seal':'🦭','Common/Harbour seal':'🦭'
 }[species] || '🐳');
 
 export default function MapShell({ zoom, center, sightings, onZoomChange, onCenterChange, onSelect }) {

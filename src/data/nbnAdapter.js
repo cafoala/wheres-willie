@@ -1,11 +1,10 @@
 /**
- * Adapter for NBN Atlas / iRecord API data
- * Transforms NBN occurrence records into the app's data model
+ * Adapter for NBN Atlas API data
+ * Transforms NBN occurrence records into the app's sighting model
  */
 
 /**
  * Parse coordinates from NBN Atlas record
- * NBN provides decimalLatitude and decimalLongitude directly
  */
 export const parseCoordinates = (occurrence) => {
   const lat = occurrence?.decimalLatitude;
@@ -19,15 +18,14 @@ export const parseCoordinates = (occurrence) => {
 };
 
 /**
- * Convert NBN eventDate (milliseconds since epoch) to Date object
+ * Convert NBN eventDate to Date object
  */
 export const parseEventDate = (occurrence) => {
   const eventDate = occurrence?.eventDate;
   if (typeof eventDate === 'number') {
     return new Date(eventDate);
   }
-  
-  // Fallback to year/month if available
+
   const year = occurrence?.year;
   const month = occurrence?.month;
   if (year) {
@@ -51,10 +49,27 @@ export const isWithinLastDays = (occurrence, days) => {
 };
 
 /**
+ * Normalise species name for consistency with Seawatch/metadata keys
+ * e.g. "Harbour Porpoise" -> "Harbour porpoise"
+ */
+const normaliseSpeciesName = (name) => {
+  if (!name || typeof name !== 'string') return name;
+  const parts = name.split(/\s+/);
+  return parts
+    .map((word, i) =>
+      i === 0
+        ? word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+        : word.toLowerCase()
+    )
+    .join(' ');
+};
+
+/**
  * Extract common name, falling back to scientific name
  */
 export const getDisplayName = (occurrence) => {
-  return occurrence?.vernacularName || occurrence?.scientificName || 'Unknown species';
+  const raw = occurrence?.vernacularName || occurrence?.scientificName || 'Unknown species';
+  return normaliseSpeciesName(raw);
 };
 
 /**
@@ -62,11 +77,11 @@ export const getDisplayName = (occurrence) => {
  */
 export const formatLocation = (occurrence) => {
   const parts = [];
-  
+
   if (occurrence?.stateProvince) {
     parts.push(occurrence.stateProvince);
   }
-  
+
   if (occurrence?.gridReference) {
     parts.push(`Grid: ${occurrence.gridReference}`);
   }
@@ -89,7 +104,7 @@ export const formatObserver = (occurrence) => {
 };
 
 /**
- * Transform a single NBN occurrence into app format
+ * Transform a single NBN occurrence into app format (compatible with Seawatch)
  */
 export const adaptOccurrence = (occurrence) => {
   const coords = parseCoordinates(occurrence);
@@ -97,67 +112,55 @@ export const adaptOccurrence = (occurrence) => {
 
   const date = parseEventDate(occurrence);
   const displayName = getDisplayName(occurrence);
+  const location = formatLocation(occurrence);
+  const dateStr = date ? date.toISOString().split('T')[0] : null;
 
   return {
-    // Core identification
     id: occurrence.uuid || occurrence.occurrenceID,
     species: displayName,
     scientificName: occurrence.scientificName,
-    
-    // Location
+
+    // App-compatible fields (InfoBar, MapShell expect when, where)
+    when: dateStr,
+    where: location,
+    date: date ? date.toISOString() : null,
+    count: 1, // NBN records are typically single observations
+
     lat: coords[0],
     lng: coords[1],
-    location: formatLocation(occurrence),
+    location,
     gridReference: occurrence.gridReference,
     stateProvince: occurrence.stateProvince,
-    
-    // Temporal
-    date: date ? date.toISOString() : null,
-    timestamp: date ? date.getTime() : null,
-    year: occurrence.year,
-    month: occurrence.month,
-    
-    // Observer
+
     observer: formatObserver(occurrence),
-    
-    // Data source
-    source: 'iRecord',
+    org: occurrence.dataProviderName || null,
+
+    source: 'NBN Atlas',
     dataProvider: occurrence.dataProviderName,
     dataResource: occurrence.dataResourceName,
-    license: occurrence.license,
-    
-    // Verification
     verificationStatus: occurrence.identificationVerificationStatus,
-    
-    // Additional metadata
-    basisOfRecord: occurrence.basisOfRecord,
-    coordinateUncertainty: occurrence.coordinateUncertaintyInMeters,
-    
-    // Original record for reference
+
     _raw: occurrence,
   };
 };
 
 /**
- * Main adapter function - transforms NBN API response into app format
+ * Main adapter - transforms NBN API response into app format
  * Filters by date range and coordinate availability
  */
-export const adaptIRecordData = (irecordData, daysRecent = 31) => {
-  if (!irecordData || !Array.isArray(irecordData.occurrences)) {
+export const adaptNbnData = (nbnData, daysRecent = 90) => {
+  if (!nbnData || !Array.isArray(nbnData.occurrences)) {
     return [];
   }
 
-  return irecordData.occurrences
+  return nbnData.occurrences
     .filter((occurrence) => {
-      // Must have valid coordinates
       const coords = parseCoordinates(occurrence);
       if (!coords) return false;
-
-      // Must be within date range
       return isWithinLastDays(occurrence, daysRecent);
     })
     .map(adaptOccurrence)
-    .filter(Boolean); // Remove any null results
+    .filter(Boolean);
 };
 
 export default {
@@ -168,5 +171,5 @@ export default {
   formatLocation,
   formatObserver,
   adaptOccurrence,
-  adaptIRecordData,
+  adaptNbnData,
 };

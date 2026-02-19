@@ -2852,5 +2852,55 @@
   "Eólaigearraidh, Western Islands": null,
   "Kilmaluag, Highlands": null,
   "Skye, Highlands": null,
-  "Na Hearadh, Western Islands": null
+  "Na Hearadh, Western Islands": null,
+  "Burnham on Crouch, Essex": {
+    "lat": 51.6355223,
+    "lon": 0.8759361,
+    "displayName": "Burnham-on-Crouch, Maldon, Essex, England, United Kingdom",
+    "geocoded": true
+  },
+  "Dorset Portland Bill": {
+    "lat": 50.4835263,
+    "lon": -2.456755,
+    "displayName": "Portland Bill, Portland, Dorset, England, DT5 2JT, United Kingdom",
+    "geocoded": true
+  },
+  "Fishguard, Pembrokeshire": {
+    "lat": 51.9938353,
+    "lon": -5.006810000000001,
+    "displayName": "Fishguard, Pembrokeshire, Cymru / Wales, SA65 9AN, United Kingdom",
+    "geocoded": true
+  },
+  "North West": {
+    "lat": 52.9559076,
+    "lon": -1.1857387,
+    "displayName": "North West, 41, Talbot Street, The Park, City of Nottingham, East Midlands, England, NG1 5GY, United Kingdom",
+    "geocoded": true
+  },
+  "Rubha Tolmach, Argyll and Bute": {
+    "lat": 56.4027803,
+    "lon": -5.5334293,
+    "displayName": "Rubha Tolmach, Glenshellach, Oban, Argyll and Bute, Alba / Scotland, PA34 4PE, United Kingdom",
+    "geocoded": true
+  },
+  "Mallaig Harbour, Highland": {
+    "lat": 57.0066779,
+    "lon": -5.8549034,
+    "displayName": "Mallaig Harbour, Mallaig, Highland, Alba / Scotland, United Kingdom",
+    "geocoded": true
+  },
+  "Meigle, Inverclyde": null,
+  "Am Meall, Highland": {
+    "lat": 57.278882,
+    "lon": -6.0568896,
+    "displayName": "Am Meall, Highland, Alba / Scotland, IV49 9AJ, United Kingdom",
+    "geocoded": true
+  },
+  "Kilmuir - Cille Mhoire, Highland": {
+    "lat": 57.6471175,
+    "lon": -6.4101063,
+    "displayName": "Cille Mhoire, Highland, Alba / Scotland, IV51 9WS, United Kingdom",
+    "geocoded": true
+  },
+  "Bay of Clachtoll, Highland": null
 }

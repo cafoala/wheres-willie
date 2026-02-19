@@ -8,10 +8,10 @@ import {
   formatLocation,
   formatObserver,
   adaptOccurrence,
-  adaptIRecordData,
-} from '../src/data/irecordAdapter.js';
+  adaptNbnData,
+} from '../src/data/nbnAdapter.js';
 
-describe('irecordAdapter', () => {
+describe('nbnAdapter', () => {
   it('parseCoordinates extracts lat/lng', () => {
     const withCoords = { decimalLatitude: 51.5, decimalLongitude: -0.1 };
     expect(parseCoordinates(withCoords)).toEqual([51.5, -0.1]);
@@ -30,19 +30,19 @@ describe('irecordAdapter', () => {
     const date2 = parseEventDate(withYearMonth);
     expect(date2).toBeInstanceOf(Date);
     expect(date2.getFullYear()).toBe(2023);
-    expect(date2.getMonth()).toBe(5); // 0-indexed
+    expect(date2.getMonth()).toBe(5);
   });
 
   it('isWithinLastDays filters by recency', () => {
     const now = Date.now();
-    const recent = { eventDate: now - 10 * 24 * 60 * 60 * 1000 }; // 10 days ago
+    const recent = { eventDate: now - 10 * 24 * 60 * 60 * 1000 };
     expect(isWithinLastDays(recent, 31)).toBe(true);
     expect(isWithinLastDays(recent, 5)).toBe(false);
   });
 
-  it('getDisplayName prefers vernacular over scientific', () => {
+  it('getDisplayName normalises species names', () => {
     const withCommon = { vernacularName: 'Harbour Porpoise', scientificName: 'Phocoena phocoena' };
-    expect(getDisplayName(withCommon)).toBe('Harbour Porpoise');
+    expect(getDisplayName(withCommon)).toBe('Harbour porpoise');
 
     const scientificOnly = { scientificName: 'Phocoena phocoena' };
     expect(getDisplayName(scientificOnly)).toBe('Phocoena phocoena');
@@ -63,7 +63,7 @@ describe('irecordAdapter', () => {
     expect(formatObserver(withString)).toBe('John Doe');
   });
 
-  it('adaptOccurrence transforms valid occurrence', () => {
+  it('adaptOccurrence outputs app-compatible format (when, where)', () => {
     const validOccurrence = {
       uuid: 'test-123',
       scientificName: 'Phocoena phocoena',
@@ -77,17 +77,15 @@ describe('irecordAdapter', () => {
       gridReference: 'NR65',
       recordedBy: ['Test Observer'],
       dataProviderName: 'Test Provider',
-      identificationVerificationStatus: 'Accepted',
     };
 
     const adapted = adaptOccurrence(validOccurrence);
     expect(adapted).toBeTruthy();
     expect(adapted.id).toBe('test-123');
-    expect(adapted.species).toBe('Harbour Porpoise');
-    expect(adapted.lat).toBe(55.5);
-    expect(adapted.lng).toBe(-5.5);
-    expect(adapted.source).toBe('iRecord');
-    expect(adapted.date).toBeTruthy();
+    expect(adapted.species).toBe('Harbour porpoise');
+    expect(adapted.when).toBeTruthy();
+    expect(adapted.where).toContain('Scotland');
+    expect(adapted.source).toBe('NBN Atlas');
   });
 
   it('adaptOccurrence rejects missing coordinates', () => {
@@ -95,7 +93,7 @@ describe('irecordAdapter', () => {
     expect(adaptOccurrence(noCoords)).toBeNull();
   });
 
-  it('adaptIRecordData filters by date and coordinates', () => {
+  it('adaptNbnData filters by date and coordinates', () => {
     const now = Date.now();
     const mockData = {
       occurrences: [
@@ -104,14 +102,14 @@ describe('irecordAdapter', () => {
           scientificName: 'Species A',
           decimalLatitude: 51,
           decimalLongitude: -1,
-          eventDate: now - 5 * 24 * 60 * 60 * 1000, // 5 days ago
+          eventDate: now - 5 * 24 * 60 * 60 * 1000,
         },
         {
           uuid: '2',
           scientificName: 'Species B',
           decimalLatitude: 52,
           decimalLongitude: -2,
-          eventDate: now - 60 * 24 * 60 * 60 * 1000, // 60 days ago
+          eventDate: now - 60 * 24 * 60 * 60 * 1000,
         },
         {
           uuid: '3',
@@ -121,7 +119,7 @@ describe('irecordAdapter', () => {
       ],
     };
 
-    const adapted = adaptIRecordData(mockData, 31);
+    const adapted = adaptNbnData(mockData, 31);
     expect(adapted).toHaveLength(1);
     expect(adapted[0].id).toBe('1');
   });

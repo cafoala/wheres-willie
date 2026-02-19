@@ -7,7 +7,7 @@ import { pathToFileURL } from 'node:url';
 const NBN_API_BASE = 'https://records-ws.nbnatlas.org';
 const NBN_OCCURRENCE_SEARCH = `${NBN_API_BASE}/occurrences/search`;
 
-const DEFAULT_OUTPUT = 'public/irecord_combined.json';
+const DEFAULT_OUTPUT = 'public/nbn_combined.json';
 const DEFAULT_PAGE_SIZE = 100;
 const DEFAULT_MAX_RECORDS = 1000;
 
@@ -42,6 +42,7 @@ const parseArgs = (argv) => {
     species: [],
     pretty: false,
     yearsAgo: null,
+    daysAgo: null,
   };
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -60,6 +61,9 @@ const parseArgs = (argv) => {
       i += 1;
     } else if (current === '--years-ago') {
       args.yearsAgo = Number(argv[i + 1]);
+      i += 1;
+    } else if (current === '--days-ago') {
+      args.daysAgo = Number(argv[i + 1]);
       i += 1;
     } else if (current === '--pretty') {
       args.pretty = true;
@@ -87,7 +91,7 @@ const fetchJson = async (url) => {
 /**
  * Fetch occurrences for a specific species from NBN Atlas
  */
-const fetchSpeciesOccurrences = async (scientificName, { pageSize, maxRecords, yearsAgo }) => {
+const fetchSpeciesOccurrences = async (scientificName, { pageSize, maxRecords, yearsAgo, daysAgo }) => {
   const occurrences = [];
   let startIndex = 0;
   let totalRecords = 0;
@@ -97,8 +101,13 @@ const fetchSpeciesOccurrences = async (scientificName, { pageSize, maxRecords, y
     'geospatial_kosher:true', // Only records with valid coordinates
   ];
 
-  // Add date filter if specified
-  if (yearsAgo !== null) {
+  // Add date filter: daysAgo takes precedence over yearsAgo
+  if (daysAgo !== null) {
+    const now = new Date();
+    const startDate = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1000);
+    const dateStr = startDate.toISOString().split('T')[0];
+    fq.push(`eventDate:[${dateStr}T00:00:00Z TO *]`);
+  } else if (yearsAgo !== null) {
     const now = new Date();
     const startDate = new Date(now.getFullYear() - yearsAgo, now.getMonth(), now.getDate());
     const dateStr = startDate.toISOString().split('T')[0];
@@ -117,7 +126,7 @@ const fetchSpeciesOccurrences = async (scientificName, { pageSize, maxRecords, y
 
     const url = `${NBN_OCCURRENCE_SEARCH}?${params}`;
     console.log(`Fetching ${scientificName} (offset ${startIndex})...`);
-    
+
     const data = await fetchJson(url);
     totalRecords = data.totalRecords || 0;
 
@@ -128,7 +137,6 @@ const fetchSpeciesOccurrences = async (scientificName, { pageSize, maxRecords, y
     occurrences.push(...data.occurrences);
     startIndex += data.occurrences.length;
 
-    // Stop if we've fetched all available records
     if (startIndex >= totalRecords || occurrences.length >= maxRecords) {
       break;
     }
@@ -145,13 +153,18 @@ const fetchSpeciesOccurrences = async (scientificName, { pageSize, maxRecords, y
 /**
  * Collect occurrences for multiple species
  */
-export const collectOccurrences = async ({ species, pageSize, maxRecords, yearsAgo }) => {
+export const collectOccurrences = async ({ species, pageSize, maxRecords, yearsAgo, daysAgo }) => {
   const speciesToFetch = species.length > 0 ? species : MARINE_MAMMALS;
   const results = [];
 
   for (const scientificName of speciesToFetch) {
     try {
-      const result = await fetchSpeciesOccurrences(scientificName, { pageSize, maxRecords, yearsAgo });
+      const result = await fetchSpeciesOccurrences(scientificName, {
+        pageSize,
+        maxRecords,
+        yearsAgo,
+        daysAgo,
+      });
       results.push(result);
       console.log(`  Found ${result.fetchedRecords} records for ${scientificName} (${result.totalRecords} total)`);
     } catch (error) {
@@ -164,18 +177,18 @@ export const collectOccurrences = async ({ species, pageSize, maxRecords, yearsA
     }
   }
 
-  // Flatten all occurrences into a single array
   const allOccurrences = results.flatMap((r) => r.occurrences || []);
 
   return {
     fetchedAt: new Date().toISOString(),
-    source: 'NBN Atlas (iRecord)',
+    source: 'NBN Atlas',
     apiBase: NBN_API_BASE,
     filters: {
       yearsAgo,
+      daysAgo,
       maxRecordsPerSpecies: maxRecords,
     },
-    speciesResults: results.map(r => ({
+    speciesResults: results.map((r) => ({
       scientificName: r.scientificName,
       totalRecords: r.totalRecords,
       fetchedRecords: r.fetchedRecords,
@@ -194,28 +207,29 @@ const ensureDir = async (outputPath) => {
 
 const usage = () => {
   return [
-    'Usage: node scripts/irecord_fetch.mjs [options]',
+    'Usage: node scripts/nbn_fetch.mjs [options]',
     '',
     'Options:',
-    '  --output <path>           Output path (default: public/irecord_combined.json)',
+    '  --output <path>           Output path (default: public/nbn_combined.json)',
     '  --max-records <n>         Max records per species (default: 1000)',
     '  --page-size <n>           Page size for API requests (default: 100)',
     '  --species <name>          Fetch specific species (repeatable, default: all marine mammals)',
+    '  --days-ago <n>            Only fetch records from last N days (recommended: 90)',
     '  --years-ago <n>           Only fetch records from last N years',
     '  --pretty                  Pretty-print JSON',
     '  --help                    Show this help',
     '',
     'Examples:',
-    '  # Fetch all marine mammals (default)',
-    '  node scripts/irecord_fetch.mjs',
+    '  # Fetch last 90 days (for app integration)',
+    '  node scripts/nbn_fetch.mjs --days-ago 90',
     '',
-    '  # Fetch only recent records (last 2 years)',
-    '  node scripts/irecord_fetch.mjs --years-ago 2',
+    '  # Fetch last 2 years',
+    '  node scripts/nbn_fetch.mjs --years-ago 2',
     '',
     '  # Fetch specific species',
-    '  node scripts/irecord_fetch.mjs --species "Phocoena phocoena" --species "Tursiops truncatus"',
+    '  node scripts/nbn_fetch.mjs --species "Phocoena phocoena" --species "Tursiops truncatus"',
     '',
-    `Default marine mammals searched: ${MARINE_MAMMALS.length} species`,
+    `Default marine mammals: ${MARINE_MAMMALS.length} species`,
   ].join('\n');
 };
 
@@ -228,11 +242,11 @@ const main = async () => {
 
   console.log('Fetching marine mammal occurrences from NBN Atlas...');
   const data = await collectOccurrences(args);
-  
+
   await ensureDir(args.output);
   const json = JSON.stringify(data, null, args.pretty ? 2 : 0);
   await fs.writeFile(args.output, json, 'utf8');
-  
+
   console.log(`\nWrote ${data.totalOccurrences} occurrences to ${args.output}`);
   console.log(`Species breakdown:`);
   for (const species of data.speciesResults) {

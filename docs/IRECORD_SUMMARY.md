@@ -1,12 +1,12 @@
-# iRecord/NBN Atlas Integration - Summary
+# NBN Atlas Integration - Summary
 
-## What I've Built
+## What's Implemented
 
-I've researched and implemented a complete integration with the NBN Atlas (National Biodiversity Network) API, which aggregates wildlife records from across the UK, including iRecord submissions. This provides an alternative data source for marine mammal sightings.
+Integration with the NBN Atlas (National Biodiversity Network) API, which aggregates wildlife records from across the UK. The app displays NBN sightings from the last 90 days alongside Seawatch data.
 
-## Files Created
+## Files
 
-### 1. **Fetch Script** (`scripts/irecord_fetch.mjs`)
+### 1. **Fetch Script** (`scripts/nbn_fetch.mjs`)
 - Fetches marine mammal occurrences from NBN Atlas API
 - Searches 19 default marine mammal species (whales, dolphins, seals)
 - Supports filtering by date range (e.g., last 2 years)
@@ -16,14 +16,14 @@ I've researched and implemented a complete integration with the NBN Atlas (Natio
 
 **Usage:**
 ```bash
-# Fetch all marine mammals from last year
-node scripts/irecord_fetch.mjs --years-ago 1
+# Fetch last 90 days (for app)
+node scripts/nbn_fetch.mjs --days-ago 90
 
 # Fetch specific species only
-node scripts/irecord_fetch.mjs --species "Phocoena phocoena" --species "Tursiops truncatus"
+node scripts/nbn_fetch.mjs --species "Phocoena phocoena" --species "Tursiops truncatus"
 ```
 
-### 2. **Data Adapter** (`src/data/irecordAdapter.js`)
+### 2. **Data Adapter** (`src/data/nbnAdapter.js`)
 - Transforms NBN Atlas data format into app's data model
 - Filters by date range (configurable days)
 - Only includes records with valid GPS coordinates
@@ -34,11 +34,11 @@ node scripts/irecord_fetch.mjs --species "Phocoena phocoena" --species "Tursiops
 - `parseCoordinates()` - Extract lat/lng
 - `parseEventDate()` - Convert timestamps
 - `isWithinLastDays()` - Date filtering
-- `adaptIRecordData()` - Main transformation function
+- `adaptNbnData()` - Main transformation function
 
 ### 3. **Tests**
-- **`tests/irecord_fetch.test.js`** - Tests API fetching logic
-- **`tests/irecord_adapter.test.js`** - Tests data transformation
+- **`tests/nbn_fetch.test.js`** - Tests API fetching logic
+- **`tests/nbn_adapter.test.js`** - Tests data transformation
 
 All tests pass ✓
 
@@ -152,16 +152,16 @@ fetch('/irecord_combined.json')
 
 ```
 scripts/
-  irecord_fetch.mjs          # Fetch script
+  nbn_fetch.mjs              # Fetch script
 src/data/
-  irecordAdapter.js          # Data adapter
+  nbnAdapter.js              # Data adapter
 tests/
-  irecord_fetch.test.js      # Fetch tests (integration, uses live API)
-  irecord_adapter.test.js    # Adapter unit tests
+  nbn_fetch.test.js          # Fetch tests (integration, uses live API)
+  nbn_adapter.test.js        # Adapter unit tests
 docs/
   IRECORD_INTEGRATION.md     # Complete documentation
 public/
-  irecord_combined.json      # Output from fetch script (served to app)
+  nbn_combined.json          # Output from fetch script (served to app)
 ```
 
 ## Testing

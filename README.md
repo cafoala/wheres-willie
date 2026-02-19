@@ -52,41 +52,38 @@ node scripts/seawatch_fetch.mjs
 node scripts/seawatch_fetch.mjs --no-geocode
 ```
 
-### 2. NBN Atlas / iRecord (Experimental)
+### 2. NBN Atlas (Integrated)
 
-Data from the [NBN Atlas](https://nbnatlas.org/) aggregates wildlife records from across the UK, including iRecord submissions.
+Data from the [NBN Atlas](https://nbnatlas.org/) aggregates wildlife records from across the UK (including iRecord and many other providers). The app displays NBN sightings from the last 90 days alongside Seawatch data.
 
 **Features:**
 - Comprehensive coverage of all marine mammal species (whales, dolphins, seals)
 - All records include GPS coordinates
 - Rich metadata (observer, verification status, data provider)
-- Historical data available (can fetch records from multiple years)
 
-**Fetching iRecord Data:**
+**Fetching NBN Data:**
 
 ```bash
-# Fetch all marine mammals from last 2 years
-node scripts/irecord_fetch.mjs --years-ago 2
+# Fetch last 90 days (recommended for app)
+node scripts/nbn_fetch.mjs --days-ago 90
 
-# Fetch specific species only
-node scripts/irecord_fetch.mjs --species "Phocoena phocoena" --species "Tursiops truncatus"
+# Fetch last 2 years
+node scripts/nbn_fetch.mjs --years-ago 2
 
-# Limit number of records
-node scripts/irecord_fetch.mjs --max-records 100 --years-ago 1
+# Fetch specific species
+node scripts/nbn_fetch.mjs --species "Phocoena phocoena" --species "Tursiops truncatus"
 
 # See all options
-node scripts/irecord_fetch.mjs --help
+node scripts/nbn_fetch.mjs --help
 ```
 
-By default, fetches up to 1000 records per species for 19 marine mammal species and saves to `public/irecord_combined.json`.
-
-**Note:** The iRecord data source is currently experimental. The app uses Seawatch data by default.
+Saves to `public/nbn_combined.json`. The app fetches both `seawatch_combined.json` and `nbn_combined.json` on load.
 
 ## Project structure
 
 - **`public/`** — Static assets served by Vite. JSON files here are fetched by the app at runtime:
-  - `seawatch_combined.json` — Sightings from Seawatch (written by fetch script)
-  - `irecord_combined.json` — Sightings from NBN Atlas (written by fetch script)
+  - `seawatch_combined.json` — Sightings from Seawatch (last 31 days)
+  - `nbn_combined.json` — Sightings from NBN Atlas (last 90 days)
   - `geocode_cache.json` — Geocoding cache for seawatch_fetch (not fetched by the app)
 - **`scripts/`** — CLI tools to fetch and process data (not part of the React app)
 - **`src/data/`** — Adapters and static config (species metadata, rarity)
